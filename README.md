@@ -1,6 +1,6 @@
 # Supplementary material
 
-This repository contains the programs and experimental artifacts for the paper
+This repository contains the programs, experimental artifacts, and a companion note for the paper
 [*Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes*](https://eprint.iacr.org/2026/1747),
 Cryptology ePrint Archive, Paper 2026/1747.
 
@@ -12,6 +12,7 @@ Cryptology ePrint Archive, Paper 2026/1747.
 | [tii-challenges](tii-challenges/README.md) | Implementations and artifacts for TII-173, TII-249, and TII-253: public keys, saved hold-out polynomial samples, recovered equivalent keys, verification reports, and timing records. |
 | [end-to-end-recoveries](end-to-end-recoveries/README.md) | Recovery experiments on generated codes, starting from public matrices. Contains binary and wild Goppa examples with saved recovery artifacts, and code and seeds for GRS/alternant and wild Goppa sweeps. |
 | [synthetic-experiments](synthetic-experiments/README.md) | Programs and saved results testing minor-code fullness, direct recovery, closure bootstrapping, and Goppa product ranks. These experiments use auxiliary data computed from generated secret keys. |
+| [wiedemann-cost-estimate](wiedemann-cost-estimate/README.md) | Companion note on uniform kernel sampling with block Wiedemann, including Boolean gate, storage, and memory-access cost estimates for Classic McEliece. PDF and LaTeX source. |
 
 [EVIDENCE.md](EVIDENCE.md) summarizes the experiments, outcomes, and verification
 checks. Dependencies, build steps, and running instructions are documented in

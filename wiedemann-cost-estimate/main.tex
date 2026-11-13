@@ -1,0 +1,1703 @@
+% !TeX program = lualatex
+\documentclass[b5paper, 10pt, abstract=true, captions=tableheading]{scrartcl}
+\usepackage[english]{babel}
+
+\usepackage[
+  textwidth=136mm,
+  textheight=205mm,
+  headsep=10mm,
+  top=18mm
+]{geometry}
+ 
+\usepackage{amsmath, mathtools}
+\usepackage{amsthm, thmtools}
+\usepackage{mdframed}
+\usepackage{fontsetup}
+\usepackage{setspace}
+\usepackage{xcolor}
+
+\setstretch{1.12}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{linkbordercolor=red,
+            urlbordercolor=blue,
+            citebordercolor=blue,
+            linkcolor=teal,
+            urlcolor=cyan,
+            citecolor=purple,
+            colorlinks=true
+}
+\usepackage{cleveref}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{cellspace}
+\setlength{\cellspacetoplimit}{3pt}
+\setlength{\cellspacebottomlimit}{3pt}
+\usetikzlibrary{arrows.meta, fit, backgrounds, calc, decorations.pathreplacing}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+\urlstyle{rm}
+
+\usepackage{csquotes}
+\usepackage[backend=biber, sortcites=true, style=numeric-comp]{biblatex}
+\addbibresource{refs.bib}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{claim}{Claim}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\declaretheorem[style=definition,qed=$\triangle$]{example}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{assumption}{Assumption}
+\newtheorem{heuristic}{Heuristic}
+\crefname{heuristic}{Heuristic}{Heuristics}
+\crefname{assumption}{Assumption}{Assumptions}
+\crefname{example}{Example}{Examples}
+
+
+\setkomafont{section}{\normalfont\large\bfseries}
+\renewcommand{\sectionformat}{\thesection\autodot\enskip}
+\RedeclareSectionCommand[tocbeforeskip=0pt,tocentryformat=\normalfont\itshape,tocpagenumberformat=\normalfont,toclinefill=\TOCLineLeaderFill]{section}
+\setkomafont{subsection}{\normalfont\normalsize\bfseries}
+\renewcommand{\subsectionformat}{\thesubsection\autodot\enskip}
+\setkomafont{paragraph}{\normalfont\bfseries}
+\RedeclareSectionCommand[afterskip=-.5em]{paragraph}
+%\setkomafont{title}{\large\bfseries}   % the title itself
+\setkomafont{title}{\bfseries\boldmath}
+\addtokomafont{title}{\let\huge\Large}
+\setkomafont{subtitle}{\large}          % subtitle, if you use one
+\setkomafont{author}{\normalsize}       % author name(s)
+\setkomafont{date}{\small} 
+\addtokomafont{disposition}{\rmfamily}
+
+
+\usepackage{dsfont, stmaryrd}
+\usepackage{xfrac, faktor}
+\newcommand{\FF}{\mathds{F}}
+\newcommand{\EE}{\mathds{E}}
+\newcommand{\KK}{\mathds{K}}
+\newcommand{\ZZ}{\mathds{Z}}
+\newcommand{\NN}{\mathds{N}}
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\tr}{\mathsf{T}}
+\newcommand{\CC}{\mathds{C}}
+\newcommand{\pub}{\texttt{pub}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\PMat}{\operatorname{PMat}}
+\newcommand{\Pct}{\operatorname{Pct}}
+\newcommand{\Sh}{\operatorname{Sh}}
+\newcommand{\RowSpan}{\operatorname{RowSpan}}
+\newcommand{\boldalpha}{\symbf{\alpha}}
+\newcommand{\boldlambda}{\symbf{\lambda}}
+\newcommand{\boldbeta}{\symbf{\beta}}
+\newcommand{\intrange}[2]{\llbracket #1,#2 \rrbracket}
+\renewcommand{\vec}[1]{\symbf{#1}}
+\newcommand{\mat}[1]{\symbf{#1}}
+\newcommand{\GRS}{\operatorname{GRS}}
+\newcommand{\RS}{\operatorname{RS}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\calK}{\mathcal{K}}
+\newcommand{\poly}{\operatorname{poly}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\Gal}{\operatorname{Gal}}
+\newcommand{\bits}{\FF_2}
+\newcommand{\Tr}{Tr}
+\newcommand{\boldgamma}{\vec{\gamma}}
+\newcommand{\Goppa}{\Gamma}
+\newcommand{\lin}{\mathsf{lin}}
+\newcommand{\id}{\operatorname{id}}
+\newcommand{\sample}{\in_{\$}}
+\newcommand{\corrterm}{\mathsf{corr}}
+\newcommand{\orth}{orth}
+\newcommand{\rem}{rem}
+\newcommand{\streamgen}{\mathsf{G}}
+\newcommand{\Hash}{\mathsf{H}}
+\newcommand{\negl}{\operatorname{negl}}
+\newcommand{\mxi}{{\mathsf{m}_{\xi}}}
+\newcommand{\Adv}{\mathsf{Adv}}
+\newcommand{\msg}{\mathsf{msg}}
+\newcommand{\hasse}[1]{\partial^{[#1]}}
+\newcommand{\jet}{J}       
+\newcommand{\Idx}{\mathcal{I}} 
+\newcommand{\Phom}{\mathcal{P}^{\mathsf{hom}}}
+\newcommand{\Pred}{\mathcal{P}^{\mathsf{red}}}
+\newcommand{\RM}{\operatorname{RM}}
+\newcommand{\Cond}{\operatorname{Cond}}
+
+
+\newcommand{\mult}{\operatorname{mult}}
+\newcommand*\inst[1]{\textsuperscript{#1}}
+\newcommand*\email[1]{\texttt{#1}}
+\setkomafont{publishers}{\small} 
+
+
+\begin{document}
+\title{Sampling Binary Kernels with Block Wiedemann}
+\subtitle{a companion note}
+\date{\today}
+\author{%
+  Kirill Vedenev\thanks{%
+    \begin{tabular}[t]{@{}l@{}}
+      CryptoPro, Moscow, Russia.\\
+      Southern Federal University, Rostov-on-Don, Russia.\\
+      \email{vedenevk@yandex.ru}
+    \end{tabular}%
+  }%
+}
+\publishers{}
+\maketitle
+
+
+\begin{abstract}
+We give a block Wiedemann algorithm for sampling independent uniform
+elements of the kernel of a binary matrix. Random Toeplitz compression
+and auxiliary columns yield an explicit rejection bound for every fixed
+input matrix. Accepted outputs are exactly uniform, and the algorithm
+uses the input matrix only through matrix-vector products. We apply the
+sampler to the polynomial hold-out systems used in algebraic key recovery
+for Classic McEliece. For five parameter sets, we give explicit Boolean
+circuits, storage bounds, and schedules charging for memory access. One
+attempt costs at most $2^{92.68}$ to $2^{101.21}$ Boolean gates, depending
+on the parameter set, and rejects with probability below $2^{-62}$.
+\end{abstract}
+
+\setcounter{tocdepth}{1}
+{\hypersetup{linkcolor=black}\tableofcontents}
+
+\section{The kernel sampler}
+\label{app:wiedemann}
+Let $\mat K\in\FF_2^{J_{\calK}\times N}$ be a binary matrix and write
+$\calK=\ker\mat K$. We seek $M$ independent uniform elements of $\calK$.
+The sampled vectors may be zero or linearly dependent. We assume that
+products $\mat K\vec x$ can be computed without storing the matrix.
+
+We give a block Wiedemann sampler
+\cite{Wiedemann1986,Coppersmith1994} with a proved rejection bound for
+every fixed $\mat K$. Conditional on acceptance, its outputs have the
+required uniform distribution. The construction and proof use only
+matrix products and do not require geometric hypotheses on the kernel.
+
+Our application is the polynomial hold-out kernel used for algebraic key
+recovery in \cite{Vedenev2026KeyRecovery}. Its entries are derivatives of
+monomials evaluated at public columns, so matrix products can be computed
+from those columns. \Cref{app:wiedemann-cost} defines this matrix and
+counts the sampler's gates, storage, and memory access at the Classic
+McEliece parameters. These are sampling costs; the algebraic conditions
+and costs of subsequent key recovery are studied in
+\cite{Vedenev2026KeyRecovery}.
+
+\subsection{The scalar algorithm}
+\label{subsec:wiedemann-scalar}
+Wiedemann's algorithm solves a square linear system using only products of
+the matrix with vectors \cite{Wiedemann1986}. It obtains a linear recurrence
+from the Berlekamp--Massey algorithm, which is familiar from the decoding of
+BCH and Reed--Solomon codes \cite{Massey1969}.
+
+Let $\mat A$ be a square matrix of order $N'$ over a field $\FF$, and let
+$\vec b\in\FF^{N'}$. In our application, $\mat A$ will be built from
+$\mat K$ in \Cref{subsec:wiedemann-sampler}, with $N'$ slightly larger than
+$N$. The vectors
+$\vec b,\mat A\vec b,\mat A^2\vec b,\ldots$ satisfy linear relations, since
+at most $N'$ of them are linearly independent. The \emph{minimal
+polynomial} of $\vec b$ with respect to $\mat A$ is the monic polynomial
+\[
+  \Theta(\xi)=\sum_{e=0}^{\deg\Theta}\theta_e\xi^e
+\]
+of least degree with $\Theta(\mat A)\vec b=\vec0$. Its degree is at most
+$N'$. If $\theta_0\neq0$, this relation can be solved for $\vec b$:
+\[
+  \vec b=\mat A\vec z,
+  \qquad
+  \vec z=-\theta_0^{-1}\sum_{e=1}^{\deg\Theta}\theta_e\mat A^{e-1}\vec b.
+\]
+Once the coefficients of $\Theta$ are known, Horner's rule computes $\vec z$
+with $\deg\Theta-1$ products with $\mat A$.
+
+A solver gives kernel vectors. If $\mat A\vec z=\mat A\vec u$, then
+$\vec u-\vec z\in\ker\mat A$. If moreover $\vec u$ is uniformly random and
+$\vec z$ is computed from $\mat A\vec u$ alone, then $\vec u-\vec z$ is a
+uniform element of $\ker\mat A$: given $\mat A\vec u$, the vector $\vec u$ is uniform on a
+coset of $\ker\mat A$, and subtracting the fixed $\vec z$ maps this coset
+onto $\ker\mat A$ (\Cref{lem:wiedemann-uniform}).
+
+The formula for $\vec z$ needs $\theta_0\neq0$, that is,
+$\vec b\in\Span\{\mat A\vec b,\mat A^2\vec b,\ldots\}$. This can fail for
+the right-hand sides $\vec b=\mat A\vec u$ of the kernel sampler. For
+instance, if $\vec b=\mat A\vec u\neq\vec0$ and $\mat A\vec b=\vec0$, then
+$\Theta(\xi)=\xi$. The sampler of \Cref{subsec:wiedemann-sampler} adds
+helper columns to handle this case.
+
+The algorithm finds $\Theta$ from scalars, because the vectors
+$\mat A^e\vec b$ are too many to store. It chooses a random vector
+$\vec x\in\FF^{N'}$ and computes the sequence
+\[
+  a_e=\vec x^\tr\mat A^e\vec b
+  \quad\text{for }0\leq e<2N'.
+\]
+The coefficients of $\Theta$ give a linear recurrence for this sequence:
+\[
+  \sum_{e=0}^{\deg\Theta}\theta_e\,a_{e+e'}
+  =\vec x^\tr\mat A^{e'}\Theta(\mat A)\vec b=0
+  \quad\text{for all }e'\geq0.
+\]
+The minimal polynomial of the sequence is the monic polynomial of least
+degree whose coefficients give such a recurrence. Since it has degree at
+most $N'$, the Berlekamp--Massey algorithm computes it from the first $2N'$
+terms with $O(N'^2)$ operations in $\FF$. (In decoding, the algorithm
+returns the connection polynomial, which is the reciprocal of this
+polynomial.) The minimal polynomial of the sequence divides $\Theta$.
+
+The two polynomials can differ, and over $\FF_2$ this can happen with
+large probability. For instance, let $\mat A^2\vec b=\vec b\neq\mat A\vec b$, so that
+$\Theta(\xi)=\xi^2+1$. The sequence alternates between $\vec x^\tr\vec b$
+and $\vec x^\tr\mat A\vec b$. Its minimal polynomial is $\Theta$ if and only
+if these two values differ, which has probability $1/2$ for uniform
+$\vec x\in\FF_2^{N'}$. Otherwise the algorithm finds $\xi+1$ or $1$. With
+$\xi+1$, the formula gives $\vec z=\vec b$, which is not a solution.
+
+One run of the scalar algorithm uses about $2N'$ products to compute the
+sequence and fewer than $N'$ products to compute $\vec z$. It stores only a
+few vectors of length $N'$ at a time. Two properties make it unsuitable at
+our sizes. Over $\FF_2$, the recurrence found from one random $\vec x$ can
+be a proper divisor of $\Theta$, as above. The $2N'$ products also form one
+chain, in which each product needs the previous one, so they cannot run in
+parallel. The block algorithm of \Cref{subsec:wiedemann-block} replaces
+$\vec x$ by several random rows, which makes it unlikely that a factor is
+lost. It replaces $\vec b$ by several columns, which split the products into
+independent chains.
+
+\subsection{The block algorithm}
+\label{subsec:wiedemann-block}
+The block algorithm of Coppersmith \cite{Coppersmith1994} computes the
+scalar sequences for many pairs of vectors at once and finds one relation
+for all of them. From now on the field is $\FF_2$. The algorithm uses a
+matrix $\mat V\in\FF_2^{N'\times b}$ with $b$ columns and a matrix
+$\mat X\in\FF_2^{b'\times N'}$ with $b'$ rows, and computes the matrix
+sequence
+\[
+  \mat S_e=\mat X\mat A^e\mat V\in\FF_2^{b'\times b}
+  \quad\text{for }e\geq0.
+\]
+At each position, the entries of $\mat S_0,\mat S_1,\ldots$ form a scalar
+sequence as in \Cref{subsec:wiedemann-scalar}, for one row of $\mat X$ and
+one column of $\mat V$.
+
+The minimal polynomial is replaced by a relation with matrix
+coefficients. Suppose that matrices $\mat C_0,\ldots,\mat C_L$ with $b$
+rows satisfy
+\begin{equation}\label{eq:wiedemann-vector-relation}
+  \sum_{e=0}^{L}\mat A^e\mat V\mat C_e=\mat 0.
+\end{equation}
+Multiplying by $\mat X\mat A^{e'}$ gives a recurrence for the sequence,
+as in the scalar case:
+\begin{equation}\label{eq:wiedemann-sequence-relation}
+  \sum_{e=0}^{L}\mat S_{e+e'}\mat C_e=\mat 0
+  \quad\text{for all }e'\geq0.
+\end{equation}
+As in \Cref{subsec:wiedemann-scalar}, a relation whose coefficient
+$\mat C_0$ has a prescribed form gives solutions of linear systems
+(\Cref{subsec:wiedemann-sampler}).
+
+The columns of the matrices $\mat A^e\mat V$, $e\geq0$, span the
+\emph{Krylov space} of $\mat V$. The degree $L$ of the relation depends on
+the $b$ columns of $\mat V$. The columns of $\mat A^e\mat V$, $0\leq e\leq L$,
+are $b(L+1)$ vectors of length $N'$, so a nonzero relation exists as soon
+as $b(L+1)>N'$. This count suggests a degree about $N'/b$, but does not
+ensure the prescribed constant coefficient needed by the sampler.
+\Cref{lem:wiedemann-preimages,lem:wiedemann-right} establish that stronger
+claim for its random starting columns. The
+number $L'$ of equations depends on the $b'$ rows of $\mat X$. A solution of
+\eqref{eq:wiedemann-sequence-relation} for $0\leq e'<L'$ is, with high
+probability, a solution of \eqref{eq:wiedemann-vector-relation} once $L'$
+is about $N'/b'$ and $b'$ exceeds $b$ by a margin
+(\Cref{lem:wiedemann-left}). The margin is needed because the Krylov space
+can contain up to $2^{(b+1)\rho}$ vectors whose minimal polynomial has
+degree $\rho$, and $\mat X$ must detect all of them. These equations involve only the terms
+$\mat S_e$ with $e<L+L'$. Computing them takes about $N'(1+b/b')$ products
+with $\mat A$, which form $b$ independent chains of length about $L+L'$.
+\Cref{subsec:wiedemann-relation} computes the coefficients $\mat C_e$
+from these terms.
+
+\subsection{The sampler}
+\label{subsec:wiedemann-sampler}
+The sampler applies the block algorithm to the right-hand sides
+$\mat A\mat U$ for a random matrix $\mat U$. It returns the columns of
+$\mat U+\mat Z$, where $\mat A\mat Z=\mat A\mat U$; over $\FF_2$ this is
+the vector $\vec u-\vec z$ of \Cref{subsec:wiedemann-scalar}. The sampler
+adds two ingredients to the block algorithm. A random compression turns
+$\mat K$ into a square matrix $\mat A$, which has the same kernel as the
+padded matrix $\mat K_+$ below, except with small probability. Random helper columns in $\mat V$ supply the
+solutions that the right-hand sides alone may miss.
+
+The Wiedemann algorithm needs a square matrix, whereas $\mat K$ may be
+rectangular. Over $\FF_2$, the square matrix $\mat K^\tr\mat K$ can
+have a larger kernel than $\mat K$, because the image of $\mat K$ may
+contain nonzero vectors orthogonal to all of it. We therefore compress
+$\mat K$ by a random matrix. We first append $\zeta\geq0$ zero columns to
+$\mat K$ and obtain
+\[
+  \mat K_+=[\mat K\mid\mat 0]\in\FF_2^{J_{\calK}\times N'},
+  \qquad N'=N+\zeta,
+  \qquad \ker\mat K_+=\calK\times\FF_2^{\zeta}.
+\]
+Let $\mat Q\in\FF_2^{N'\times J_{\calK}}$ be a Toeplitz matrix whose
+$N'+J_{\calK}-1$ diagonals are independent uniform bits, and put
+$\mat A=\mat Q\mat K_+$. Then $\ker\mat K_+\subseteq\ker\mat A$, with
+equality unless $\mat Q$ maps a nonzero vector of the image of $\mat K_+$
+to zero. Since $\mat A$ has $N'$ rows, at least $\zeta$ more than the
+dimension of the image of $\mat K_+$, equality fails with probability less
+than $2^{-\zeta}$ (\Cref{lem:wiedemann-compression}). A uniform matrix of
+this size could not be stored, whereas $\mat Q$ is stored by its
+diagonals. A product with $\mat A$ is a product
+with $\mat K$ followed by a product with $\mat Q$, which is a polynomial
+multiplication. The proofs use only one property of $\mat Q$: for every
+fixed nonzero vector $\vec v$, the vector $\mat Q\vec v$ is uniform.
+This property also keeps small, on average, the
+dimension of $\operatorname{im}\mat A\cap\ker\mat A$, which the helper
+columns must cover (\Cref{lem:wiedemann-compression}).
+
+Let $M<b$, $b+2\leq b'$, and $L,L'\geq1$. One attempt of the sampler
+proceeds as follows.
+\begin{enumerate}[(1)]
+  \item Draw $\mat Q$ and matrices $\mat U\in\FF_2^{N'\times M}$,
+  $\mat W\in\FF_2^{N'\times(b-M)}$ and $\mat X\in\FF_2^{b'\times N'}$,
+  independently and uniformly. Put $\mat A=\mat Q\mat K_+$ and
+  $\mat V=[\mat A\mat U\mid\mat W]$. The columns of $\mat W$ are the
+  helper columns.
+  \item Compute $\mat S_e=\mat X\mat A^e\mat V$ for $0\leq e<L+L'$.
+  \item Find $\mat C_1,\ldots,\mat C_L\in\FF_2^{b\times M}$ that satisfy
+  \eqref{eq:wiedemann-sequence-relation} for $0\leq e'<L'$, with
+  \[
+    \mat C_0=\mat E=\begin{bmatrix}\mat I_M\\\mat 0\end{bmatrix},
+  \]
+  by the method of \Cref{subsec:wiedemann-relation}. If no such matrices
+  exist, reject.
+  \item Compute
+  $\mat Z=\sum_{e=1}^{L}\mat A^{e-1}\mat V\mat C_e$ by Horner's rule.
+  \item If $\mat K_+(\mat U+\mat Z)=\mat 0$, output the first $N$
+  coordinates of the $M$ columns of $\mat U+\mat Z$. Otherwise, reject.
+\end{enumerate}
+The prescribed coefficient $\mat C_0=\mat E$ selects the right-hand sides,
+since $\mat V\mat E=\mat A\mat U$. It plays the role of the condition
+$\theta_0\neq0$ of \Cref{subsec:wiedemann-scalar}. The helper columns have
+zero coefficient in $\mat C_0$, so they enter only the solution $\mat Z$.
+If the coefficients satisfy the vector relation
+\eqref{eq:wiedemann-vector-relation}, then $\mat A\mat U+\mat A\mat Z=\mat
+0$, so the columns of $\mat U+\mat Z$ lie in $\ker\mat A$. Step (5) checks
+against $\mat K_+$ rather than $\mat A$. Hence a wrong relation, or a
+compression that loses the kernel, can only cause a rejection.
+
+Steps (1) and (2) take $M+b(L+L'-1)$ products with $\mat A$, step (4)
+takes $M(L-1)$, and step (5) takes $M$ products with $\mat K_+$.
+
+\begin{theorem}\label{thm:wiedemann-sampler}
+Let $\mat K\in\FF_2^{J_{\calK}\times N}$ be any matrix, and let
+$\zeta,M,b,b',L,L'$ be as above. One attempt of the sampler rejects with
+probability less than
+\[
+  \varepsilon
+  =2^{-\zeta}+2^{M-b}+2^{N'-bL}+2^{N'-b'L'}
+   +\frac1{2^{b'-b-1}-1}.
+\]
+Whenever the attempt accepts with positive probability, its output
+conditional on acceptance consists of $M$ independent uniform elements of
+$\calK$.
+\end{theorem}
+
+Each term of $\varepsilon$ bounds the failure of one event of the proof.
+The term $2^{-\zeta}$ bounds the loss of the kernel in the compression, and
+$2^{M-b}$ bounds the failure of the $b-M$ helper columns. The terms
+$2^{N'-bL}$ and $2^{N'-b'L'}$ decrease with the excess of $bL$ and $b'L'$
+over $N'$. The last term bounds the failure of $\mat X$ on the vectors of
+the Krylov space whose minimal polynomial has small degree, and it requires
+$b'\geq b+2$ (\Cref{lem:wiedemann-left}). For an integer $\eta\geq0$, the choices
+$L=\lceil(N'+\eta)/b\rceil$ and $L'=\lceil(N'+\eta)/b'\rceil$ make
+$2^{N'-bL}$ and $2^{N'-b'L'}$ at most $2^{-\eta}$. Attempts with fresh
+randomness are independent. When $\varepsilon<1$, the expected number of
+attempts is less than $1/(1-\varepsilon)$, and every accepted output has
+the distribution of the theorem. \Cref{app:wiedemann-cost} chooses the
+parameters.
+\subsection{Finding the relation}
+\label{subsec:wiedemann-relation}
+Step (3) is a linear system over $\FF_2$. For each column of $\mat E$, it
+has $b'L'$ equations in the $bL$ entries of the corresponding columns of
+$\mat C_1,\ldots,\mat C_L$, and its matrix is block Hankel in the terms
+$\mat S_e$. Gaussian elimination would take about $N'^3$ operations. The
+system is also a Pad\'e-type approximation problem, of the same form as the
+key equation of Reed--Solomon decoding. With fast polynomial
+multiplication, approximant bases solve it exactly at a cost quasi-linear
+in $L+L'$ \cite{GiorgiJeannerodVillard2003}.
+
+Put $\mat S(\xi)=\sum_{e=0}^{L+L'-1}\mat S_e\xi^e$ and, for coefficients
+$\mat C_0,\ldots,\mat C_L$, put
+$\mat C^\circ(\xi)=\sum_{e=0}^{L}\mat C_e\xi^{L-e}$. The matrix
+$\mat C^\circ$ is the reversal of the relation, as the connection
+polynomial of \Cref{subsec:wiedemann-scalar} is the reciprocal of the
+minimal polynomial. The coefficient of
+$\xi^{L+e'}$ in $\mat S(\xi)\mat C^\circ(\xi)$ is
+$\sum_{e}\mat S_{e+e'}\mat C_e$. Hence the equations of step (3) say that
+the coefficients of $\xi^L,\ldots,\xi^{L+L'-1}$ in
+$\mat S(\xi)\mat C^\circ(\xi)$ vanish, that is,
+\begin{equation}\label{eq:wiedemann-pade}
+  \mat S(\xi)\mat C^\circ(\xi)+\mat P(\xi)\equiv\mat 0
+  \pmod{\xi^{L+L'}}
+\end{equation}
+for some polynomial matrix $\mat P$ of degree less than $L$. The
+coefficient $\mat C_0$ is the coefficient of $\xi^L$ in $\mat C^\circ$.
+
+We need all solutions of \eqref{eq:wiedemann-pade} within the two degree
+bounds, so that we can impose the coefficient $\mat C_0=\mat E$ afterward.
+An approximant basis gives a finite set of polynomial vectors from which
+all these solutions can be formed.
+
+Let $\mathcal A$ be the set of column vectors
+$\vec v=(\vec c,\vec p)\in\FF_2[\xi]^{b+b'}$ with
+$\mat S\vec c+\vec p\equiv\vec0\pmod{\xi^{L+L'}}$. It is a module over
+$\FF_2[\xi]$ that contains $\xi^{L+L'}\FF_2[\xi]^{b+b'}$, so it is free of
+rank $b+b'$. A basis of $\mathcal A$ is an \emph{approximant basis}. We
+combine the two degree bounds into one by defining the \emph{shifted degree}
+\[
+  \operatorname{sdeg}\vec v=\max\{\deg\vec c,\ \deg\vec p+1\},
+\]
+where the degree of a polynomial vector is the largest degree of its
+entries. Then \eqref{eq:wiedemann-pade} holds with $\deg\mat C^\circ\leq L$
+and $\deg\mat P<L$ if and only if every column of
+$(\mat C^\circ,\mat P)$ lies in $\mathcal A$ and has shifted degree at
+most $L$.
+
+The \emph{leading vector} $\operatorname{lv}(\vec v)\in
+\FF_2^{b+b'}$ consists of the coefficients of $\xi^{\rho}$ in $\vec c$
+and of $\xi^{\rho-1}$ in $\vec p$, where
+$\rho=\operatorname{sdeg}\vec v$. A basis is \emph{reduced} if the
+leading vectors of its elements are linearly independent. The algorithms
+of \cite{BeckermannLabahn1994,GiorgiJeannerodVillard2003} compute a reduced
+approximant basis from $\mat S_0,\ldots,\mat S_{L+L'-1}$, and
+\cite{Thome2002} applies such algorithms to block Wiedemann.
+\Cref{app:wiedemann-cost} implements the order-by-order construction
+with fixed circuit addresses and counts its gates and storage.
+
+Independence of the leading vectors prevents cancellation of the highest
+shifted terms. It therefore bounds the coefficients in a combination of
+basis vectors. The following lemma reduces the prescribed-coefficient
+condition to a binary linear system.
+
+\begin{lemma}\label{lem:wiedemann-predictable}
+Let $\vec v_1,\ldots,\vec v_{b+b'}$ be a reduced approximant basis, with
+$\rho_j=\operatorname{sdeg}\vec v_j$ and $\vec v_j=(\vec c_j,\vec p_j)$.
+Let $\vec e_\nu$ be the column $\nu$ of $\mat E$.
+Step (3) has a solution if and only if every column of $\mat E$ lies in
+the span of the vectors $[\xi^{\rho_j}]\vec c_j$ with $\rho_j\leq L$.
+If $\vec e_\nu=\sum_{\rho_j\leq L}\gamma_{\nu,j}[\xi^{\rho_j}]\vec c_j$ for
+$1\leq\nu\leq M$, then the polynomial matrix $\mat C^\circ$ with columns
+$\sum_{\rho_j\leq L}\gamma_{\nu,j}\xi^{L-\rho_j}\vec c_j$ gives a
+solution.
+\end{lemma}
+\begin{proof}
+Let $a_1,\ldots,a_{b+b'}$ be polynomials, not all zero, and put
+$\rho=\max_j(\deg a_j+\rho_j)$. In $\vec v=\sum_ja_j\vec v_j$, the
+coefficients of $\xi^\rho$ in $\vec c$ and of $\xi^{\rho-1}$ in
+$\vec p$ form the vector $\sum_j\operatorname{lc}(a_j)\operatorname{lv}(\vec
+v_j)$, summed over the $j$ with $\deg a_j+\rho_j=\rho$, where
+$\operatorname{lc}$ is the leading coefficient. This vector is nonzero
+because the basis is reduced, and no higher coefficients occur. Hence
+$\operatorname{sdeg}\vec v=\rho$.
+
+Every element of $\mathcal A$ is such a combination. By the first
+paragraph, it has shifted degree at most $L$ if and only if
+$\deg a_j\leq L-\rho_j$ for every $j$, which requires $a_j=0$ when
+$\rho_j>L$. Its coefficient of $\xi^L$ in $\vec c$ is then
+$\sum_{\rho_j\leq L}([\xi^{L-\rho_j}]a_j)\,[\xi^{\rho_j}]\vec c_j$.
+These are therefore exactly the possible columns of $\mat C_0$, which
+proves the first claim. For the second, the given columns are elements of
+$\mathcal A$ of shifted degree at most $L$ whose coefficients of $\xi^L$
+are the columns of $\mat E$.
+\end{proof}
+
+We use this method in step (3), with a fixed deterministic algorithm for
+the basis and for the coefficients $\gamma_{\nu,j}$. It decides exactly
+whether a solution exists, and the solution it returns is determined by
+the terms $\mat S_e$. \Cref{lem:wiedemann-uniform} uses this.
+\subsection{Proof of the sampler theorem}
+\label{subsec:wiedemann-proofs}
+Let $\mathcal V$ be the Krylov space of $\mat V$, and let $\mathcal V_L$ be
+the span of the columns of $\mat A^e\mat V$ for $0\leq e<L$. The space
+$\mathcal V$ is the smallest $\mat A$-invariant space that contains the
+columns of $\mat V$. The proof shows that the attempt accepts when the
+following four events occur, and bounds the probability that each of them
+fails:
+\begin{enumerate}[(i)]
+  \item $\ker\mat A=\ker\mat K_+$;
+  \item every column of $\mat A\mat U$ equals $\mat A\vec v$ for some
+  $\vec v\in\mathcal V$;
+  \item $\mathcal V_L=\mathcal V$;
+  \item no nonzero $\vec v\in\mathcal V$ satisfies
+  $\mat X\mat A^{e'}\vec v=\vec 0$ for all $0\leq e'<L'$.
+\end{enumerate}
+Uniformity is proved separately.
+
+The first lemma concerns the compression and event (i). Let
+$\chi=\dim(\operatorname{im}\mat A\cap\ker\mat A)$. This is the number of
+Jordan blocks of size at least two for the eigenvalue $0$ of $\mat A$, and
+it is the defect that the helper columns repair
+(\Cref{lem:wiedemann-preimages}). The second claim of the lemma shows
+that the random $\mat Q$ keeps $\chi$ small.
+
+\begin{lemma}\label{lem:wiedemann-compression}
+The event $\ker\mat A\neq\ker\mat K_+$ has probability less than
+$2^{-\zeta}$. Moreover,
+\[
+  \mathbb E\bigl[(2^{\chi}-1)\cdot\mathbf 1\{\ker\mat A=\ker\mat K_+\}\bigr]
+  <1.
+\]
+\end{lemma}
+\begin{proof}
+First we show that $\mat Q\vec v$ is uniform for every fixed nonzero
+$\vec v\in\FF_2^{J_{\calK}}$. Write the entries of $\mat Q$ as
+$Q_{l,l'}=\mu_{l-l'+J_{\calK}}$, where $\mu_1,\ldots,\mu_{N'+J_{\calK}-1}$ are
+the diagonal bits, and let $l_0$ be the first index with $v_{l_0}=1$. The
+coordinate $l$ of $\mat Q\vec v$ equals $\mu_{l-l_0+J_{\calK}}$ plus a sum
+of bits $\mu_{l''}$ with $l''<l-l_0+J_{\calK}$. The bits
+$\mu_{l-l_0+J_{\calK}}$, $1\leq l\leq N'$, are distinct. Hence, for fixed
+values of the other bits, the map from these $N'$ bits to $\mat Q\vec v$
+is a triangular bijection onto $\FF_2^{N'}$.
+
+As noted in \Cref{subsec:wiedemann-sampler}, $\ker\mat A=\ker\mat K_+$
+unless $\mat Q\vec v=\vec0$ for some nonzero $\vec v$ in the image of
+$\mat K_+$. This image has fewer than $2^{N}$ nonzero vectors, and each is
+mapped to zero with probability $2^{-N'}$. The union bound gives the first
+claim.
+
+For the second claim, let
+$\mathcal Y=\{\vec v\in\operatorname{im}\mat K_+:\mat Q\vec v\in\ker\mat K_+\}$.
+A fixed nonzero $\vec v\in\operatorname{im}\mat K_+$ lies in $\mathcal Y$
+with probability $|\ker\mat K_+|/2^{N'}=2^{-\rank\mat K_+}$. Summing over
+these vectors gives
+\[
+  \mathbb E\bigl[2^{\dim\mathcal Y}-1\bigr]
+  =\bigl(2^{\rank\mat K_+}-1\bigr)2^{-\rank\mat K_+}<1.
+\]
+If $\ker\mat A=\ker\mat K_+$, then $\mat Q$ is injective on
+$\operatorname{im}\mat K_+$, and
+$\operatorname{im}\mat A\cap\ker\mat A=\mat Q(\mathcal Y)$. Hence
+$\chi=\dim\mathcal Y$ on this event. Since $2^{\dim\mathcal Y}-1\geq0$,
+the second claim follows.
+\end{proof}
+
+The second lemma concerns event (ii). It shows that the helper columns
+supply solutions where the formula of \Cref{subsec:wiedemann-scalar}
+fails.
+
+\begin{lemma}\label{lem:wiedemann-preimages}
+Fix $\mat A$ and $\mat U$. With probability at least
+$1-(2^\chi-1)2^{M-b}$ over $\mat W$, every column of $\mat A\mat U$ equals
+$\mat A\vec v$ for some $\vec v\in\mathcal V$.
+\end{lemma}
+\begin{proof}
+On the part of $\FF_2^{N'}$ where $\mat A$ is invertible, every column of
+$\mat A\mat U$ has a preimage in $\mathcal V$ without help. On the part
+where $\mat A$ is nilpotent, the helper columns provide one. We first
+split $\FF_2^{N'}$ into these two parts, by the Fitting decomposition.
+
+The projections onto the two parts must preserve $\mathcal V$.
+It is enough to express them as polynomials in $\mat A$, because
+$\mathcal V$ is $\mat A$-invariant. B\'ezout's identity supplies them.
+Write the minimal polynomial of $\mat A$ as $\xi^{e_0}g_1(\xi)$ with
+$g_1(0)=1$. Since $\xi^{e_0}$ and $g_1$ are coprime, there are polynomials
+$g_2,g_3$ with $g_2(\xi)\xi^{e_0}+g_3(\xi)g_1(\xi)=1$. The matrices
+$\mat\Pi_0=g_3(\mat A)g_1(\mat A)$ and $\mat\Pi_1=g_2(\mat A)\mat A^{e_0}$
+satisfy $\mat\Pi_0+\mat\Pi_1=\mat I$ and
+$\mat A^{e_0}\mat\Pi_0=g_1(\mat A)\mat\Pi_1=\mat 0$. Moreover, $\mat\Pi_1$
+vanishes on $\ker\mat A^{e_0}$ and $\mat\Pi_0$ vanishes on
+$\ker g_1(\mat A)$. Hence they are the projections onto $\mathcal F_0=\ker\mat A^{e_0}$ and
+$\mathcal F_1=\ker g_1(\mat A)$ in the decomposition
+$\FF_2^{N'}=\mathcal F_0\oplus\mathcal F_1$. Both spaces are
+$\mat A$-invariant, $\mat A$ is nilpotent on $\mathcal F_0$, and
+$\ker\mat A\subseteq\mathcal F_0$. On $\mathcal F_1$, the identity
+$g_1(\mat A)=\mat 0$ gives $\mat A^{-1}=g_4(\mat A)$ with
+$g_4(\xi)=(g_1(\xi)+1)/\xi$.
+
+Let $\vec u$ be a column of $\mat U$, and write
+$\vec u=\vec u_0+\vec u_1$ with $\vec u_0\in\mathcal F_0$ and
+$\vec u_1\in\mathcal F_1$. The space $\mathcal V$ contains $\mat A\vec u$
+and is invariant under every polynomial in $\mat A$. On the invertible
+part, this gives
+$\vec u_1=g_4(\mat A)\mat\Pi_1\mat A\vec u\in\mathcal V$, for every choice
+of $\mat W$.
+
+On the nilpotent part, two vectors give the same image under $\mat A$
+exactly when they differ by an element of $\ker\mat A$. We therefore work
+in the quotient $\overline{\mathcal F}_0=\mathcal F_0/\ker\mat A$.
+The induced action of $\mat A$ is still nilpotent. If $e_0=0$, then $\mathcal F_0=\{\vec 0\}$ and there is
+nothing to prove, so let $e_0\geq1$. It suffices that the image
+$\mathcal F'$ of $\mathcal V\cap\mathcal F_0$ in $\overline{\mathcal F}_0$
+is all of $\overline{\mathcal F}_0$. Indeed, there is then a
+$\vec v_0\in\mathcal V\cap\mathcal F_0$ with
+$\vec u_0-\vec v_0\in\ker\mat A$, and $\vec v=\vec v_0+\vec u_1\in\mathcal
+V$ satisfies $\mat A\vec v=\mat A\vec u$. The image $\mathcal F'$ is
+$\mat A$-invariant, and $\mat A$ is nilpotent on
+$\overline{\mathcal F}_0$. It therefore suffices that $\mathcal F'$ spans
+$\overline{\mathcal F}_0$ modulo $\mat A\overline{\mathcal F}_0$. Indeed,
+if $\mathcal F'+\mat A\overline{\mathcal F}_0=\overline{\mathcal F}_0$,
+then substituting this identity into itself and using
+$\mat A\mathcal F'\subseteq\mathcal F'$ gives
+$\overline{\mathcal F}_0=\mathcal F'+\mat A^e\overline{\mathcal F}_0$ for
+every $e\geq1$, and $\mat A^{e_0}\overline{\mathcal F}_0=\{\vec 0\}$.
+
+The right-hand sides cannot do this. The component of $\mat A\vec u$ in
+$\mathcal F_0$ is $\mat A\vec u_0\in\mat A\mathcal F_0$, so its class in
+$\overline{\mathcal F}_0/\mat A\overline{\mathcal F}_0$ is zero. The
+helper columns must span this quotient. We first show that
+$\dim(\overline{\mathcal F}_0/\mat A\overline{\mathcal F}_0)=\chi$. This
+quotient is $\mathcal F_0/(\ker\mat A+\mat A\mathcal F_0)$. Since
+$\dim\ker\mat A+\dim\mat A\mathcal F_0=\dim\mathcal F_0$, its dimension is
+$\dim(\ker\mat A\cap\mat A\mathcal F_0)$. This intersection equals
+$\ker\mat A\cap\operatorname{im}\mat A$. Indeed, let
+$\mat A\vec v'\in\ker\mat A$ with $\vec v'=\vec v'_0+\vec v'_1$,
+$\vec v'_0\in\mathcal F_0$ and $\vec v'_1\in\mathcal F_1$. Then
+$\mat A\vec v'$ and $\mat A\vec v'_0$ lie in $\mathcal F_0$. Hence
+$\mat A\vec v'_1\in\mathcal F_1\cap\mathcal F_0=\{\vec 0\}$, so
+$\mat A\vec v'=\mat A\vec v'_0\in\mat A\mathcal F_0$.
+
+The projections by $\mat\Pi_0$ of the columns of $\mat W$ lie in
+$\mathcal V\cap\mathcal F_0$. The map that sends a vector to the class of
+its projection in
+$\overline{\mathcal F}_0/\mat A\overline{\mathcal F}_0$ is linear and
+surjective. Hence the $b-M$ classes are independent uniform vectors of a
+space of dimension $\chi$. They fail to span it only if some nonzero
+linear functional vanishes on all of them. Each such functional vanishes
+with probability $2^{M-b}$, and there are $2^\chi-1$ choices. The union
+bound gives failure probability at most $(2^\chi-1)2^{M-b}$.
+\end{proof}
+
+The third lemma concerns event (iii): the first $L$ matrices
+$\mat A^e\mat V$ already span the Krylov space. This makes the degree
+count of \Cref{subsec:wiedemann-block} precise. A row vector $\vec x^\tr$
+has a minimal polynomial with respect to $\mat A$, the monic polynomial
+$\Theta$ of least degree with $\vec x^\tr\Theta(\mat A)=\vec 0$.
+
+\begin{lemma}\label{lem:wiedemann-right}
+For every fixed $\mat A$, the event $\mathcal V_L\neq\mathcal V$ has
+probability less than $2^{N'-bL}$ over $\mat U$ and $\mat W$.
+\end{lemma}
+\begin{proof}
+The space $\mathcal V_L$ equals $\mathcal V$ if and only if it is
+$\mat A$-invariant, that is, if and only if it contains the columns of
+$\mat A^L\mat V$. If it does not, some nonzero row vector $\vec x^\tr$
+vanishes on $\mathcal V_L$ but not on all columns of $\mat A^L\mat V$. The
+minimal polynomial of such an $\vec x^\tr$ has degree greater than $L$.
+Otherwise it would express $\vec x^\tr\mat A^L$ as a combination of
+$\vec x^\tr\mat A^{e}$ with $e<L$, and $\vec x^\tr\mat A^L$ would vanish
+on the columns of $\mat V$.
+
+Fix a nonzero row vector $\vec x^\tr$ whose minimal polynomial has degree
+greater than $L$. The rows
+$\vec x^\tr,\vec x^\tr\mat A,\ldots,\vec x^\tr\mat A^L$ are then linearly
+independent. The row $\vec x^\tr$ vanishes on $\mathcal V_L$ if and only if
+every column of $\mat W$ is orthogonal to $\vec x^\tr\mat A^e$ for
+$0\leq e<L$, and every column of $\mat U$ is orthogonal to
+$\vec x^\tr\mat A^e$ for $1\leq e\leq L$. Each of these
+$b$ columns must satisfy $L$ independent linear conditions, which has
+probability $2^{-L}$ per column, and $2^{-bL}$ for all $b$ columns
+together, since they are independent. The union bound over fewer than $2^{N'}$
+row vectors gives the claim.
+\end{proof}
+
+The fourth lemma concerns event (iv): the projection by $\mat X$ loses no
+information about $\mathcal V$.
+
+\begin{lemma}\label{lem:wiedemann-left}
+For every fixed $\mat A$ and $\mat V$, the probability over $\mat X$ that
+some nonzero $\vec v\in\mathcal V$ satisfies
+$\mat X\mat A^{e'}\vec v=\vec 0$ for $0\leq e'<L'$ is less than
+\[
+  2^{N'-b'L'}+\frac1{2^{b'-b-1}-1}.
+\]
+\end{lemma}
+\begin{proof}
+A vector with a low-degree minimal polynomial gives fewer independent
+conditions on the random projection. We must count these vectors more
+carefully than by the size of the ambient space.
+
+First fix a polynomial that annihilates the vector.
+The space $\mathcal V$ is a module over $\FF_2[\xi]$, with $\xi$ acting as
+$\mat A$, generated by the $b$ columns of $\mat V$. Let $\Theta$ be a
+polynomial of degree $\rho$. The quotient
+$\mathcal V/\Theta(\mat A)\mathcal V$ is generated by $b$ elements over
+$\FF_2[\xi]/(\Theta)$, so its dimension is at most $b\rho$. Since
+$\Theta(\mat A)$ is an endomorphism of $\mathcal V$, its kernel has the
+same dimension as this cokernel. Hence at most $2^{b\rho}$ vectors of
+$\mathcal V$ satisfy $\Theta(\mat A)\vec v=\vec 0$.
+
+Let $\vec v\in\mathcal V$ be nonzero, with minimal polynomial of degree
+$\rho$, and put $\rho'=\min(\rho,L')$. The vectors $\mat A^e\vec v$ with
+$0\leq e<\rho'$ are linearly independent. Each $\mat A^e\vec v$ with
+$e\geq\rho$ is a combination of those with $e<\rho$, so the conditions
+$\mat X\mat A^{e'}\vec v=\vec 0$ for $e'<L'$ are equivalent to the same
+conditions for $e'<\rho'$. Since $\mat X$ is uniform, the products of
+$\mat X$ with these $\rho'$ vectors are independent uniform vectors of
+$\FF_2^{b'}$. All of them vanish with probability $2^{-b'\rho'}$.
+
+For $\rho<L'$, there are $2^\rho$ monic polynomials of degree $\rho$, and
+each is the minimal polynomial of at most $2^{b\rho}$ vectors. For
+$\rho\geq L'$, we use the bound $2^{N'}$ on the number of vectors. The
+union bound gives
+\[
+  2^{N'}2^{-b'L'}+\sum_{\rho=1}^{L'-1}2^{\rho+b\rho-b'\rho}
+  <2^{N'-b'L'}+\frac1{2^{b'-b-1}-1}.
+  \qedhere
+\]
+\end{proof}
+
+The last lemma proves uniformity. It uses no probability bound of the
+preceding lemmas.
+
+\begin{lemma}\label{lem:wiedemann-uniform}
+Conditional on acceptance, the columns of $\mat U+\mat Z$ are independent
+uniform elements of $\ker\mat K_+$.
+\end{lemma}
+\begin{proof}
+The attempt uses $\mat U$ only through $\mat K_+\mat U$. Indeed,
+$\mat A\mat U=\mat Q(\mat K_+\mat U)$ determines $\mat V$ and the
+sequence. By \Cref{subsec:wiedemann-relation}, the sequence determines
+the coefficients $\mat C_e$. These determine $\mat Z$, and the check of
+step (5) compares $\mat K_+\mat Z$ with $\mat K_+\mat U$. Fix the
+value of $\mat K_+\mat U$ together with $\mat Q$, $\mat W$ and $\mat X$.
+Then $\mat Z$ and the acceptance are fixed, and $\mat U$ is uniform on the
+set of matrices with this value of $\mat K_+\mat U$. This set is a translate of
+$(\ker\mat K_+)^M$. Suppose that the attempt accepts. Then
+$\mat K_+(\mat U+\mat Z)=\mat 0$, so $\mat U\mapsto\mat U+\mat Z$ maps the
+set bijectively onto $(\ker\mat K_+)^M$. The output is therefore uniform
+on $(\ker\mat K_+)^M$ for every fixed value of the other data, and hence
+also after averaging over them.
+\end{proof}
+
+\begin{proof}[Proof of \Cref{thm:wiedemann-sampler}]
+Suppose that the events (i)--(iv) occur. By (ii) and (iii), each column
+$\mat A\vec u$ of $\mat A\mat U$ equals $\mat A\vec v$ with
+$\vec v=\sum_{e<L}\mat A^e\mat V\vec c_e$ for some vectors
+$\vec c_e\in\FF_2^b$. Collecting these vectors for the $M$ columns into
+matrices gives $\mat A\mat U=\sum_{e=1}^{L}\mat A^e\mat V\mat C_e$ for some
+$\mat C_e\in\FF_2^{b\times M}$. Together with $\mat C_0=\mat E$, they
+satisfy \eqref{eq:wiedemann-vector-relation}, hence also
+\eqref{eq:wiedemann-sequence-relation}. Step (3) therefore finds a
+solution (\Cref{lem:wiedemann-predictable}) and does not reject.
+
+Let $\mat C_1,\ldots,\mat C_L$ be the matrices found in step (3), and put
+$\mat\Delta=\sum_{e=0}^{L}\mat A^e\mat V\mat C_e$. Its columns lie in
+$\mathcal V$, and \eqref{eq:wiedemann-sequence-relation} for $e'<L'$ says
+that $\mat X\mat A^{e'}\mat\Delta=\mat 0$. By (iv), $\mat\Delta=\mat 0$.
+Since $\mat\Delta=\mat A\mat U+\mat A\mat Z$, the columns of $\mat U+\mat Z$ lie in
+$\ker\mat A$. By (i), they lie in $\ker\mat K_+$, and step (5) accepts.
+
+It remains to bound the probability that an event fails. The matrices
+$\mat Q$, $\mat U$, $\mat W$ and $\mat X$ are independent, which is what
+\Cref{lem:wiedemann-preimages,lem:wiedemann-right,lem:wiedemann-left}
+use. Event (i) fails with probability less than $2^{-\zeta}$
+(\Cref{lem:wiedemann-compression}). For fixed $\mat Q$ and $\mat U$, (ii)
+fails with probability at most $(2^\chi-1)2^{M-b}$
+(\Cref{lem:wiedemann-preimages}). Hence, by
+\Cref{lem:wiedemann-compression},
+\[
+  \Pr\bigl[\text{(i) holds and (ii) fails}\bigr]
+  \leq2^{M-b}\,\mathbb E\bigl[(2^\chi-1)\cdot\mathbf 1\{\text{(i)}\}\bigr]
+  <2^{M-b}.
+\]
+Events (iii) and (iv) fail with probability less than
+$2^{N'-bL}$ and $2^{N'-b'L'}+1/(2^{b'-b-1}-1)$
+(\Cref{lem:wiedemann-right,lem:wiedemann-left}). The union bound gives
+$\varepsilon$. Uniformity follows from \Cref{lem:wiedemann-uniform}, since
+removing the last $\zeta$ coordinates maps a uniform element of
+$\calK\times\FF_2^\zeta$ to a uniform element of $\calK$.
+\end{proof}
+
+
+\section{Circuit and access costs of the optimized sampler}
+\label{app:wiedemann-cost}
+The sampler of \Cref{app:wiedemann} obtains uniform kernel samples with
+a proved bound on rejection. At the Classic McEliece parameters, the
+implementation below has a gate count close to Weis's published block
+Lanczos estimate. It costs more in the model that charges for memory
+access. \Cref{tab:wopt-optimized-comparison} gives both comparisons.
+
+Lowering selected multiplicities allows further shortening under the
+kernel-dimension prediction. Wider projection blocks shorten the Krylov
+sequences, at a cost in storage. Grouping the
+derivative equations lets many rows share a matrix multiplication.
+The Toeplitz products use a binary polynomial FFT, with operations on
+known zero inputs and unused outputs removed. These choices leave the
+sampling proof unchanged: it applies to every fixed matrix of equations.
+
+We count gates of a fixed Boolean circuit. Every AND and XOR counts,
+even when its control bit happens to be zero. The addresses and the
+number of steps depend only on the parameters; public point coordinates
+and fresh random bits are inputs. The access column also charges for the
+size of the memory region used by each gate and each transfer.
+
+\begin{table}[htbp]
+\centering\small\setlength{\tabcolsep}{3pt}
+\caption{One sampler attempt and Weis's published Lanczos estimates.
+Gate and access columns are base-two logarithms. Our bounds are rounded
+upward to $0.01$, and storage upward to $0.001$ TiB. The two constructions
+use related hold-out systems, not the same matrix. Weis's figures are
+from \cite[Tables 4--5 and Appendix E]{Weis2026}.}
+\label{tab:wopt-optimized-comparison}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ &\multicolumn{2}{c}{Gates}&\multicolumn{2}{c}{Access}&\\
+Parameter set & Weis & Ours & Weis & Ours & Our TiB\\
+\midrule
+\texttt{mceliece348864}&92.30&92.68&107.30&109.21&104.168\\
+\texttt{mceliece460896}&98.34&98.19&113.96&115.21&851.026\\
+\texttt{mceliece6688128}&101.31&101.21&117.20&119.06&2,322.558\\
+\texttt{mceliece6960119}&100.55&100.35&116.37&117.68&1,791.580\\
+\texttt{mceliece8192128}&101.31&101.21&117.20&119.06&2,322.558\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The gate counts differ by less than $0.4$ in the base-two logarithm.
+Our access charges are about $2.4$ to $3.8$ times larger. The sampler
+rejects with probability below $2^{-62}$ per attempt for the choices
+below. Weis's estimated run length and supply of enough samples rely on
+\cite[Assumption 4]{Weis2026}.
+
+\providecommand{\ceil}[1]{\left\lceil #1\right\rceil}
+\providecommand{\Cfive}{\binom{k}{5}}
+\providecommand{\Cthree}{\binom{k}{3}}
+\providecommand{\rhoo}[1]{\rho\!\left(#1\right)}
+\subsection{The mixed hold-out system}
+\label{sec:wopt-parameters}
+The number of unknown coefficients is $\binom{k}{7}$. Reducing the
+shortened dimension $k$ therefore reduces the coefficient vectors used
+throughout the computation.
+We lower the multiplicity at selected retained points to keep the
+predicted kernel nonzero after further shortening. Following the
+parameter selection in \cite[Sec.~9]{Vedenev2026KeyRecovery}, we impose
+the minimum total multiplicity used by the vanishing criterion with the
+$t$ hidden Goppa conditions.
+
+Consider a shortened binary Goppa code over $\FF_2$, defined over
+$\FF_{2^m}$ by a square-free Goppa polynomial of degree $t$. Its public
+generator matrix is in systematic form, with columns
+$\mathbf y_j\in\FF_2^k$. The length is
+\(n_{\mathrm{sh}}=mt+k\), with polynomial degree bound
+\(D_{\mathrm{sh}}=k+(m-2)t-1\). Choose one non-unit column as the held-out
+position and omit it from the constraints. Include the public point at
+infinity
+\(\mathbf w=\sum_j\mathbf y_j\), at multiplicity six, in every parameter
+set. There are then \(P=mt\) retained non-unit constraint points, counting
+\(\mathbf w\). Of the finite retained points, choose \(P_5\) at
+multiplicity five; the remaining \(P_6=P-P_5\) points have multiplicity six.
+The \(k\) unit columns already have multiplicity at least six for every
+homogeneous multilinear polynomial of degree seven.
+
+The unknowns are the coefficients $h_I$ of
+\[
+ h(X_0,\ldots,X_{k-1})=\sum_{|I|=7}h_I\prod_{u\in I}X_u.
+\]
+For a set $S$ of coordinate indices, write $D_S^{[|S|]}h(y)$ for the
+coefficient of $\prod_{u\in S}Z_u$ in $h(y+Z)$.
+Let \(K\in\FF_2^{J\times N}\) map $(h_I)_{|I|=7}$ to these derivative
+values at the retained points. At a point of multiplicity six, its rows
+have $|S|=5$ and $3$; at a point of multiplicity five, they have $|S|=4$
+and $3$. The entry in row $(y,S)$ and column $I$ is
+$\prod_{u\in I\setminus S}y_u$ if $S\subseteq I$, and zero otherwise.
+These are the mixed hold-out constraints of
+\cite[Sec.~9.2]{Vedenev2026KeyRecovery}. Thus
+\begin{equation}
+ N=\binom{k}{7},\qquad
+ J=P_6\binom{k}{5}+P_5\binom{k}{4}+P\binom{k}{3}.
+ \label{eq:wopt-dimensions}
+\end{equation}
+\Cref{tab:wopt-parameters} lists the choices used in the cost analysis.
+We take $M=k-m+31$, the sample count derived for this application in
+\cite[Sec.~9.1]{Vedenev2026KeyRecovery}. Each returned vector has $N$
+polynomial coefficients. Weis's construction instead solves for relations
+among derivative conditions.
+
+\begin{table}[htbp]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Primary parameters. All sets include infinity at multiplicity
+six. The \(P_5\) lowered points are finite, retained, and non-unit.}
+\label{tab:wopt-parameters}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule Parameter set & \(k\) & \(P\) & \(P_5\) & \(M\) & \(b\) & \(g\) & \(b'\)\\
+\midrule
+\texttt{mceliece348864} & 150 & 768 & 48 & 169 & 254 & 85 & 1016 \\
+\texttt{mceliece460896} & 195 & 1248 & 3 & 213 & 320 & 107 & 1280 \\
+\texttt{mceliece6688128} & 221 & 1664 & 41 & 239 & 359 & 120 & 1436 \\
+\texttt{mceliece6960119} & 214 & 1547 & 30 & 232 & 348 & 116 & 1392 \\
+\texttt{mceliece8192128} & 221 & 1664 & 41 & 239 & 359 & 120 & 1436 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For each shortening, we choose the largest feasible $P_5$ subject to
+$6(k+P)-P_5\geq7D_{\mathrm{sh}}+1-t$. Equality is feasible in every row:
+\begin{equation}
+ 6(k+P)-P_5=7D_{\mathrm{sh}}+1-t,
+ \qquad P_5=(15-m)t-k+6.
+ \label{eq:wopt-reserve}
+\end{equation}
+The count includes the unit columns and the point at infinity. The
+vanishing identity and the geometric rank conditions required for key
+recovery are stated in \cite[Sec.~9]{Vedenev2026KeyRecovery}.
+The sampler theorem and the resource bounds here hold for every matrix
+with the specified derivative structure, irrespective of those conditions.
+
+To choose $k$ and $P_5$, we use the mixed Hilbert-series prediction
+\begin{equation}
+ \kappa_{\mathrm{pred}}=[z^7]\bigl[(1+z)^k
+             (1-z^2)^{P_6}(1-z^3)^{P_5}\bigr]_+,
+ \label{eq:wopt-hilbert}
+\end{equation}
+where the series is truncated at its first nonpositive coefficient.
+For each parameter set, we choose the smallest $k$ with a positive
+prediction under \eqref{eq:wopt-reserve}. It gives, in parameter order,
+\[
+ 965{,}303{,}280,\quad 9{,}469{,}314{,}720,\quad
+ 4{,}958{,}414{,}624,\quad 6{,}446{,}238{,}332,\quad 4{,}958{,}414{,}624.
+\]
+All five predictions are positive.
+
+\subsection{A fixed attempt}
+\label{sec:wopt-fixed-attempt}
+Larger projection blocks shorten the sequences used by the sampler,
+but require more storage. We choose the two widths together and count
+both their saving in matrix products and their storage cost.
+Write $n=N'=N+64$, $J=J_{\calK}$, $T=L'$ and $q=L+T$ for the sampler
+of \Cref{subsec:wiedemann-sampler}. We use binary Toeplitz compression,
+with $N+J+63$ independent random diagonal bits, and choose
+\[
+ b=\ceil{3M/2},\qquad g=b-M,\qquad b'=4b,\qquad
+ L=\ceil{(n+64)/b},\qquad T=\ceil{(n+64)/b'}.
+\]
+Here $g\geq85$. Substitution in \Cref{thm:wiedemann-sampler} gives
+\[
+ \varepsilon
+ \leq3\,2^{-64}+2^{-g}+\frac1{2^{b'-b-1}-1}<2^{-62}.
+\]
+Consequently independent retries multiply the expected cost by less than
+$1+2^{-61}$. This correction is too small to change the displayed exponents.
+
+The relation is computed by the circuit in \Cref{sec:wopt-generator}.
+For reconstruction, retaining $U,W$ is enough; the initial block $[AU,W]$
+need not remain stored. Split each relation coefficient into its first
+$M$ rows and its last $g$ rows,
+$C_j=[C_j^{\mathrm{top}};C_j^{\mathrm{bottom}}]$. Horner's rule then takes
+the form
+\begin{equation}\label{eq:wopt-reconstruction}
+ H_L=UC_L^{\mathrm{top}},\qquad
+ H_i=AH_{i+1}+UC_i^{\mathrm{top}}+WC_{i+1}^{\mathrm{bottom}}
+ \quad\text{for }i=L-1,\ldots,0.
+\end{equation}
+Expanding $H_0$ gives $U+\sum_{j=1}^L A^{j-1}[AU,W]C_j$, which is the
+output $U+Z$ of \Cref{subsec:wiedemann-sampler}. We test $K_+H_0=0$ before
+discarding the padding coordinates.
+
+Every attempt executes the same circuit. If relation extraction fails,
+set all its coefficients to zero and retain a failure flag. Reconstruction
+and every residual test still run. The flag prevents acceptance.
+
+This schedule uses
+\[
+ Q_A=b(q-1)+M(L+1)\quad\text{applications of }A,
+ \qquad M\quad\text{additional applications of }K_+.
+\]
+This count includes the $M$ products forming $AU$ and $ML$ products in
+reconstruction. It is about $1.92n$ at all five parameter sets. The
+reconstruction above uses $M$ more applications of $A$ than the Horner
+formula in \Cref{subsec:wiedemann-sampler}; those applications are
+included in $Q_A$.
+
+\subsection{Where the gates are spent}
+\label{sec:wopt-cost-decomposition}
+Each application of $A$ first applies the hold-out matrix $K_+$ and then
+the Toeplitz compression. Let $C_K$ and $C_T$ be the gate costs of these
+two products. The Toeplitz seed is transformed once for sequence generation
+and again for reconstruction, at cost $C_{\mathrm{pre}}$ each time.
+The final check adds $M$ applications of $K_+$.
+
+The other large operations are the projections $XA^iV$, reconstruction,
+and relation computation. A dense binary product is charged for every
+AND and XOR. This gives $2nb'bq$ gates for the projections and
+$2nbML+nM$ for reconstruction, including the final addition of $U$.
+Let $G$ include constructing the approximant basis and extracting the
+relation. There are $S_F=bM(L+1)$ relation bits to mask if extraction
+fails. With the residual tests and acceptance flag, the total is
+\begin{equation}
+ \begin{aligned}
+ C_1={}&Q_A(C_K+C_T)+MC_K+2C_{\mathrm{pre}}\\
+       &+2nb' bq+2nbML+nM+G+S_F+3JM+4 .
+ \end{aligned}
+ \label{eq:wopt-totalgates}
+\end{equation}
+
+The first line counts the repeated matrix products and seed preparations.
+The second counts projections, reconstruction, the relation, and the
+final checks. For \texttt{mceliece348864}, the products with $K_+$ account
+for $33.7\%$ of the total and the Toeplitz products and preparations for
+$43.7\%$. The other operations account for $22.6\%$.
+
+\subsection{Sparse products and the mixed derivative map}
+\label{sec:wopt-sparse}
+We first evaluate orders five and three at every retained point, using
+the grouped product of \Cref{sec:wopt-groupcount}. Call this common
+operator $K_6$, with $J_6=P(\Cfive+\Cthree)$ rows. At a point lowered to
+multiplicity five, we replace the order-five values by order-four values.
+No new polynomial evaluation is needed: for a homogeneous multilinear
+polynomial of degree seven,
+\begin{equation}
+ D_T^{[4]}f(y)=\sum_{u\notin T}y_uD_{T\cup\{u\}}^{[5]}f(y).
+ \label{eq:wopt-euler}
+\end{equation}
+Each degree-three monomial on the right occurs three times, hence once
+over $\FF_2$. The order-three derivative values themselves are retained.
+This gives a public linear map from $K_6v$ to $Kv$.
+
+The priced schedule first forms the full \(J_6\)-bit output and then
+applies \eqref{eq:wopt-euler}. When \(P_5>0\), it reserves a separate
+\(J_6\)-bit temporary. It charges the map
+\[
+ C_{\mathrm{mix}}=10P_5\Cfive
+\]
+gates and at most
+\[
+ V_{\mathrm{mix}}=
+ \begin{cases}
+ J_6+2J+10P_5\Cfive,&P_5>0,\\
+ 0,&P_5=0
+ \end{cases}
+\]
+bit transfers. The gate term is zero when \(P_5=0\).
+The $K_6$ output remains stored until this conversion is complete;
+its temporary storage and transfers are included in the bounds.
+
+\subsubsection{Sharing work between derivative rows}
+\label{sec:wopt-groupcount}
+The order-five rows evaluate many quadratic forms at the same public
+points. We collect evaluations that share a right operand into matrix
+products. This is where fast matrix multiplication reduces the gate count.
+
+A scalar input is the coefficient vector $(h_I)_{|I|=7}$.
+For a five-set $S$, the order-five derivative at the public point $y_j$ is
+\[
+ \sum_{\substack{u<v\\\{u,v\}\cap S=\varnothing}}
+ h_{S\cup\{u,v\}}y_{j,u}y_{j,v}.
+\]
+The order-three rows need partial sums from these evaluations. For a
+pair $V\subset S$, the required sum uses $u>\max V$. Write
+$S=\{s_0<s_1<s_2<s_3<s_4\}$. The possible values of $\max V$ are
+$s_1,s_2,s_3,s_4$, so these are exactly the cuts we need.
+Partition the pair coordinates by the five intervals between
+$-1,s_1,s_2,s_3,s_4,k$. For each interval $(a,c)$, collect all five-sets
+having that interval.
+The matrix with entries $h_{S\cup\{u,v\}}$ for $a<u\leq c$, $u<v$,
+multiplied by the matrix with entries $y_{j,u}y_{j,v}$, gives all their
+segment sums. An entry with $S\cap\{u,v\}\ne\varnothing$ is a constant
+zero. Thus many derivative rows share the same public right operand.
+
+Each segment contributes to the order-five row. It also contributes
+$y_{j,V}$ times its value to the order-three row $S\setminus V$ for each
+pair $V\subset S$ with $\max V\leq a$. To verify this, fix a three-set
+and four further indices. There is exactly one split of those four into
+the two smaller indices $V$ and two larger indices $u,v$.
+The segment condition selects precisely this split. The five intervals
+have $0,1,3,6,10$ eligible pairs, giving twenty lower-order emissions
+per five-set. No order-three condition is omitted.
+
+The size of each matrix product follows by counting its five-sets and
+pairs. For an interior interval, both endpoints belong to $S$; $j$
+elements lie below $a$ and $3-j$ lie above $c$, with $1\leq j\leq3$.
+The numbers of rows and pair columns are
+\[
+ \begin{aligned}
+ R_{-1,c}&=c\binom{k-c-1}{3},&R_{a,k}&=\binom a4,\\
+ R_{a,c}&=\sum_{j=1}^{3}\binom aj\binom{k-c-1}{3-j},&
+ H_{a,c}&=\binom{k-a-1}{2}-\binom{\max(k-c-1,0)}2.
+ \end{aligned}
+\]
+Invalid binomial coefficients are zero. Counting the five intervals of
+each five-set gives $\sum R_{a,c}=5\Cfive$, and partitioning all its pair
+columns gives $\sum R_{a,c}H_{a,c}=\Cfive\binom{k}{2}$.
+
+\subsubsection{Counting the grouped products}
+Each group is divided into blocks of at most $s=2048$ rows and pair
+coordinates, retaining all $P$ point columns. We use the following
+seven-product Winograd step within these blocks. Its four input additions
+on each side and seven output additions determine the constants below.
+For block matrices $A,B$, all signs are plus over $\FF_2$:
+
+\[
+\begin{array}{ll}
+ S_1=A_{21}+A_{22},&T_1=B_{12}+B_{11},\\
+ S_2=S_1+A_{11},&T_2=B_{22}+T_1,\\
+ S_3=A_{11}+A_{21},&T_3=B_{22}+B_{12},\\
+ S_4=A_{12}+S_2,&T_4=T_2+B_{21}.
+\end{array}
+\]
+Its seven recursive products are
+\[
+\begin{aligned}
+ P_1&=A_{11}B_{11},&P_2&=A_{12}B_{21},&P_3&=S_4B_{22},\\
+ P_4&=A_{22}T_4,&P_5&=S_1T_1,&P_6&=S_2T_2,&P_7&=S_3T_3.
+\end{aligned}
+\]
+Put $U_2=P_1+P_6$, $U_3=U_2+P_7$ and $U_4=U_2+P_5$.
+The four output blocks are $P_1+P_2$, $U_4+P_3$, $U_3+P_4$ and
+$U_3+P_5$, which expand to $AB$.
+There are four left-operand additions, four public-operand additions and
+seven output additions. Reversing the circuit linear in the left operand
+exchanges the four and seven counts. These recurrences give the following
+closed costs.
+
+A depth-\(e\) Winograd product on dimensions \(a,h,c\),
+padded to multiples \(a',h',c'\) of \(u=2^e\), costs
+\[
+ \begin{split}
+ F_e&=7^e(a'/u)(c'/u)(2h'/u-1)
+       +\frac{(4a'h'+7a'c')(7^e-4^e)}{3\,4^e},\\
+ T_e&=F_e+a'(c'-h'),\qquad
+ U_e=\frac{4h'c'(7^e-4^e)}{3\,4^e}.
+ \end{split}
+\]
+Here \(F_e\) is the variable forward cost, \(T_e\) the corresponding
+transposed cost,
+and \(U_e\) the public preparation cost. For each block, choose
+\(0\le e\le11\) minimizing \((F_e+T_e,U_e,e)\) lexicographically.
+Only \(F_e\) is used in this sampler. For each block of pair coordinates, a public
+preparation is shared by all row blocks using that depth and is otherwise
+rebuilt. At the ends of the recursion there are $7^e$ public right operands,
+each of size $(h'/u)\times(c'/u)$. Retaining them takes
+$7^e(h'/u)(c'/u)$ bits.
+
+Let \(F_{\mathrm{grp}}\) be the sum of all forward block costs, including
+\(R_{a,c}P\ceil{H_{a,c}/s}\) gates for partial-product accumulation in
+each group. Let \(U_{\mathrm{grp}}\) sum the distinct public preparations
+and the \(PH_{a,c}\) pair-mask gates of each group. Then
+\begin{equation}
+ C_K^{\mathrm{grp}}=F_{\mathrm{grp}}+U_{\mathrm{grp}}+65P\Cfive+C_{\mathrm{mix}},
+ \qquad
+ V_K^{\mathrm{grp}}=21N+50P\Cfive+J_6+V_{\mathrm{mix}}.
+ \label{eq:wopt-groupedK}
+\end{equation}
+The \(65P\Cfive\) gates consist of five top-row accumulations and
+twenty lower-order emissions per point and five-set. Each emission uses
+one public-mask AND, one AND with the segment value and one XOR.
+The transfer bound counts \(21N\) coefficient incidences, read/write pairs
+for the five top and twenty lower accumulations, and output initialization. Public preparations are charged
+again on every scalar application of \(K\).
+
+Let \(L_{\mathrm{leaf}}\) be the maximum sum of retained public leaf bits
+over one group, and let \(\bar P=s\ceil{P/s}\). A conservative local
+region is
+\begin{equation}
+ \begin{split}
+ L_K^{\mathrm{grp}}={}&L_{\mathrm{leaf}}
+ +s\min\{s,\tbinom{k}{2}\}+sP\\
+ &+16s(s+\bar P)+8s\bar P+Pk+2^{20}.
+ \end{split}
+ \label{eq:wopt-groupcache}
+\end{equation}
+All scratch is reused between groups. The two recursive scratch terms
+allow depth-first evaluation of the seven products and their preparations;
+at each level the operand dimensions halve, so the live matrix areas form
+a geometric sum. The factors $16$ and $8$ exceed that sum for the variable
+and public arrays, respectively. The retained leaf forms are counted
+separately, including every depth used by a row block.
+
+\subsection{Toeplitz multiplication and static pruning}
+\label{sec:wopt-fft}
+A Toeplitz product is a segment of the coefficient vector of a binary
+polynomial product. We compute it by evaluation and interpolation:
+transform the diagonal seed and the input, multiply their values at the
+same points, and interpolate. The seed transform is reused across all
+products in a phase. Each new input therefore needs one forward transform,
+pointwise multiplication, and one inverse transform.
+
+Let $S_R$ be the seed length, $c_s,c_x$ the numbers of packed coefficients,
+and $Q$ the transform length:
+\[
+ S_R=n+J-1,\qquad c_s=\ceil{S_R/64},\qquad c_x=\ceil{J/64},
+ \qquad Q=2^\kappa\ge c_s+c_x,
+\]
+with $Q$ the least such power of two. To explain the packing, let
+$\mathbb E=\FF_2[z]/(z^{128}+z^7+z^2+z+1)$. Pack $64$ binary coefficients
+into one polynomial in $z$ of degree below $64$. Products of two chunks
+have degree below $127$, so multiplication in $\mathbb E$ gives their
+ordinary binary product. After interpolation, overlapping chunks are
+added with offsets of $64$ bits. The desired Toeplitz output is the middle
+$n$ bits of this binary product.
+
+Cantor's additive transform evaluates on a binary vector space of field
+elements \cite{Cantor1989}. Its basis is chosen so that polynomial
+reduction splits an evaluation into two smaller evaluations. Take $\beta_0=1$ and define $\beta_i$ by
+$\beta_i^2+\beta_i=\beta_{i-1}$, choosing the solution with zero constant
+coefficient in the polynomial basis of $\mathbb E$. Let
+$\beta(h)=\sum_j h_j\beta_j$ for the binary digits $h_j$ of $h$.
+For all depths used here ($\kappa\leq40$), the required basis elements
+lie in the $64$-dimensional subfield.
+The associated subspace polynomials satisfy $\mathfrak s_0(X)=X$ and
+$\mathfrak s_{i+1}(X)=\mathfrak s_i(X)^2+\mathfrak s_i(X)$; explicitly,
+$\mathfrak s_i(X)=\sum_{j\subseteq i}X^{2^j}$, where $j\subseteq i$ means that
+every set bit of $j$ is a set bit of $i$.
+
+The subspace polynomials give the following recursive evaluation.
+Each node divides a polynomial into two remainders, one for each coset. At level $i$ a node
+has $2h$ coefficients, $h=2^i$, and fixed multiplier (twiddle) $\beta(2v)$, where $v$ is its
+index among the nodes at that level. Visit $t=2h-1,\ldots,h$ in that
+order. For every proper bit subset $j\subsetneq i$, add coefficient $t$
+to coefficient $t-h+2^j$. After these additions, add $\beta(2v)$ times
+coefficient $t$ once to coefficient $t-h$. Then add each lower-half coefficient to the matching
+upper-half coefficient. Recursing on both halves evaluates the polynomial
+on the two cosets, since their subspace-polynomial values differ by one.
+The inverse undoes these updates in reverse order. In particular, the
+monomial divisions are included in the transform cost.
+
+\subsubsection{The field operations used by the FFT}
+The multiplications inside the transforms use fixed elements of the
+$64$-dimensional subfield. Representing a field
+element by two coordinates over that subfield lets such a multiplication
+act separately on the coordinates. Only the pointwise products need a
+general $128$-bit field multiplication.
+
+We use the quadratic tower
+\[
+ \mathbb B=\FF_2[\eta]/(\eta^{64}+\eta^{63}+\eta^8+\eta+1),\qquad
+ \mathbb E=\mathbb B[\theta]/(\theta^2+\theta+\eta).
+\]
+The isomorphism to the preceding polynomial representation sends $\eta$
+and $\theta$ to the following bit strings, with the low bit the constant
+coefficient:
+\[
+\begin{aligned}
+ \eta&\longmapsto\texttt{865b53d9ffb9034f9099a9c58787d41a},\\
+ \theta&\longmapsto\texttt{75c1f22587f712dc4a5cdc3b43e79fcc}.
+\end{aligned}
+\]
+These specify both binary conversion matrices: the columns of the map
+from the tower are $1,\eta,\ldots,\eta^{63},\theta,\theta\eta,\ldots,
+\theta\eta^{63}$ in $\mathbb E$, and the reverse map is its binary inverse.
+The defining identities can be checked by polynomial reduction. The two
+base polynomials pass the irreducibility test
+$X^{2^u}=X\pmod f$ and $\gcd(X^{2^{u/2}}-X,f)=1$ for $u=64,128$;
+also $\operatorname{Tr}_{\mathbb B/\FF_2}(\eta)=1$, so the quadratic
+extension is a field.
+
+For a $v$-bit binary polynomial product, use schoolbook multiplication
+at $v=4$ and the three-product recursion at larger sizes. Its gate count is
+$R(4)=25$, $R(2v)=3R(v)+7v-3$, whence $R(64)=3725$.
+Reduction modulo the pentanomial adds $252$ XORs.
+For $a=a_0+\theta a_1$ and $c=c_0+\theta c_1$, compute
+$z_0=a_0c_0$, $z_2=a_1c_1$ and $z_1=(a_0+a_1)(c_0+c_1)$.
+Their product is $(z_0+\eta z_2)+\theta(z_1+z_0)$.
+The additions use $256$ XORs and multiplication by $\eta$ another four.
+Thus a variable field product costs $3(3725+252)+260=12191$ gates.
+
+A binary linear map with row weights $w_j$ costs
+$\sum_j\max(0,w_j-1)$ XORs. Applying this formula to the specified
+conversion matrices gives $3919$ XORs to embed a $64$-bit chunk and
+$8097$ to convert a full output coefficient. These are fixed maps;
+the Toeplitz seed and both pointwise operands remain variable inputs.
+
+For the fixed twiddle multiplication matrices, let \(a_d\) be the number
+of active entries in the union of the first \(d\) nonconstant basis
+matrices. Their verified values begin
+\[
+ a_d=0,2339,3381,3580,3788,3916,3984,4053,4096,\ldots .
+\]
+All $a_d$ with $d\geq8$ equal $4096$. Each multiplication matrix is
+obtained by reducing $\beta_j\eta^t$ modulo the defining polynomial of
+$\mathbb B$, for $0\leq t<64$.
+Let $\operatorname{popcount}(i)$ be the number of ones in the binary
+expansion of $i$, and put $s_i=2^{\operatorname{popcount}(i)}$.
+Before removing any operations, a transform costs
+\begin{equation}
+ C_F=64Q\sum_{i=0}^{\kappa-1}s_i
+          +\frac Q2\sum_{d=1}^{\kappa-1}a_d.
+ \label{eq:wopt-fulltransform}
+\end{equation}
+At level $i$ there are $2^{\operatorname{popcount}(i)}-1$ lower
+subspace-polynomial terms and one half-addition. The twiddle matrices
+range over a binary span: each nonzero matrix entry is one in exactly
+half its elements. Summing these two contributions gives the formula.
+
+\subsubsection{Removing operations on known zeros and unused outputs}
+The packed input does not fill the transform array, and the Toeplitz
+product uses only a middle segment of the interpolated product. We remove
+operations whose inputs are known to be zero from this padding, and
+operations that cannot affect the required output. These decisions depend
+only on the dimensions; they do not inspect random data.
+
+For a forward input supported on its first $c$ field coefficients,
+let $F_\kappa(c)$ be the resulting gate count. If \(c\le1\), \(F_\kappa(c)=0\).
+Otherwise put \(v=\ceil{\log_2 c}\), \(u=c-2^{v-1}\) and
+\(e=\kappa-v\). Then
+\begin{equation}
+ \begin{split}
+ F_\kappa(c)={}&64Q\sum_{i=0}^{v-2}s_i
+             +128\,2^e u\,s_{v-1}\\
+             &+\frac Q2\sum_{d=e+1}^{\kappa-1}a_d
+             +2^e u\,a_e .
+ \end{split}
+ \label{eq:wopt-forwardprune}
+\end{equation}
+Empty sums are zero. A copied polynomial still has to be evaluated
+on each of its cosets, so the work below every copy is retained.
+
+The inverse must supply the inclusive interval \([a,z]\), where
+\[
+ a=\max\{0,\lfloor(J-1)/64\rfloor-1\},\qquad
+ z=\lfloor(J+n-2)/64\rfloor,\qquad c_o=z-a+1.
+\]
+The interval's position matters, not just its length. To count the
+inverse gates needed for it, mark all $128$ bits of every output
+coefficient in $[a,z]$ and work backward through the inverse graph.
+Call the resulting count $I_\kappa[a,z]$.
+For each update \(d\leftarrow d+\beta s\), visited in reverse execution
+order, retain the update exactly when \(d\) is marked, and then mark
+\(s\). A retained field XOR costs 128 gates; a retained nonzero twiddle
+update costs twice the weight of its 64-bit multiplication matrix.
+The inverse graph is the forward graph in reverse order, so this rule
+fully specifies a finite parameter-only circuit.
+
+The forward count follows the same recursion after removing structurally
+zero inputs. When the input occupies more than half a block, its $u$
+upper coefficients activate the corresponding updates in each of the
+$2^e$ copied subproblems. This gives the displayed forward formula.
+For the inverse, the backward marking rule itself defines the retained
+finite graph and its count. No test of the values of
+random or intermediate coefficients removes a gate.
+
+The Toeplitz costs are therefore
+\begin{equation}
+ \begin{split}
+ C_{\mathrm{pre}}&=F_\kappa(c_s)+3919c_s,\\
+ C_T&=F_\kappa(c_x)+I_\kappa[a,z]+12191Q
+           +3919c_x+8097c_o+n .
+ \end{split}
+ \label{eq:wopt-toeplitzcost}
+\end{equation}
+There are two seed preparations per attempt. All word-transfer
+allowances below remain those of the unpruned graph: wire copies are
+not made free by deleting their XOR gates.
+
+\subsection{Computing the relation with fixed addresses}
+\label{sec:wopt-generator}
+\Cref{subsec:wiedemann-relation} obtains the required relation from a
+reduced approximant basis.
+For a circuit count, choosing a pivot or reading a coefficient at a
+computed degree must itself be implemented by gates. We keep the large
+coefficient arrays in fixed positions and apply all pivot choices through
+a small matrix of control bits.
+
+Put \(p=b+b'\), \(d_q=\ceil{\log_2(q+2)}\),
+\(d_p=\ceil{\log_2p}\), \(w=d_q+d_p\), and
+\(H_{\triangle}=q(q+1)/2\). We build the basis one order at a time, with the shift from
+\Cref{subsec:wiedemann-relation}. Store its top coefficient matrices
+$D_j\in\FF_2^{b\times p}$, $0\leq j\leq q$. Of the bottom polynomial
+matrix, only its current coefficient $P_i\in\FF_2^{b'\times p}$ is needed
+for the next equation.
+The \emph{discrepancy} is the coefficient of order $i$ that must be
+cancelled to impose the next approximation equation. It is
+\[
+ \Delta_i=\sum_{j=0}^i S_{i-j}D_j+P_i.
+\]
+Start with the identity basis. Order its columns by shifted degree and
+leading position. Eliminate the discrepancy in that order, adding earlier
+pivot columns to later columns, and multiply every pivot column by the
+polynomial variable. This imposes the next coefficient equation. Choosing
+pivots in shifted-degree order preserves independent shifted leading
+vectors, so induction gives a reduced approximant basis. The extraction
+lemma, \Cref{lem:wiedemann-predictable}, then applies.
+
+\paragraph{Implementing pivot choices.}
+Sort the small discrepancy and control arrays with an ascending odd-even merge network
+\cite{Batcher1968}. Pad the network to a power of two with infinite keys
+and omit comparisons whose larger index is outside the $p$ real columns.
+An infinite key never moves to a lower index. Record every conditional
+swap and elimination as a column operation on a small matrix $E_i$,
+initially $I_p$. To find a pivot row, scan all candidate rows and set
+only the flag of the first eligible row. Every possible update is then
+performed with its flag as an AND mask. This represents the chosen column
+operations in $E_i$ while keeping all addresses fixed.
+
+Let $D_i^{\mathrm{piv}}$ be the diagonal matrix of pivot flags. For each
+coefficient index, in descending order, compute
+\[
+ B_j=D_jE_i,\qquad
+ D'_j=B_j(I-D_i^{\mathrm{piv}})+B_{j-1}D_i^{\mathrm{piv}},\qquad B_{-1}=0.
+\]
+Three $b\times p$ coefficient buffers suffice for this descending pass.
+The next bottom tail is $(P_iE_i)D_i^{\mathrm{piv}}$. Before the update the
+bottom polynomials have degree at most $i$, so their discarded
+coefficients can never enter a later discrepancy.
+
+\paragraph{Extracting the prescribed constant coefficient.}
+The extraction lemma needs the coefficient at a column's shifted degree.
+Scan all coefficient positions up to $L$ and mask the
+coefficient whose index equals a column's shifted degree. Solve the
+resulting $b\times p$ binary systems for the prescribed columns of $E$.
+Full pivot scans, controlled swaps and controlled elimination cost at most
+$64p^4$ gates, including the inconsistency test. Finally reverse one top
+basis column into an array of length $q+L+1$. For a column of shifted
+degree $\rho_j\leq L$, shift it toward the beginning by $q-\rho_j$
+using fixed stages of offsets $1,2,4,\ldots$. Each stage selects
+between two fixed addresses. Mask columns of degree greater than $L$ and
+accumulate the selected columns into all $M$ relations. This implements
+\Cref{lem:wiedemann-predictable} without a degree-indexed read.
+
+\paragraph{Gate count.}
+Let $s_p$ be the number of comparisons left after the dummy comparisons
+are removed. \Cref{tab:wopt-generator-gates} separates the work into
+basis construction and extraction. Their sums give
+\begin{equation}\label{eq:wopt-generator}
+ G=G_{\mathrm{basis}}+G_{\mathrm{extract}}.
+\end{equation}
+A conditional bit swap costs four gates, a bit selection three, and a
+comparison at most eight per key bit. The table charges every operation,
+including those whose control bit is zero and those on a failed attempt.
+
+\begin{table}[htbp]\centering\small
+\caption{Gates in the relation circuit. The first seven rows sum to
+$G_{\mathrm{basis}}$; the last five sum to $G_{\mathrm{extract}}$.
+$H_{\triangle}=q(q+1)/2$ counts the coefficient positions visited over all
+orders.}
+\label{tab:wopt-generator-gates}
+\begin{tabular}{@{}ll@{}}
+\toprule Operation & Gates\\\midrule
+Discrepancies & $2b'bpH_{\triangle}$\\
+Sorting & $qs_p(12w+4b'+4p)$\\
+Pivot selection and elimination & $q[p(3b'+1)+\tfrac{p(p-1)}2(4b'+2p-1)]$\\
+Top-coefficient transformations & $2bp^2H_{\triangle}$\\
+Selected coefficient shifts & $3bp(H_{\triangle}+q)$\\
+Bottom-tail updates & $q(2b'p^2+b'p)$\\
+Degree increments & $2d_qpq$\\\midrule
+Leading-coefficient scans & $p(L+1)(2d_q+2b)$\\
+Binary solve and consistency test & $64p^4$\\
+Extraction control & $p(24d_q+M+4)$\\
+Fixed-stage shifts & $3pb(q+L+1)d_q$\\
+Accumulating the relations & $2pbM(L+1)$\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{What must remain in memory}
+\label{sec:wopt-storage}
+Storage peaks while the approximant basis is being formed. The full
+projected sequence and the top basis rectangle are both live then.
+Together they occupy about $92\%$ of the peak in the first parameter set.
+The FFT arrays have already been released, so their capacity
+is not added to this phase.
+
+All capacities below are in bits. The projected sequence, top basis
+rectangle and temporary array for relation extraction occupy
+\[
+ S_{\mathrm{seq}}=b' bq,\qquad S_D=bp(q+1),\qquad S_H=b(q+L+1).
+\]
+The relation itself uses the $S_F$ bits defined in
+\Cref{sec:wopt-cost-decomposition}. Field arithmetic uses a workspace of
+$2^{20}$ bits. A further $2^{12}$ field coefficients are kept in a cache
+while the smallest FFT subproblems are evaluated. Their combined capacity
+is $W_c=3\cdot2^{19}$ bits.
+
+The local workspaces for projection, reconstruction and relation control
+are $L_X,L_H,L_G$. The common stored data use $B_0$ bits, and $B_{\mathrm{mix}}$
+is the extra derivative buffer at lowered points. The operator bank,
+including its two transform arrays, has capacity $W_A$:
+\[
+ \begin{aligned}
+ L_X&=b' b+b'+b+4096,&
+ L_H&=bM+b+2M+4096,\\
+ L_G&=16p^2+4pw+b' b+3bp+2s_pd_p+4096,\\
+ B_0&=S_R+J+Pk+W_c,\qquad&
+ B_{\mathrm{mix}}&=J_6\,\mathbf1_{\{P_5>0\}},\\
+ W_A&=256Q+2n+B_0+L_K-Pk+B_{\mathrm{mix}}.
+ \end{aligned}
+\]
+Here $L_K=L_K^{\mathrm{grp}}$ is the region in
+\eqref{eq:wopt-groupcache}. The subtraction of $Pk$ avoids counting the
+public-point copy twice. The term $256Q$ holds two arrays of $Q$ field
+elements, and $2n$ allows the scalar input and output buffers.
+
+Sequence generation keeps $U,W$, the current block, and $X$. Basis
+construction and extraction retain only $U,W$ of these long blocks.
+Reconstruction adds the current $M$ output columns. Including the
+coefficient arrays and local workspaces gives
+\begin{equation}
+ \begin{split}
+ W_{\mathrm{seq}}&=n(2b+b')+S_{\mathrm{seq}}+W_A+L_X,\\
+ W_{\mathrm{gen}}&=nb+S_{\mathrm{seq}}+S_D+B_0+L_G,\\
+ W_{\mathrm{ext}}&=nb+S_D+S_F+S_H+B_0+L_G,\\
+ W_{\mathrm{rec}}&=n(b+M)+S_F+W_A+L_H .
+ \end{split}
+ \label{eq:wopt-phase}
+\end{equation}
+The full mixed-output temporary and the large transform arrays are released
+before the generator. The seed remains stored, and its transform is
+computed again for reconstruction; both preparations are counted. The generator determines the peak in every
+displayed one-attempt configuration.
+
+\subsection{FFT locality with all workspace movement charged}
+\label{sec:wopt-locality}
+The gate count alone does not charge for bringing a coefficient to the
+arithmetic workspace. Following \cite[Section 6]{Weis2026}, we charge
+operations in a region of $x$ bits by $\rho(x)=\ceil{\sqrt{x}}$.
+A gate uses its local region. A transferred bit uses a region containing
+both its source and destination. Thus the total is
+\begin{equation}
+ \mathcal A_1=\sum_u C_u\,\rhoo{L_u}
+                  +\sum_v V_v\,\rhoo{W_v},
+ \qquad \rho(x)=\ceil{\sqrt{x}}.
+ \label{eq:wopt-accessmodel}
+\end{equation}
+To use a small region for an FFT node, the arithmetic workspace must be
+beside that node's coefficients. We move the workspace as the transform
+proceeds and charge these movements as well as the operand transfers.
+
+\subsubsection{One movable workspace}
+Reserve a block of $W_c$ bits between the two transform arrays for the
+workspace. This is the ``gap'' in the layout below; it holds the same
+workspace throughout the computation. For a transform level \(i\ge r=12\), the active
+coefficient blocks have size
+\[
+ B_i=2^{i+8},\qquad n_i=Q/2^{i+1}.
+\]
+Evaluate the nodes of one level from left to right, and those of the
+next level from right to left. Nodes at the same level are independent,
+so this change of order does not change the transform. After computing a node beside the gap,
+rotate \([\text{gap}][\text{node}]\) into
+\([\text{node}][\text{gap}]\), or the reverse. The next node is adjacent
+to the same workspace. A fixed cycle permutation uses bounded scratch
+and at most \(2(B_i+W_c)\) bit transfers within that union. No cache is
+replicated per node.
+
+The level's original operand traffic is
+\begin{equation}
+ V_i=(128s_i+256)Q-256\,2^i.
+ \label{eq:wopt-leveltraffic}
+\end{equation}
+At each level exactly one node has zero twiddle and needs no twiddle
+operand transfers. This accounts for the subtracted term. Let
+\(B_r^{\mathrm{res}}=128\,2^r\). A transform's nonresident-node charge,
+including workspace movement, is bounded by
+\begin{equation}
+ \begin{split}
+ \Xi={}&\sum_{i=r}^{\kappa-1}
+       [V_i+2n_i(B_i+W_c)]\,\rhoo{B_i+W_c}\\
+ &+2(Q/2^r)(B_r^{\mathrm{res}}+W_c)\,
+                      \rhoo{B_r^{\mathrm{res}}+W_c}\\
+ &+\eta\,2(128Q+W_c)\rhoo{W_A},
+ \qquad
+ \eta=\mathbf1_{\{\kappa-r+1\ {\mathrm{odd}}\}} .
+ \end{split}
+ \label{eq:wopt-xi}
+\end{equation}
+The second line moves the gap past the resident subtrees. The final
+line returns it to the starting endpoint when the number of scans is
+odd. Both forward and inverse transforms then preserve the surrounding
+bank layout. The existing arrays and single workspace suffice.
+
+A subproblem of $2^r$ coefficients fits in the cache. Once it has been
+loaded, its bottom $r$ levels run there. Summing their operand transfers
+over all cosets gives
+\[
+ V_{\mathrm{low}}
+ =128Q\sum_{i=0}^{r-1}s_i+256rQ-256(2^r-1).
+\]
+It is charged in \(W_c\), the union of resident data and field workspace.
+Loading and storing all resident subtrees costs another \(256Q\) bank
+bits per transform; this charge is retained.
+
+\subsubsection{Combining arithmetic and transfers}
+Packing the input, loading and storing cached subproblems, multiplying
+values pointwise, and reading out the middle window use the full operator
+bank. Their transfer counts are
+\[
+ \begin{split}
+ V_{\mathrm{pre}}^{\mathrm{outer}}&=S_R+128Q+256Q,\\
+ V_T^{\mathrm{outer}}&=J+128Q+512Q+384Q+128c_o+n.
+ \end{split}
+\]
+The $128Q$ terms include storing padded zero coefficients. The pointwise
+products read both operands and write the result. Combining these passes
+with local arithmetic, cached transfers and workspace movement gives
+\begin{equation}
+ \begin{split}
+ \mathcal T_{\mathrm{pre}}
+ &=C_{\mathrm{pre}}\rhoo{2^{20}}+V_{\mathrm{low}}\rhoo{W_c}
+       +V_{\mathrm{pre}}^{\mathrm{outer}}\rhoo{W_A}+\Xi,\\
+ \mathcal T
+ &=C_T\rhoo{2^{20}}+2V_{\mathrm{low}}\rhoo{W_c}
+       +V_T^{\mathrm{outer}}\rhoo{W_A}+2\Xi.
+ \end{split}
+ \label{eq:wopt-toeplitzaccess}
+\end{equation}
+There are \(Q_A\) actions and two preparations. The bank capacity
+contains the mixed temporary and the selected sparse workspace even
+when those arrays are inactive during a transform.
+
+The other parts of the sampler are charged in the same way. Each of the $Q_A+M$ applications of $K$
+costs $C_K\rho(L_K)+V_K\rho(W_A)$. Add the local gate charges
+\[
+ \begin{split}
+ &2nb' bq\,\rho(L_X)+(2nbML+nM)\rho(L_H)\\
+ &\qquad +(G+S_F+1)\rho(L_G)+(3JM+3)\rho(4096).
+ \end{split}
+\]
+Here $C_K,V_K,L_K$ are the grouped choices. The remaining transfers are
+listed in \Cref{tab:wopt-other-transfers}; each count is multiplied by the
+square root, rounded upward, of the indicated region size.
+Define
+\[
+\begin{split}
+ R_G={}&H_{\triangle}(b' b+3bp)+qbp+S_D+bp(L+1),\\
+ R_E={}&p\bigl[2b(q+1)+S_H+3S_Hd_q+(b+2bM)(L+1)\bigr]+S_F.
+\end{split}
+\]
+The terms of $R_G$ are sequence reads, coefficient reads and writes,
+initialization, and leading-coefficient scans. Those of $R_E$ load and
+clear the shift array, execute its stages, accumulate the output, and
+initialize that output.
+
+\begin{table}[htbp]\centering\small
+\caption{Transfers in addition to the sparse and Toeplitz products.
+$W_*=\max W_{\mathrm{phase}}$. Every row is charged even on extraction failure.}
+\label{tab:wopt-other-transfers}
+\begin{tabular}{@{}p{.27\linewidth}p{.49\linewidth}l@{}}
+\toprule Operation & Bit transfers & Region\\\midrule
+Input stores and helpers & $n(b+b')+S_R+Pk+2ng$ & $W_{\mathrm{seq}}$\\
+Sequence column copies & $4n[M+b(q-1)]$ & $W_{\mathrm{seq}}$\\
+Projection operands & $q[n(b+b')+b' b]$ & $W_{\mathrm{seq}}$\\
+Projection resets & $qb' b$ & $L_X$\\
+Basis and leading scans & $R_G$ & $W_{\mathrm{gen}}$\\
+Controller stores & $q(p^2+2b' p)+4L_G$ & $L_G$\\
+Extraction and guard & $R_E+2S_F$ & $W_{\mathrm{ext}}$\\
+Recovery column copies & $4nML$ & $W_{\mathrm{rec}}$\\
+Reconstruction & $(L+1)[n(b+2M)+bM]$ & $W_{\mathrm{rec}}$\\
+Final input copies & $2nM$ & $W_{\mathrm{rec}}$\\
+Residual reads & $JM$ & $W_A$\\
+Returned tuple and flag & $NM+1$ & $W_{\mathrm{rec}}$\\
+Three layout changes & $6W_*$ & $W_*$\\\bottomrule
+\end{tabular}
+\end{table}
+
+The phase allocations use compact layouts. At each boundary a fixed
+permutation of the largest arena moves the surviving arrays to their new
+positions. Evaluating its cycles with one-bit scratch reads and writes
+each position at most once, giving the last row of the table.
+The gate charges, the sparse charges, $Q_A\mathcal T+2\mathcal T_{\mathrm{pre}}$,
+and this transfer table together give the access column of
+\Cref{tab:wopt-optimized-comparison}.
+
+\printbibliography[heading=bibintoc]
+\end{document}
