@@ -1,0 +1,23 @@
+	Command being timed: "/workspace/degree7-k30-312-four/holdout/build/square-worker recover /workspace/degree7-k30-312-four/trials/trial-04/inputs/request.txt /workspace/degree7-k30-312-four/trials/trial-04/run/generator/attempt-1/square.gen /workspace/degree7-k30-312-four/trials/trial-04/run/reconstruction/attempt-1 2 2026101602 2026101603 1 256"
+	User time (seconds): 434.32
+	System time (seconds): 69.49
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:23.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 274460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 109417422
+	Voluntary context switches: 13019
+	Involuntary context switches: 1104
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 415376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,148 @@
+{
+  "schema": "degree7-four-public-input-manifest-v1",
+  "plan_sha256": "883773a95866d7aabf546c847a7b8f65ea5018a41b42b54865c66dacd48a7014",
+  "trials": [
+    {
+      "trial_id": "trial-01",
+      "key_seed": 2026101701,
+      "status": "prepared",
+      "instance_id": "8f90173ea5c0fea409f7c495fe861695eb20e2733243f6a1c71e502e5879360e",
+      "original_public_sha256": "94adf0cecc67516cdea97f56581226c64f56796a63bda1124ef2b4d6a92683d6",
+      "inputs": "trials/trial-01/inputs",
+      "input_sha256": {
+        "public.json": "95ca7d557e117849870706e9841a34c6a3f926c4aee10477981fa50988625121",
+        "original-public.json": "94adf0cecc67516cdea97f56581226c64f56796a63bda1124ef2b4d6a92683d6",
+        "experiment.json": "290bfd5a576f9b06882d9a40c748b82662a5962c35e50296b1fe9a6ae0fba757",
+        "operator.txt": "45873444395e199dbb049b07fc6d6b5542cc1b804a7bc804f61b0290a133d2c4",
+        "request.txt": "7f4a688db2d098b651820b29a9b19d8cfa91f9d2e1d9e1ba98883d18e45e0ffe",
+        "vanishing-record.json": "9409d54b1d4d2e960e14529eef201382298e03266de9798dccb928f0b6094e08"
+      },
+      "heldout_original": 37,
+      "heldout_shortened": 27,
+      "lowered_original_positions": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "curve_vanishing_certified": true,
+      "hidden_constraint_rank": 4,
+      "nonzeros": 347670960
+    },
+    {
+      "trial_id": "trial-02",
+      "key_seed": 2026101702,
+      "status": "prepared",
+      "instance_id": "9ffeec336776fd78be727eaf0ab6e4423a2dfbf76e75db16e8a1722d9391bc12",
+      "original_public_sha256": "765c7ce95862199fb48fc3324101b4cea3c43f6742ade1a2ba1885917280361e",
+      "inputs": "trials/trial-02/inputs",
+      "input_sha256": {
+        "public.json": "3de9ecdc3f804930770adc107df298cedf20205338d8bc7e1d025f3d5db9deef",
+        "original-public.json": "765c7ce95862199fb48fc3324101b4cea3c43f6742ade1a2ba1885917280361e",
+        "experiment.json": "c3369d09f59d4e96825f19aefec1a3c611fa8a0c671a1d1e45d66a00b94bd776",
+        "operator.txt": "75f809b765bf199bd0a8e7dc9c01e48ed26c95585b411ff72272bf5e72d510d5",
+        "request.txt": "768a67e0a47fb6468fc3dd983dadf794f81ec2d414d4a9690707e965203a97cd",
+        "vanishing-record.json": "591d1576405889d023df5f7d7b60a3a0548a0ad0ca7736ad5dcf3bd21ae803ed"
+      },
+      "heldout_original": 40,
+      "heldout_shortened": 30,
+      "lowered_original_positions": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "curve_vanishing_certified": true,
+      "hidden_constraint_rank": 4,
+      "nonzeros": 285451140
+    },
+    {
+      "trial_id": "trial-03",
+      "key_seed": 2026101703,
+      "status": "prepared",
+      "instance_id": "e0307e935eeefaf7225cbbe6c79f95819223b47f04bfe3a163057f399427ae8d",
+      "original_public_sha256": "76dbfcec98746296ccbc47d8e71cdd5e25d070ad90a2c86e0cd97a0b01a1f5b7",
+      "inputs": "trials/trial-03/inputs",
+      "input_sha256": {
+        "public.json": "821786da04bb7fe9b0e21640cea959886611a9b6340308251881daf2982b589f",
+        "original-public.json": "76dbfcec98746296ccbc47d8e71cdd5e25d070ad90a2c86e0cd97a0b01a1f5b7",
+        "experiment.json": "111ee634807b4058bf3826010c4e96913ade99b2cf4eb5a327fbb80a35c20e83",
+        "operator.txt": "73daafbce340d2b47df1a466c81b35a70c6c79ef8639b4708945068a6099952e",
+        "request.txt": "f9a9fc098794e1cb302ac045ed312aa4b60e74174412d13180496f754f5dd14d",
+        "vanishing-record.json": "8b8f72330682a9b621046e6a85e6020e3cafc6f6cfd502f9c40a23b7d1f99d56"
+      },
+      "heldout_original": 36,
+      "heldout_shortened": 26,
+      "lowered_original_positions": [
+        39,
+        40,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "curve_vanishing_certified": true,
+      "hidden_constraint_rank": 4,
+      "nonzeros": 309414690
+    },
+    {
+      "trial_id": "trial-04",
+      "key_seed": 2026101704,
+      "status": "prepared",
+      "instance_id": "fecf8ef3588982bf2a1780b916d4cc17b8173a1162f5e58739e7b47bde05aab3",
+      "original_public_sha256": "09c930b670d3801d4ba593e5517f112cd686d90aea2921d29b9962682d847e4f",
+      "inputs": "trials/trial-04/inputs",
+      "input_sha256": {
+        "public.json": "66f7123486b915b7c913bd16ee8c29611301617242fc9df8f17deed98581673d",
+        "original-public.json": "09c930b670d3801d4ba593e5517f112cd686d90aea2921d29b9962682d847e4f",
+        "experiment.json": "4bb887760943c3d11176070dafe306dbd6568cacc01dbc8aa36a45d63324df03",
+        "operator.txt": "087468e32057ace648056b6a60a21417c776bd6cd02528007cc4d38456767682",
+        "request.txt": "159c4792d26d53d2814bf6bc166bb77a66f155c676ea6c06d8b19fa154345dfe",
+        "vanishing-record.json": "44d8a86a66d66406da37a9764f3ce37281a0a3124a2a73ac118025546104e42c"
+      },
+      "heldout_original": 38,
+      "heldout_shortened": 28,
+      "lowered_original_positions": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "curve_vanishing_certified": true,
+      "hidden_constraint_rank": 4,
+      "nonzeros": 379875340
+    }
+  ],
+  "no_outcome_based_replacement": true,
+  "private_audits_excluded_from_transport": true
+}

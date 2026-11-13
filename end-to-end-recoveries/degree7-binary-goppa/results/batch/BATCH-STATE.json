@@ -1,0 +1,49 @@
+{
+  "status": "kernel_batch_complete",
+  "primary_trial_count": 4,
+  "prior_pilot_excluded": true,
+  "outcomes": {
+    "trial-01": {
+      "status": "kernel_verified_and_ranks_measured",
+      "returncode": 0,
+      "key_seed": 2026101701,
+      "instance_id": "8f90173ea5c0fea409f7c495fe861695eb20e2733243f6a1c71e502e5879360e",
+      "gradient_rank": 23,
+      "quadratic_rank": 15
+    },
+    "trial-02": {
+      "status": "kernel_verified_and_ranks_measured",
+      "returncode": 0,
+      "key_seed": 2026101702,
+      "instance_id": "9ffeec336776fd78be727eaf0ab6e4423a2dfbf76e75db16e8a1722d9391bc12",
+      "gradient_rank": 23,
+      "quadratic_rank": 15
+    },
+    "trial-03": {
+      "status": "kernel_verified_and_ranks_measured",
+      "returncode": 0,
+      "key_seed": 2026101703,
+      "instance_id": "e0307e935eeefaf7225cbbe6c79f95819223b47f04bfe3a163057f399427ae8d",
+      "gradient_rank": 23,
+      "quadratic_rank": 15
+    },
+    "trial-04": {
+      "status": "kernel_verified_and_ranks_measured",
+      "returncode": 0,
+      "key_seed": 2026101704,
+      "instance_id": "fecf8ef3588982bf2a1780b916d4cc17b8173a1162f5e58739e7b47bde05aab3",
+      "gradient_rank": 23,
+      "quadratic_rank": 15
+    }
+  },
+  "fixed_key_seeds": [
+    2026101701,
+    2026101702,
+    2026101703,
+    2026101704
+  ],
+  "CPU_generator_can_overlap_other_trials_GPU": true,
+  "maximum_simultaneous_GPU_stages": 1,
+  "maximum_simultaneous_CPU_generators": 1,
+  "seconds_this_invocation": 7812.335286970949
+}

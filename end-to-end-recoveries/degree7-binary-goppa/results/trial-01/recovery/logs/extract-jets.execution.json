@@ -1,0 +1,14 @@
+{
+  "command": [
+    "build/extract-jets",
+    "results/trial-01/trials/trial-01/run/reconstruction/attempt-1/polynomials/kernel-panel.u64le",
+    "results/trial-01/trials/trial-01/run/reconstruction/attempt-1/polynomials/monomials-colex.u64",
+    "30",
+    "7",
+    "121056330",
+    "256",
+    "local-followup/trial-01/recovery/common"
+  ],
+  "returncode": 0,
+  "seconds": 1.1011120001785457
+}

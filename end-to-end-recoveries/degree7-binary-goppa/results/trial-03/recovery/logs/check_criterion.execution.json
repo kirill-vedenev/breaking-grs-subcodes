@@ -1,0 +1,11 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/check_criterion.py",
+    "trials/trial-03/inputs/public.json",
+    "results/trial-03/trials/trial-03/run/reconstruction/attempt-1/polynomials/index.json",
+    "local-followup/trial-03/recovery/common"
+  ],
+  "returncode": 0,
+  "seconds": 5.218721957877278
+}

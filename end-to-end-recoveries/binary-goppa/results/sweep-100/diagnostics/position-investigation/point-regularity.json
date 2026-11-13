@@ -1,0 +1,27 @@
+{
+  "common_coordinate_factor": [
+    1
+  ],
+  "points": [
+    {
+      "position": 27,
+      "support_value": 26,
+      "affine_preimage_gcd": [
+        26,
+        1
+      ],
+      "additional_preimage_at_infinity": false,
+      "radial_plus_tangent_rank": 2
+    },
+    {
+      "position": 29,
+      "support_value": 27,
+      "affine_preimage_gcd": [
+        27,
+        1
+      ],
+      "additional_preimage_at_infinity": false,
+      "radial_plus_tangent_rank": 2
+    }
+  ]
+}

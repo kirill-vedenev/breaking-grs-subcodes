@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/workspace/degree7-k30-312-four/holdout/build/square-worker",
+    "segment",
+    "/workspace/degree7-k30-312-four/trials/trial-04/inputs/request.txt",
+    "/workspace/degree7-k30-312-four/trials/trial-04/run/segments/0005120-0006144/attempt-1/state.bin",
+    "1024",
+    "/workspace/degree7-k30-312-four/trials/trial-04/run/segments/0006144-0007168/attempt-1",
+    "2",
+    "2026101602",
+    "2026101603"
+  ],
+  "returncode": 0,
+  "seconds": 175.11253321601544
+}

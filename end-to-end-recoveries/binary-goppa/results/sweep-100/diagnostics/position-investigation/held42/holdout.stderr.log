@@ -1,0 +1,3 @@
+ASSEMBLE rows=115640 columns=98280 packed_GiB=1.32339
+ELIMINATE nnz=10708736
+VERIFY full Hasse constraints; kernel_dimension=498

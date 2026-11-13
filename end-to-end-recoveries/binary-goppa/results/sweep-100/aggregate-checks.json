@@ -1,0 +1,30 @@
+{
+  "requested": 100,
+  "full_recovery_successes": 99,
+  "holdout_full_hasse_passes": 100,
+  "unique_public_inputs": 100,
+  "branch_rank_tuples": {
+    "(21, 15, 26)": 99
+  },
+  "bootstrap_rank_histogram": {
+    "97": 99
+  },
+  "minor_rank_histogram": {
+    "45": 99
+  },
+  "first_full_jet_span_order_histogram": {
+    "33": 99
+  },
+  "heldout_position_histogram": {
+    "27": 24,
+    "26": 23,
+    "28": 30,
+    "25": 8,
+    "24": 10,
+    "23": 2,
+    "22": 1,
+    "19": 1
+  },
+  "all_successful_case_certificates_passed": true,
+  "successful_recovery_median_seconds": 11.345366845999934
+}

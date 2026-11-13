@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "D": 51,
+    "d": 5,
+    "k": 28,
+    "m": 6,
+    "modulus": 67,
+    "n": 64,
+    "s": 4,
+    "t": 6
+  },
+  "baseline": {
+    "requested": 100,
+    "passed_both_routes": 99,
+    "failed": 1,
+    "failed_seed": 89,
+    "seconds": 1707.362566859,
+    "workers": 24
+  },
+  "separate_followup": {
+    "seed": 89,
+    "original_heldout": 27,
+    "new_heldout": 29,
+    "original_quadratic_rank": 9,
+    "required_and_new_quadratic_rank": 15,
+    "public_generator_unchanged": true,
+    "passed_both_routes": true,
+    "seconds": 317.9929155949999
+  },
+  "eventual_keys_recovered": 100,
+  "fresh_holdout_computations": 101,
+  "independently_verified_recovered_keys": 200,
+  "downloaded_kernel_hashes_verified": 101,
+  "baseline_results_unchanged": true
+}

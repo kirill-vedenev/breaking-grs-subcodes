@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "degree": 7,
+  "k": 9,
+  "field_order": 64,
+  "arbitrary_series": true,
+  "exact_taylor_bits_checked": 5126,
+  "exact_series_field_elements_checked": 495,
+  "oracle": "independent Sage polynomial products",
+  "public_end_to_end_recovery": false
+}

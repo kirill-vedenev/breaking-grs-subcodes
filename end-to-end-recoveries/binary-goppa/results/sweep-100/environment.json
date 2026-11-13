@@ -1,0 +1,28 @@
+{
+  "build_command": "make -j2 M4RI_CFLAGS=\"-I/usr/include/libpng16\"",
+  "build_note": "The installed m4ri pkg-config file emits an unresolved @SIMD_CFLAGS@ token; the override removes that invalid token. The dependency is the installed system library.",
+  "m4ri_library_sha256": "b79cc9a7ae0c3b255c8722a8134ee1082e50cb78a83471a51c4a816254384497",
+  "workers": 24,
+  "parameters": {
+    "m": 6,
+    "t": 6,
+    "n": 64,
+    "k": 28,
+    "d": 5,
+    "s": 4,
+    "modulus": 67
+  },
+  "source_base_commit": "67931469bad01e6f6dfdb8d5caff769835a71a5a",
+  "source_archive": "source-and-manifest.tar.gz",
+  "self_test": "Passed on the remote build before the sweep was launched.",
+  "recovery_implementation_changed": false,
+  "failure_control": {
+    "seed": 0,
+    "separate_from_main_sweep": true,
+    "matrix_cap_gib": 0.1,
+    "expected_failure": "matrix exceeds memory cap",
+    "observed_completed": 1,
+    "observed_failed": 1,
+    "resume_preserved_failure": true
+  }
+}

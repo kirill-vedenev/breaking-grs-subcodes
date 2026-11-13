@@ -1,0 +1,26 @@
+{
+  "all_curve_differential_identities_verified": true,
+  "certificate_failure_filters_trial": false,
+  "composition_degree": 315,
+  "curve_vanishing_certified": true,
+  "forced_zeros": 312,
+  "generation_secret_used_only_for_this_diagnostic": true,
+  "hidden_constraint_rank": 4,
+  "input_sha256": {
+    "experiment.json": "290bfd5a576f9b06882d9a40c748b82662a5962c35e50296b1fe9a6ae0fba757",
+    "operator.txt": "45873444395e199dbb049b07fc6d6b5542cc1b804a7bc804f61b0290a133d2c4",
+    "original-public.json": "94adf0cecc67516cdea97f56581226c64f56796a63bda1124ef2b4d6a92683d6",
+    "public.json": "95ca7d557e117849870706e9841a34c6a3f926c4aee10477981fa50988625121",
+    "request.txt": "7f4a688db2d098b651820b29a9b19d8cfa91f9d2e1d9e1ba98883d18e45e0ffe"
+  },
+  "instance_id": "8f90173ea5c0fea409f7c495fe861695eb20e2733243f6a1c71e502e5879360e",
+  "key_selected_or_replaced_by_this_result": false,
+  "method": "g^2 divides (Pi*F(C))prime; exact GF(64) polynomial and linear arithmetic",
+  "recovered_key_or_curve_in_runtime_inputs": false,
+  "residual_nullity": 0,
+  "schema": "degree7-four-vanishing-record-v1",
+  "status": "certified",
+  "trial_id": "trial-01",
+  "value_residual_coefficients": 4,
+  "value_residual_degree": 3
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "degree7-k30-312",
+  "new_experiment": "degree7-k30-312-four",
+  "parent_source_archive": {
+    "path": "experiments/degree7-k30-312-h200.tar.gz",
+    "sha256": "d541db737cf87e6161b952376bccb0a3991e31c0893f11fd580409252b7d0e91"
+  },
+  "solver_source": "Unchanged CUDA/CADO homogeneous block Wiedemann and recovery native sources from the successful 312-zero pilot",
+  "changed_scope": [
+    "four fresh public instances",
+    "fixed-cohort validation",
+    "phase-aware queue and artifact collection"
+  ],
+  "sampling": "Existing practical sampler with standard projection; no uniform-sampler guarantee claimed",
+  "profile_choice_uses_prior_pilot": true,
+  "new_keys_selected_by_rank_or_recovery": false,
+  "private_generation_data_in_transport": false,
+  "previous_recovered_keys_jets_or_kernels_in_transport": false,
+  "vanishing_diagnostic_uses_local_generation_secrets": true,
+  "primary_statistics_exclude_prior_pilot": true,
+  "default_result_collection": "Core polynomials, public inputs, seeds, certificates and logs; no replay caches"
+}

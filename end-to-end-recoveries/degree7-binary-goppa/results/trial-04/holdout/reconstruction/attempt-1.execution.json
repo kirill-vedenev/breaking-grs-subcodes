@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/degree7-k30-312-four/holdout/build/square-worker",
+    "recover",
+    "/workspace/degree7-k30-312-four/trials/trial-04/inputs/request.txt",
+    "/workspace/degree7-k30-312-four/trials/trial-04/run/generator/attempt-1/square.gen",
+    "/workspace/degree7-k30-312-four/trials/trial-04/run/reconstruction/attempt-1",
+    "2",
+    "2026101602",
+    "2026101603",
+    "1",
+    "256"
+  ],
+  "returncode": 0,
+  "seconds": 503.7875736870337
+}

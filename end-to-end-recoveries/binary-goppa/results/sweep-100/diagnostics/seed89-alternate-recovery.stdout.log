@@ -1,0 +1,9 @@
+Computing and verifying a fresh holdout kernel
+Read and verify the public holdout kernel
+Separate the six branches and check every continuation rank
+Recover a binary-normalized jet through order 102
+Bootstrap one branch, align tangents, and recover the minor-code key
+Recover the direct square-root quotient key
+Certify jet coherence and global curve identities from the recovered public key
+PASS: recovered all 64 support positions and an equivalent degree-six Goppa key.
+Completed: diagnostics/seed89-next-heldout-recovery/recovery/recovery.json

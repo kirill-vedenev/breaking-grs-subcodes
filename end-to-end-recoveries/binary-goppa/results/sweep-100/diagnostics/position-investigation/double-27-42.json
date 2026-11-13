@@ -1,0 +1,78 @@
+{
+  "omitted_positions": [
+    27,
+    42
+  ],
+  "status": "passed",
+  "seconds": 327.3457343679993,
+  "steps": [
+    {
+      "stage": "holdout",
+      "seconds": 318.9740100609997,
+      "returncode": 0
+    },
+    {
+      "stage": "filter",
+      "seconds": 3.9776192119998086,
+      "returncode": 0
+    },
+    {
+      "stage": "analyze-27",
+      "seconds": 2.1714887680000174,
+      "returncode": 0
+    },
+    {
+      "stage": "analyze-42",
+      "seconds": 2.221692145999441,
+      "returncode": 0
+    }
+  ],
+  "held27": {
+    "heldout": 27,
+    "support_value": 26,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  "held42": {
+    "heldout": 42,
+    "support_value": 52,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  }
+}

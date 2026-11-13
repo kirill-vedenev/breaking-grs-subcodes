@@ -1,0 +1,83 @@
+{
+  "schema": "degree7-package-checks-v1",
+  "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "sage_version": "10.7",
+  "all_24_public_input_files_regenerated_byte_identically": true,
+  "trial_manifest_regenerated_byte_identically": true,
+  "numerical_sources_byte_identical": true,
+  "trials": [
+    {
+      "trial": "trial-01",
+      "status": "passed",
+      "both_full_routes_replayed": true,
+      "kernel_membership_recomputed": true,
+      "independent_polynomials": 256,
+      "all_original_hasse_orders_verified": true,
+      "gradient_rank": 23,
+      "quadratic_rank": 15,
+      "full_keys_verified": 2,
+      "kernel_sha256": "d981e3c846c8c224eef88b2c11e91e778eab293034ae2bd2e80d4f6dd8796095",
+      "seconds": 54.02200591703877
+    },
+    {
+      "trial": "trial-02",
+      "status": "passed",
+      "both_full_routes_replayed": true,
+      "kernel_membership_recomputed": true,
+      "independent_polynomials": 256,
+      "all_original_hasse_orders_verified": true,
+      "gradient_rank": 23,
+      "quadratic_rank": 15,
+      "full_keys_verified": 2,
+      "kernel_sha256": "d3400a1d7b0987527fea73b240d61b42eb18be25dc1e4178e613470319187712",
+      "seconds": 54.01920987502672
+    },
+    {
+      "trial": "trial-03",
+      "status": "passed",
+      "both_full_routes_replayed": true,
+      "kernel_membership_recomputed": true,
+      "independent_polynomials": 256,
+      "all_original_hasse_orders_verified": true,
+      "gradient_rank": 23,
+      "quadratic_rank": 15,
+      "full_keys_verified": 2,
+      "kernel_sha256": "b585e9c5429a195643312ad50f0b6d0264c413127a2d31f4311eb8b1912f698b",
+      "seconds": 52.67804662499111
+    },
+    {
+      "trial": "trial-04",
+      "status": "passed",
+      "both_full_routes_replayed": true,
+      "kernel_membership_recomputed": true,
+      "independent_polynomials": 256,
+      "all_original_hasse_orders_verified": true,
+      "gradient_rank": 23,
+      "quadratic_rank": 15,
+      "full_keys_verified": 2,
+      "kernel_sha256": "ab9815c884bf5cb693aec7e797403c8b4d0fcb8085c518ee1ceda4fa45e720e6",
+      "seconds": 52.656972250086255
+    }
+  ],
+  "native_test": {
+    "status": "passed",
+    "degree": 7,
+    "k": 9,
+    "field_order": 64,
+    "arbitrary_series": true,
+    "exact_taylor_bits_checked": 5126,
+    "exact_series_field_elements_checked": 495,
+    "oracle": "independent Sage polynomial products",
+    "public_end_to_end_recovery": false
+  },
+  "dual_distributions_recomputed_and_identical": true,
+  "finite_dual_counts": [
+    373,
+    360,
+    370,
+    350
+  ],
+  "GPU_kernel_computation_repeated": false,
+  "portable_GPU_driver_executed": false,
+  "source_archive_preserved_byte_identically": true
+}

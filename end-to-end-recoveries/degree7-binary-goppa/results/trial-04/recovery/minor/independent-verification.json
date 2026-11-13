@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "standard_library_only": true,
+  "recovery_modules_imported": false,
+  "secret_reference_read": false,
+  "full_support_count": 64,
+  "distinct_finite_support": true,
+  "goppa_degree": 4,
+  "goppa_irreducible": true,
+  "binary_parity_rank": 24,
+  "exact_original_public_code_equality": true,
+  "public_sha256": "09c930b670d3801d4ba593e5517f112cd686d90aea2921d29b9962682d847e4f",
+  "key_sha256": "c5c349f366ddf277e837f4abb7dd1e28b6af3d814cd1c32dea91d48109121d20"
+}

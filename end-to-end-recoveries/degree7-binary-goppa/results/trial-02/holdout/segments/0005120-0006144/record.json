@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "sequence": {
+      "path": "attempt-1/sequence.raw.bin",
+      "bytes": 33554432,
+      "sha256": "cb0b797edfbc56126bee917dfdd7326a05b4f2d0c9f4ef5caf39c5024c28f9bc"
+    },
+    "state": {
+      "path": "attempt-1/state.bin",
+      "bytes": 130291565,
+      "sha256": "89bebf997734ea7e30a298c9ad33241c55d820c8672830a367c30f367e97c593"
+    },
+    "result": {
+      "path": "attempt-1/result.json",
+      "bytes": 1321,
+      "sha256": "ea5d0f7ce86655ae03358c9af70b81fae80c8a5e18c70746edb7d6f79c505b72"
+    }
+  },
+  "execution": {
+    "command": [
+      "/workspace/degree7-k30-312-four/holdout/build/square-worker",
+      "segment",
+      "/workspace/degree7-k30-312-four/trials/trial-02/inputs/request.txt",
+      "/workspace/degree7-k30-312-four/trials/trial-02/run/segments/0004096-0005120/attempt-1/state.bin",
+      "1024",
+      "/workspace/degree7-k30-312-four/trials/trial-02/run/segments/0005120-0006144/attempt-1",
+      "2",
+      "2026101602",
+      "2026101603"
+    ],
+    "returncode": 0,
+    "seconds": 172.1983047069516
+  }
+}

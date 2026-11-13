@@ -1,0 +1,186 @@
+[
+  {
+    "heldout": 27,
+    "all_polynomials": 484,
+    "zero_gradient_subspace_dimension": 463,
+    "all_polynomial_quadratic_rank": 9,
+    "stationary_quadratic_rank": 9,
+    "gradient_rank": 21,
+    "quadratic_monomial_basis": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "third_order_normalized_jet_constraints": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "homogeneous_equations": [
+          "a^2*b",
+          "a*b^2"
+        ],
+        "rank": 2
+      },
+      {
+        "edge": [
+          1,
+          2
+        ],
+        "homogeneous_equations": [
+          "a^2*b",
+          "a*b^2"
+        ],
+        "rank": 2
+      },
+      {
+        "edge": [
+          2,
+          3
+        ],
+        "homogeneous_equations": [
+          "a^2*b",
+          "a*b^2"
+        ],
+        "rank": 2
+      },
+      {
+        "edge": [
+          3,
+          4
+        ],
+        "homogeneous_equations": [
+          "a^2*b",
+          "a*b^2"
+        ],
+        "rank": 2
+      },
+      {
+        "edge": [
+          4,
+          5
+        ],
+        "homogeneous_equations": [
+          "a^2*b",
+          "a*b^2"
+        ],
+        "rank": 2
+      },
+      {
+        "edge": [
+          5,
+          0
+        ],
+        "homogeneous_equations": [
+          "a^2*b",
+          "a*b^2"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "heldout": 29,
+    "all_polynomials": 484,
+    "zero_gradient_subspace_dimension": 463,
+    "all_polynomial_quadratic_rank": 15,
+    "stationary_quadratic_rank": 15,
+    "gradient_rank": 21,
+    "quadratic_monomial_basis": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ]
+  }
+]

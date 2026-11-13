@@ -1,0 +1,11 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/verify_input_encoding.py",
+    "results/trial-01/trials/trial-01/run/reconstruction/attempt-1/kernel.thk1",
+    "results/trial-01/trials/trial-01/run/reconstruction/attempt-1/polynomials/kernel-panel.u64le",
+    "local-followup/trial-01/recovery/common/encoding-verification.json"
+  ],
+  "returncode": 0,
+  "seconds": 2.0866590421646833
+}

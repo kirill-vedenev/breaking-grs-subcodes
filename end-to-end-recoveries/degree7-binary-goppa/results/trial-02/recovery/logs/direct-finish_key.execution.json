@@ -1,0 +1,16 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/finish_key.py",
+    "--public",
+    "trials/trial-02/inputs/public.json",
+    "--support",
+    "local-followup/trial-02/recovery/direct/direct-support.json",
+    "--original",
+    "trials/trial-02/inputs/original-public.json",
+    "--output",
+    "local-followup/trial-02/recovery/direct/full-key"
+  ],
+  "returncode": 0,
+  "seconds": 4.961667208001018
+}

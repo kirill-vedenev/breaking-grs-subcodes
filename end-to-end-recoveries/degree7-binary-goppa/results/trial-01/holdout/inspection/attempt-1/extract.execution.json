@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/workspace/degree7-k30-312-four/build/extract-jets",
+    "/workspace/degree7-k30-312-four/trials/trial-01/run/reconstruction/attempt-1/polynomials/kernel-panel.u64le",
+    "/workspace/degree7-k30-312-four/trials/trial-01/run/reconstruction/attempt-1/polynomials/monomials-colex.u64",
+    "30",
+    "7",
+    "121056330",
+    "256",
+    "/workspace/degree7-k30-312-four/trials/trial-01/run/inspection/attempt-1/tensors"
+  ],
+  "returncode": 0,
+  "seconds": 0.16893332393374294
+}

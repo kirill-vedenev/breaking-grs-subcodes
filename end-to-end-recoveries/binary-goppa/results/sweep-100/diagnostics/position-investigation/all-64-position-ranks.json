@@ -1,0 +1,1601 @@
+[
+  {
+    "heldout": 0,
+    "support_value": 4,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 1,
+    "support_value": 43,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 2,
+    "support_value": 49,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 3,
+    "support_value": 45,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 4,
+    "support_value": 25,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 5,
+    "support_value": 19,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 6,
+    "support_value": 12,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 7,
+    "support_value": 53,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 8,
+    "support_value": 22,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 9,
+    "support_value": 3,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 10,
+    "support_value": 8,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 11,
+    "support_value": 30,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 12,
+    "support_value": 5,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 13,
+    "support_value": 61,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 14,
+    "support_value": 63,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 15,
+    "support_value": 60,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 16,
+    "support_value": 13,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 17,
+    "support_value": 37,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 18,
+    "support_value": 40,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 19,
+    "support_value": 51,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 20,
+    "support_value": 29,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 21,
+    "support_value": 17,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 22,
+    "support_value": 10,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 23,
+    "support_value": 31,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 24,
+    "support_value": 47,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 25,
+    "support_value": 36,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 26,
+    "support_value": 6,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 27,
+    "support_value": 26,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 9,
+    "zero_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "continuation_ranks": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "heldout": 28,
+    "support_value": 0,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 29,
+    "support_value": 27,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "heldout": 30,
+    "support_value": 18,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 31,
+    "support_value": 16,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 32,
+    "support_value": 7,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 33,
+    "support_value": 44,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 34,
+    "support_value": 20,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 35,
+    "support_value": 33,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 36,
+    "support_value": 34,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 37,
+    "support_value": 1,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 38,
+    "support_value": 42,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 39,
+    "support_value": 24,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 40,
+    "support_value": 39,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 41,
+    "support_value": 14,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 42,
+    "support_value": 52,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 9,
+    "zero_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "continuation_ranks": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "heldout": 43,
+    "support_value": 56,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 44,
+    "support_value": 57,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 45,
+    "support_value": 11,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 46,
+    "support_value": 55,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 47,
+    "support_value": 38,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 48,
+    "support_value": 23,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 49,
+    "support_value": 2,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 50,
+    "support_value": 35,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 51,
+    "support_value": 46,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 52,
+    "support_value": 41,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 53,
+    "support_value": 28,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 54,
+    "support_value": 32,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 55,
+    "support_value": 21,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 56,
+    "support_value": 54,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 57,
+    "support_value": 15,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 58,
+    "support_value": 62,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 59,
+    "support_value": 59,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 60,
+    "support_value": 50,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 61,
+    "support_value": 48,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 62,
+    "support_value": 58,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  },
+  {
+    "heldout": 63,
+    "support_value": 9,
+    "gradient_rank": 21,
+    "tangent_span": 7,
+    "quadratic_rank": 15,
+    "zero_pairs": [],
+    "continuation_ranks": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "curve_nonzero_coefficients_by_order": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stationary_cubic_edge_ranks": []
+  }
+]

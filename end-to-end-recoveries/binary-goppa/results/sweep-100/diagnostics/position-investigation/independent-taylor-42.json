@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "heldout": 42,
+  "polynomials": 498,
+  "monomials": 98280,
+  "derivative_coefficients_checked": 202188,
+  "constant_coefficients_checked": 498,
+  "native_gradient_and_quadratic_coefficients_match": true,
+  "method": "literal squarefree Hasse derivative formula and Python integer AND/popcount",
+  "imports_native_recovery": false,
+  "uses_m4ri": false,
+  "kernel_sha256": "02c1686e45eb11c1d1c1d232c8d38179034f6fb7ef0b7619ac7af20a35e64eeb",
+  "seconds": 1.3138820639996993
+}

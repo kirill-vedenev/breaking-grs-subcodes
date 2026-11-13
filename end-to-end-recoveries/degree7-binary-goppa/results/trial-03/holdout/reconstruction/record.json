@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "kernel": {
+      "path": "attempt-1/kernel.thk1",
+      "bytes": 65145620,
+      "sha256": "b585e9c5429a195643312ad50f0b6d0264c413127a2d31f4311eb8b1912f698b"
+    },
+    "panel": {
+      "path": "attempt-1/polynomials/kernel-panel.u64le",
+      "bytes": 130291200,
+      "sha256": "5e6eecc5a96c417e7c1cd3db21c7feeab6d4146fcad2e2c7847cd4158e707e6f"
+    },
+    "monomials": {
+      "path": "attempt-1/polynomials/monomials-colex.u64",
+      "bytes": 16286400,
+      "sha256": "8beb1985f0012e020fa65e617c7f07f54fe0606077d36bd200ba57fda9a59098"
+    },
+    "index": {
+      "path": "attempt-1/polynomials/index.json",
+      "bytes": 22461,
+      "sha256": "1d52a924c7fa31c083d7b9085ebe9a44beb9b9b02d2e6ab165dbb6147b1b7518"
+    },
+    "result": {
+      "path": "attempt-1/recovery-result.json",
+      "bytes": 1479,
+      "sha256": "9808ac6bf5d56dcfb04587db440b14185524986f5b087c86062b5b210ec8cfa8"
+    }
+  },
+  "execution": {
+    "command": [
+      "/workspace/degree7-k30-312-four/holdout/build/square-worker",
+      "recover",
+      "/workspace/degree7-k30-312-four/trials/trial-03/inputs/request.txt",
+      "/workspace/degree7-k30-312-four/trials/trial-03/run/generator/attempt-1/square.gen",
+      "/workspace/degree7-k30-312-four/trials/trial-03/run/reconstruction/attempt-1",
+      "2",
+      "2026101602",
+      "2026101603",
+      "1",
+      "256"
+    ],
+    "returncode": 0,
+    "seconds": 503.5632907439722
+  }
+}

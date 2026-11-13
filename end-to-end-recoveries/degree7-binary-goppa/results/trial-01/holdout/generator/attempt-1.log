@@ -1,0 +1,189 @@
+# () /workspace/degree7-k30-312-four/build/cado/linalg/bwc/lingen_b64 prime=2 m=512 n=512 afile=/workspace/degree7-k30-312-four/trials/trial-01/run/sequence/sequence.raw.bin input_length=8210 ffile=/workspace/degree7-k30-312-four/trials/trial-01/run/generator/attempt-1/square.gen rhs=none thr=32x1 max_ram=64 tuning_thresholds=recursive:100000,notiming:1
+# List of modified files in working directory and their SHA1 sum:
+# (tarball extracted)
+# Compiled with gcc 13.3.0
+# Compilation flags (C) -Werror=all -Werror=extra -std=c99 -Wall -Wextra   -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mpclmul -mavx2 -mavx512f -mavx512vl -mavx512dq
+# Compilation flags (C++) -Werror=extra -Werror=all -export-dynamic -std=c++20 -Wno-c++11-compat -Wall -Wextra   -Wno-stringop-overflow -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mpclmul -mavx2 -mavx512f -mavx512vl -mavx512dq
+# () /workspace/degree7-k30-312-four/build/cado/linalg/bwc/lingen_b64 prime=2 m=512 n=512 afile=/workspace/degree7-k30-312-four/trials/trial-01/run/sequence/sequence.raw.bin input_length=8210 ffile=/workspace/degree7-k30-312-four/trials/trial-01/run/generator/attempt-1/square.gen rhs=none thr=32x1 max_ram=64 tuning_thresholds=recursive:100000,notiming:1
+# List of modified files in working directory and their SHA1 sum:
+# (tarball extracted)
+# Compiled with gcc 13.3.0
+# Compilation flags (C) -Werror=all -Werror=extra -std=c99 -Wall -Wextra   -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mpclmul -mavx2 -mavx512f -mavx512vl -mavx512dq
+# Compilation flags (C++) -Werror=extra -Werror=all -export-dynamic -std=c++20 -Wno-c++11-compat -Wall -Wextra   -Wno-stringop-overflow -Wno-literal-suffix -msse3 -mssse3 -msse4.1 -mpopcnt -mavx -mpclmul -mavx2 -mavx512f -mavx512vl -mavx512dq
+#  rank 0: 6909fafb72b7
+# Limiting number of openmp threads to 32
+# size=1 mpi=11 thr=321
+#  rank 0: 6909fafb72b7
+Computing t0
+[X^1] A, col 511 does not increase rank (still 511)
+[X^2] A, col 0 does not increase rank (still 511)
+[X^2] A, col 1 does not increase rank (still 511)
+[X^2] A, col 2 does not increase rank (still 511)
+Found satisfactory init data for t0=2
+#########################  Summary of timing data  #######################
+# Using explicit tuning_thresholds=notiming:1,recursive:100000 (from command-line)
+# note: no real timing data is reported, since the notiming
+#       threshold has explicitly prevented all measurements
+# Communication time at lingen_mpi_threshold (0.00 b): 0.00 [0.0d]
+(512,512,1,-1.0,0.0)
+# Estimated memory for JUST transforms (per node): 1.00 GB
+# Estimated peak total memory (per node): max at depth 0: 0.00 b
+Read 8207 coefficients (100.0%) in 1.9 s (289.6 MB/s)
+{"schema":"tii-cado-progress-v1","processed_terms":0,"total_terms":8207,"pi_length":1,"seconds":0.000}
+{"schema":"tii-cado-progress-v1","processed_terms":48,"total_terms":8207,"pi_length":26,"seconds":5.089}
+{"schema":"tii-cado-progress-v1","processed_terms":95,"total_terms":8207,"pi_length":49,"seconds":10.120}
+{"schema":"tii-cado-progress-v1","processed_terms":143,"total_terms":8207,"pi_length":73,"seconds":15.217}
+{"schema":"tii-cado-progress-v1","processed_terms":190,"total_terms":8207,"pi_length":97,"seconds":20.283}
+{"schema":"tii-cado-progress-v1","processed_terms":238,"total_terms":8207,"pi_length":121,"seconds":25.327}
+{"schema":"tii-cado-progress-v1","processed_terms":286,"total_terms":8207,"pi_length":145,"seconds":30.392}
+{"schema":"tii-cado-progress-v1","processed_terms":334,"total_terms":8207,"pi_length":169,"seconds":35.451}
+{"schema":"tii-cado-progress-v1","processed_terms":382,"total_terms":8207,"pi_length":193,"seconds":40.553}
+{"schema":"tii-cado-progress-v1","processed_terms":430,"total_terms":8207,"pi_length":216,"seconds":45.612}
+{"schema":"tii-cado-progress-v1","processed_terms":478,"total_terms":8207,"pi_length":241,"seconds":50.677}
+{"schema":"tii-cado-progress-v1","processed_terms":526,"total_terms":8207,"pi_length":265,"seconds":55.734}
+{"schema":"tii-cado-progress-v1","processed_terms":574,"total_terms":8207,"pi_length":289,"seconds":60.760}
+{"schema":"tii-cado-progress-v1","processed_terms":623,"total_terms":8207,"pi_length":313,"seconds":65.802}
+{"schema":"tii-cado-progress-v1","processed_terms":672,"total_terms":8207,"pi_length":338,"seconds":70.851}
+{"schema":"tii-cado-progress-v1","processed_terms":721,"total_terms":8207,"pi_length":362,"seconds":75.928}
+{"schema":"tii-cado-progress-v1","processed_terms":770,"total_terms":8207,"pi_length":387,"seconds":81.003}
+{"schema":"tii-cado-progress-v1","processed_terms":819,"total_terms":8207,"pi_length":411,"seconds":86.100}
+{"schema":"tii-cado-progress-v1","processed_terms":868,"total_terms":8207,"pi_length":436,"seconds":91.161}
+{"schema":"tii-cado-progress-v1","processed_terms":917,"total_terms":8207,"pi_length":460,"seconds":96.195}
+{"schema":"tii-cado-progress-v1","processed_terms":966,"total_terms":8207,"pi_length":484,"seconds":101.242}
+{"schema":"tii-cado-progress-v1","processed_terms":1015,"total_terms":8207,"pi_length":509,"seconds":106.303}
+{"schema":"tii-cado-progress-v1","processed_terms":1064,"total_terms":8207,"pi_length":534,"seconds":111.387}
+{"schema":"tii-cado-progress-v1","processed_terms":1112,"total_terms":8207,"pi_length":558,"seconds":116.407}
+{"schema":"tii-cado-progress-v1","processed_terms":1160,"total_terms":8207,"pi_length":582,"seconds":121.430}
+{"schema":"tii-cado-progress-v1","processed_terms":1208,"total_terms":8207,"pi_length":606,"seconds":126.479}
+{"schema":"tii-cado-progress-v1","processed_terms":1256,"total_terms":8207,"pi_length":630,"seconds":131.506}
+{"schema":"tii-cado-progress-v1","processed_terms":1304,"total_terms":8207,"pi_length":654,"seconds":136.534}
+{"schema":"tii-cado-progress-v1","processed_terms":1352,"total_terms":8207,"pi_length":677,"seconds":141.621}
+{"schema":"tii-cado-progress-v1","processed_terms":1400,"total_terms":8207,"pi_length":702,"seconds":146.624}
+{"schema":"tii-cado-progress-v1","processed_terms":1448,"total_terms":8207,"pi_length":725,"seconds":151.648}
+{"schema":"tii-cado-progress-v1","processed_terms":1496,"total_terms":8207,"pi_length":749,"seconds":156.696}
+{"schema":"tii-cado-progress-v1","processed_terms":1544,"total_terms":8207,"pi_length":773,"seconds":161.716}
+{"schema":"tii-cado-progress-v1","processed_terms":1592,"total_terms":8207,"pi_length":798,"seconds":166.761}
+{"schema":"tii-cado-progress-v1","processed_terms":1640,"total_terms":8207,"pi_length":822,"seconds":171.811}
+{"schema":"tii-cado-progress-v1","processed_terms":1688,"total_terms":8207,"pi_length":846,"seconds":176.848}
+{"schema":"tii-cado-progress-v1","processed_terms":1736,"total_terms":8207,"pi_length":870,"seconds":181.890}
+{"schema":"tii-cado-progress-v1","processed_terms":1784,"total_terms":8207,"pi_length":893,"seconds":186.946}
+{"schema":"tii-cado-progress-v1","processed_terms":1832,"total_terms":8207,"pi_length":918,"seconds":192.015}
+{"schema":"tii-cado-progress-v1","processed_terms":1880,"total_terms":8207,"pi_length":942,"seconds":197.087}
+{"schema":"tii-cado-progress-v1","processed_terms":1928,"total_terms":8207,"pi_length":966,"seconds":202.151}
+{"schema":"tii-cado-progress-v1","processed_terms":1976,"total_terms":8207,"pi_length":990,"seconds":207.209}
+{"schema":"tii-cado-progress-v1","processed_terms":2024,"total_terms":8207,"pi_length":1014,"seconds":212.245}
+{"schema":"tii-cado-progress-v1","processed_terms":2072,"total_terms":8207,"pi_length":1038,"seconds":217.311}
+{"schema":"tii-cado-progress-v1","processed_terms":2120,"total_terms":8207,"pi_length":1061,"seconds":222.373}
+{"schema":"tii-cado-progress-v1","processed_terms":2168,"total_terms":8207,"pi_length":1086,"seconds":227.430}
+{"schema":"tii-cado-progress-v1","processed_terms":2216,"total_terms":8207,"pi_length":1110,"seconds":232.476}
+{"schema":"tii-cado-progress-v1","processed_terms":2264,"total_terms":8207,"pi_length":1134,"seconds":237.524}
+{"schema":"tii-cado-progress-v1","processed_terms":2312,"total_terms":8207,"pi_length":1158,"seconds":242.572}
+{"schema":"tii-cado-progress-v1","processed_terms":2360,"total_terms":8207,"pi_length":1182,"seconds":247.633}
+{"schema":"tii-cado-progress-v1","processed_terms":2408,"total_terms":8207,"pi_length":1206,"seconds":252.709}
+{"schema":"tii-cado-progress-v1","processed_terms":2456,"total_terms":8207,"pi_length":1230,"seconds":257.775}
+{"schema":"tii-cado-progress-v1","processed_terms":2504,"total_terms":8207,"pi_length":1254,"seconds":262.839}
+{"schema":"tii-cado-progress-v1","processed_terms":2552,"total_terms":8207,"pi_length":1278,"seconds":267.880}
+{"schema":"tii-cado-progress-v1","processed_terms":2600,"total_terms":8207,"pi_length":1302,"seconds":272.919}
+{"schema":"tii-cado-progress-v1","processed_terms":2648,"total_terms":8207,"pi_length":1326,"seconds":277.948}
+{"schema":"tii-cado-progress-v1","processed_terms":2696,"total_terms":8207,"pi_length":1350,"seconds":282.973}
+{"schema":"tii-cado-progress-v1","processed_terms":2744,"total_terms":8207,"pi_length":1374,"seconds":287.992}
+{"schema":"tii-cado-progress-v1","processed_terms":2792,"total_terms":8207,"pi_length":1398,"seconds":293.025}
+{"schema":"tii-cado-progress-v1","processed_terms":2840,"total_terms":8207,"pi_length":1422,"seconds":298.029}
+{"schema":"tii-cado-progress-v1","processed_terms":2888,"total_terms":8207,"pi_length":1445,"seconds":303.064}
+{"schema":"tii-cado-progress-v1","processed_terms":2936,"total_terms":8207,"pi_length":1470,"seconds":308.086}
+{"schema":"tii-cado-progress-v1","processed_terms":2984,"total_terms":8207,"pi_length":1494,"seconds":313.116}
+{"schema":"tii-cado-progress-v1","processed_terms":3032,"total_terms":8207,"pi_length":1518,"seconds":318.173}
+{"schema":"tii-cado-progress-v1","processed_terms":3080,"total_terms":8207,"pi_length":1542,"seconds":323.217}
+{"schema":"tii-cado-progress-v1","processed_terms":3129,"total_terms":8207,"pi_length":1566,"seconds":328.289}
+{"schema":"tii-cado-progress-v1","processed_terms":3178,"total_terms":8207,"pi_length":1590,"seconds":333.354}
+{"schema":"tii-cado-progress-v1","processed_terms":3227,"total_terms":8207,"pi_length":1615,"seconds":338.407}
+{"schema":"tii-cado-progress-v1","processed_terms":3276,"total_terms":8207,"pi_length":1640,"seconds":343.472}
+{"schema":"tii-cado-progress-v1","processed_terms":3325,"total_terms":8207,"pi_length":1664,"seconds":348.526}
+{"schema":"tii-cado-progress-v1","processed_terms":3374,"total_terms":8207,"pi_length":1688,"seconds":353.591}
+{"schema":"tii-cado-progress-v1","processed_terms":3423,"total_terms":8207,"pi_length":1713,"seconds":358.642}
+{"schema":"tii-cado-progress-v1","processed_terms":3472,"total_terms":8207,"pi_length":1737,"seconds":363.700}
+{"schema":"tii-cado-progress-v1","processed_terms":3521,"total_terms":8207,"pi_length":1762,"seconds":368.753}
+{"schema":"tii-cado-progress-v1","processed_terms":3570,"total_terms":8207,"pi_length":1786,"seconds":373.822}
+{"schema":"tii-cado-progress-v1","processed_terms":3619,"total_terms":8207,"pi_length":1811,"seconds":378.890}
+{"schema":"tii-cado-progress-v1","processed_terms":3668,"total_terms":8207,"pi_length":1836,"seconds":383.949}
+{"schema":"tii-cado-progress-v1","processed_terms":3717,"total_terms":8207,"pi_length":1860,"seconds":389.006}
+{"schema":"tii-cado-progress-v1","processed_terms":3766,"total_terms":8207,"pi_length":1885,"seconds":394.063}
+{"schema":"tii-cado-progress-v1","processed_terms":3815,"total_terms":8207,"pi_length":1909,"seconds":399.125}
+{"schema":"tii-cado-progress-v1","processed_terms":3864,"total_terms":8207,"pi_length":1934,"seconds":404.175}
+{"schema":"tii-cado-progress-v1","processed_terms":3913,"total_terms":8207,"pi_length":1958,"seconds":409.234}
+{"schema":"tii-cado-progress-v1","processed_terms":3962,"total_terms":8207,"pi_length":1983,"seconds":414.276}
+{"schema":"tii-cado-progress-v1","processed_terms":4011,"total_terms":8207,"pi_length":2007,"seconds":419.318}
+{"schema":"tii-cado-progress-v1","processed_terms":4060,"total_terms":8207,"pi_length":2032,"seconds":424.375}
+{"schema":"tii-cado-progress-v1","processed_terms":4109,"total_terms":8207,"pi_length":2056,"seconds":429.430}
+{"schema":"tii-cado-progress-v1","processed_terms":4158,"total_terms":8207,"pi_length":2080,"seconds":434.495}
+{"schema":"tii-cado-progress-v1","processed_terms":4207,"total_terms":8207,"pi_length":2105,"seconds":439.589}
+{"schema":"tii-cado-progress-v1","processed_terms":4256,"total_terms":8207,"pi_length":2130,"seconds":444.664}
+{"schema":"tii-cado-progress-v1","processed_terms":4305,"total_terms":8207,"pi_length":2154,"seconds":449.691}
+{"schema":"tii-cado-progress-v1","processed_terms":4354,"total_terms":8207,"pi_length":2178,"seconds":454.727}
+{"schema":"tii-cado-progress-v1","processed_terms":4403,"total_terms":8207,"pi_length":2203,"seconds":459.817}
+{"schema":"tii-cado-progress-v1","processed_terms":4452,"total_terms":8207,"pi_length":2227,"seconds":464.884}
+{"schema":"tii-cado-progress-v1","processed_terms":4501,"total_terms":8207,"pi_length":2252,"seconds":469.964}
+{"schema":"tii-cado-progress-v1","processed_terms":4550,"total_terms":8207,"pi_length":2277,"seconds":475.032}
+{"schema":"tii-cado-progress-v1","processed_terms":4599,"total_terms":8207,"pi_length":2301,"seconds":480.107}
+{"schema":"tii-cado-progress-v1","processed_terms":4648,"total_terms":8207,"pi_length":2326,"seconds":485.173}
+{"schema":"tii-cado-progress-v1","processed_terms":4697,"total_terms":8207,"pi_length":2350,"seconds":490.270}
+{"schema":"tii-cado-progress-v1","processed_terms":4746,"total_terms":8207,"pi_length":2375,"seconds":495.331}
+{"schema":"tii-cado-progress-v1","processed_terms":4795,"total_terms":8207,"pi_length":2399,"seconds":500.421}
+{"schema":"tii-cado-progress-v1","processed_terms":4844,"total_terms":8207,"pi_length":2424,"seconds":505.507}
+{"schema":"tii-cado-progress-v1","processed_terms":4893,"total_terms":8207,"pi_length":2448,"seconds":510.563}
+{"schema":"tii-cado-progress-v1","processed_terms":4942,"total_terms":8207,"pi_length":2473,"seconds":515.592}
+{"schema":"tii-cado-progress-v1","processed_terms":4991,"total_terms":8207,"pi_length":2497,"seconds":520.633}
+{"schema":"tii-cado-progress-v1","processed_terms":5039,"total_terms":8207,"pi_length":2521,"seconds":525.641}
+{"schema":"tii-cado-progress-v1","processed_terms":5088,"total_terms":8207,"pi_length":2545,"seconds":530.735}
+{"schema":"tii-cado-progress-v1","processed_terms":5137,"total_terms":8207,"pi_length":2570,"seconds":535.817}
+{"schema":"tii-cado-progress-v1","processed_terms":5186,"total_terms":8207,"pi_length":2595,"seconds":540.883}
+{"schema":"tii-cado-progress-v1","processed_terms":5235,"total_terms":8207,"pi_length":2619,"seconds":545.958}
+{"schema":"tii-cado-progress-v1","processed_terms":5284,"total_terms":8207,"pi_length":2644,"seconds":551.031}
+{"schema":"tii-cado-progress-v1","processed_terms":5333,"total_terms":8207,"pi_length":2668,"seconds":556.117}
+{"schema":"tii-cado-progress-v1","processed_terms":5382,"total_terms":8207,"pi_length":2693,"seconds":561.170}
+{"schema":"tii-cado-progress-v1","processed_terms":5431,"total_terms":8207,"pi_length":2717,"seconds":566.239}
+{"schema":"tii-cado-progress-v1","processed_terms":5480,"total_terms":8207,"pi_length":2741,"seconds":571.304}
+{"schema":"tii-cado-progress-v1","processed_terms":5529,"total_terms":8207,"pi_length":2766,"seconds":576.373}
+{"schema":"tii-cado-progress-v1","processed_terms":5578,"total_terms":8207,"pi_length":2790,"seconds":581.424}
+{"schema":"tii-cado-progress-v1","processed_terms":5627,"total_terms":8207,"pi_length":2815,"seconds":586.466}
+{"schema":"tii-cado-progress-v1","processed_terms":5676,"total_terms":8207,"pi_length":2840,"seconds":591.520}
+{"schema":"tii-cado-progress-v1","processed_terms":5725,"total_terms":8207,"pi_length":2864,"seconds":596.568}
+{"schema":"tii-cado-progress-v1","processed_terms":5774,"total_terms":8207,"pi_length":2889,"seconds":601.612}
+{"schema":"tii-cado-progress-v1","processed_terms":5823,"total_terms":8207,"pi_length":2913,"seconds":606.651}
+{"schema":"tii-cado-progress-v1","processed_terms":5872,"total_terms":8207,"pi_length":2937,"seconds":611.671}
+{"schema":"tii-cado-progress-v1","processed_terms":5921,"total_terms":8207,"pi_length":2962,"seconds":616.710}
+{"schema":"tii-cado-progress-v1","processed_terms":5970,"total_terms":8207,"pi_length":2987,"seconds":621.750}
+{"schema":"tii-cado-progress-v1","processed_terms":6019,"total_terms":8207,"pi_length":3011,"seconds":626.790}
+{"schema":"tii-cado-progress-v1","processed_terms":6068,"total_terms":8207,"pi_length":3036,"seconds":631.815}
+{"schema":"tii-cado-progress-v1","processed_terms":6117,"total_terms":8207,"pi_length":3060,"seconds":636.849}
+{"schema":"tii-cado-progress-v1","processed_terms":6166,"total_terms":8207,"pi_length":3085,"seconds":641.882}
+{"schema":"tii-cado-progress-v1","processed_terms":6215,"total_terms":8207,"pi_length":3109,"seconds":646.907}
+{"schema":"tii-cado-progress-v1","processed_terms":6264,"total_terms":8207,"pi_length":3134,"seconds":651.926}
+{"schema":"tii-cado-progress-v1","processed_terms":6313,"total_terms":8207,"pi_length":3158,"seconds":656.986}
+{"schema":"tii-cado-progress-v1","processed_terms":6362,"total_terms":8207,"pi_length":3183,"seconds":662.020}
+{"schema":"tii-cado-progress-v1","processed_terms":6411,"total_terms":8207,"pi_length":3207,"seconds":667.031}
+{"schema":"tii-cado-progress-v1","processed_terms":6460,"total_terms":8207,"pi_length":3231,"seconds":672.045}
+{"schema":"tii-cado-progress-v1","processed_terms":6509,"total_terms":8207,"pi_length":3256,"seconds":677.058}
+{"schema":"tii-cado-progress-v1","processed_terms":6558,"total_terms":8207,"pi_length":3280,"seconds":682.067}
+{"schema":"tii-cado-progress-v1","processed_terms":6607,"total_terms":8207,"pi_length":3305,"seconds":687.079}
+{"schema":"tii-cado-progress-v1","processed_terms":6656,"total_terms":8207,"pi_length":3330,"seconds":692.094}
+t=6676, canceled columns: 569-1023.
+t=6677, canceled columns: 512-1023.
+t=6678, canceled columns: 512-1023.
+t=6679, canceled columns: 512-1023, complete generator found, for sure.
+--* [8207, recursive_threshold] 0/1
+0 [8207-8207, basecase] 1/1 7e+02 -> 697.2  (total: 697.2 wct)
+
+lingen ETA: (time removed)
+-- [8207-8207, recursive_threshold] 1/1 0.03 -> 0.0  (total: 0.0 wct)
+0 [8207-8207, basecase] 1/1 7e+02 -> 697.2  (total: 697.2 wct)
+
+lingen ETA: (time removed)
+lingen done at: (time removed)
+Final, t=6679: delta = 3342 [57] 3343 [455] 3339 [57] 3338 [455]
+(pi.alloc = 8256)
+Number of lucky columns: 512 (512 wanted)
+Written 64 coefficients (1.9%) in 0.1 s (40.2 MB/s)
+Written 3340 coefficients (98.4%) in 2.4 s (46.2 MB/s)
+Timings for lingen_b64: (wct) 702.17
+Timings for lingen_b64: (cpu) 15408.36 (aggregated over all threads and 1 MPI jobs)

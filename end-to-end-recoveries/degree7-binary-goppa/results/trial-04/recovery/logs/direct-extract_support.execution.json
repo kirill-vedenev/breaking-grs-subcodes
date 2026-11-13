@@ -1,0 +1,10 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/extract_support.py",
+    "trials/trial-04/inputs/public.json",
+    "local-followup/trial-04/recovery/direct"
+  ],
+  "returncode": 0,
+  "seconds": 4.733041957952082
+}

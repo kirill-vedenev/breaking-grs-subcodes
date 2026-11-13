@@ -1,0 +1,376 @@
+{
+  "generation": {
+    "binary_rank": 36,
+    "field_modulus": 67,
+    "generator": "C++ mt19937_64",
+    "k": 28,
+    "seed": 82
+  },
+  "holdout": {
+    "build_seconds": 0.965777,
+    "columns": 98280,
+    "elimination_seconds": 303.161,
+    "extraction_seconds": 0.744165,
+    "full_hasse_verified": true,
+    "full_rows": 128905,
+    "kernel_dimension": 498,
+    "nnz": 9918272,
+    "packed_matrix_bytes": 1420984320,
+    "rank": 97782,
+    "rows": 115640,
+    "total_seconds": 312.019,
+    "verification_seconds": 6.90787
+  },
+  "independent_verification": {
+    "direct": {
+      "alternant_binary_rank": 36,
+      "distinct_finite_support": true,
+      "exact_public_code_equality": true,
+      "goppa_binary_rank": 36,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "independent_of_recovery": true,
+      "multiplier_square_identity": true,
+      "public_only": true,
+      "public_sha256": "cda4e12dca2906b29f78d89f358c11fd91d33f9f8a1904e16f51b9ba7a4f6e9d",
+      "recovered_key_sha256": "c57f3e9836467ada34668ad33d96b2086f3bc95be680b6b14734353ab7671802",
+      "seconds": 0.0066741690000071685,
+      "status": "passed",
+      "support_count": 64
+    },
+    "minor": {
+      "alternant_binary_rank": 36,
+      "distinct_finite_support": true,
+      "exact_public_code_equality": true,
+      "goppa_binary_rank": 36,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "independent_of_recovery": true,
+      "multiplier_square_identity": true,
+      "public_only": true,
+      "public_sha256": "cda4e12dca2906b29f78d89f358c11fd91d33f9f8a1904e16f51b9ba7a4f6e9d",
+      "recovered_key_sha256": "81f433f48749c2fe6c07d9a3c34c02b9922b89222ea8e8b06baed6022e956fde",
+      "seconds": 0.006790575999957582,
+      "status": "passed",
+      "support_count": 64
+    }
+  },
+  "kernel_sha256": "0ac9e3fca6beded85afafd8228fbc228cbe5fc82d5e442708c8377ca9ac2c778",
+  "public_sha256": "cda4e12dca2906b29f78d89f358c11fd91d33f9f8a1904e16f51b9ba7a4f6e9d",
+  "recovery": {
+    "D": 51,
+    "bootstrap": {
+      "constraint_rank": 97,
+      "gradient_rank_all_positions": 26,
+      "ideal_dimension": 309,
+      "jet_order": 39,
+      "ordinary_bootstrap_bound": true,
+      "positions": 64,
+      "quadratic_unknowns": 406,
+      "seconds": 0.0323999
+    },
+    "branches": {
+      "branches": 6,
+      "continuation_rank_all_branches": 26,
+      "gradient_nullity": 7,
+      "gradient_rank": 21,
+      "quadratic_rank": 15,
+      "seconds": 0.104904
+    },
+    "direct": {
+      "adjacent_order_denominator_absent": true,
+      "binary_parity_rank": 36,
+      "denominator_space_dimension": 311,
+      "distinct_finite_support": true,
+      "exact_public_alternant_equality": true,
+      "exact_public_goppa_equality": true,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "jet_order_used": 101,
+      "multiplier_square_identity": true,
+      "numerator_space_dimension": 310,
+      "seconds": 0.0146067,
+      "square_root_quotient": true,
+      "support_count": 64
+    },
+    "full_hasse_verified": true,
+    "geometry": {
+      "all_branches_verified": true,
+      "all_tangents_aligned": true,
+      "certified_root_count": 355,
+      "coherent_coefficients": 2884,
+      "coherent_jet": true,
+      "curve_degree_bound": 51,
+      "frobenius_alignment": 0,
+      "full_quadratic_ideal_verified": true,
+      "holdout_composition_degree_bound": 255,
+      "holdout_curve_identities_certified": true,
+      "seconds": 0.240199,
+      "uses_original_secret": false
+    },
+    "heldout": 28,
+    "initial_composition_degree_bound": 255,
+    "initial_forced_zeros": 252,
+    "initial_ordinary_zero_count_suffices": false,
+    "jet": {
+      "all_polynomials_used": true,
+      "continuation_rank": 26,
+      "depth": 102,
+      "first_full_coefficient_span_order": 33,
+      "fresh_substitution_seconds": 1.08693,
+      "full_substitution": true,
+      "normalized": true,
+      "recurrence_seconds": 2.66073
+    },
+    "k": 28,
+    "kernel_dimension": 498,
+    "kernel_independence_verified": true,
+    "kernel_input_verification_seconds": 7.14465,
+    "m": 6,
+    "minor": {
+      "binary_parity_rank": 36,
+      "distinct_finite_support": true,
+      "exact_minor_grs_equality": true,
+      "exact_public_alternant_equality": true,
+      "exact_public_goppa_equality": true,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "minor_rank": 45,
+      "minor_rows": 378,
+      "multiplier_square_identity": true,
+      "seconds": 0.011352,
+      "support_count": 64
+    },
+    "modulus": 67,
+    "monomials": 98280,
+    "n": 64,
+    "public_inputs_only": true,
+    "route": "both",
+    "routes_mobius_equivalent": true,
+    "status": "passed",
+    "t": 6,
+    "tampered_multiplier_rejected": true,
+    "total_seconds_excluding_kernel_acquisition": 11.3031
+  },
+  "secret_audits": {
+    "direct": {
+      "frobenius_power": 0,
+      "global_support_equivalence": true,
+      "status": "passed"
+    },
+    "minor": {
+      "frobenius_power": 0,
+      "global_support_equivalence": true,
+      "status": "passed"
+    }
+  },
+  "seed": 82,
+  "stages": [
+    {
+      "command": [
+        "build/toy-goppa",
+        "generate",
+        "82",
+        "sweep-100/cases/seed-000082/instance"
+      ],
+      "name": "generate",
+      "resources": {
+        "max_rss_kib": 5572,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.007996570000159409,
+      "stderr": "generate.stderr.log",
+      "stdout": "generate.stdout.log",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "prepare",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/holdout.txt"
+      ],
+      "name": "prepare",
+      "resources": {
+        "max_rss_kib": 5572,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.007951990999799818,
+      "stderr": "prepare.stderr.log",
+      "stdout": "prepare.stdout.log",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/holdout",
+        "sweep-100/cases/seed-000082/holdout.txt",
+        "sweep-100/cases/seed-000082/kernel.bin",
+        "3"
+      ],
+      "name": "holdout",
+      "resources": {
+        "max_rss_kib": 1414808,
+        "system_seconds": 1.84,
+        "user_seconds": 310.17,
+        "wall_seconds": 312.03
+      },
+      "returncode": 0,
+      "seconds": 312.0506543030001,
+      "stderr": "holdout.stderr.log",
+      "stdout": "holdout-report.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "recover",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/kernel.bin",
+        "sweep-100/cases/seed-000082/recovery",
+        "both"
+      ],
+      "name": "recover",
+      "resources": {
+        "max_rss_kib": 78036,
+        "system_seconds": 0.66,
+        "user_seconds": 10.64,
+        "wall_seconds": 11.31
+      },
+      "returncode": 0,
+      "seconds": 11.348936995000031,
+      "stderr": "recover.stderr.log",
+      "stdout": "recover.stdout.log",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "verify",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/recovery/minor-key.txt"
+      ],
+      "name": "minor-verify",
+      "resources": {
+        "max_rss_kib": 5560,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.00820582899996225,
+      "stderr": "minor-verify.stderr.log",
+      "stdout": "minor-verification.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "verify.py",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/recovery/minor-key.json"
+      ],
+      "name": "minor-independent",
+      "resources": {
+        "max_rss_kib": 20300,
+        "system_seconds": 0.01,
+        "user_seconds": 0.03,
+        "wall_seconds": 0.05
+      },
+      "returncode": 0,
+      "seconds": 0.06421285200008242,
+      "stderr": "minor-independent.stderr.log",
+      "stdout": "minor-independent.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "audit",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/instance/audit/secret.txt",
+        "sweep-100/cases/seed-000082/recovery/minor-key.txt"
+      ],
+      "name": "minor-audit",
+      "resources": {
+        "max_rss_kib": 4800,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.008157055000083346,
+      "stderr": "minor-audit.stderr.log",
+      "stdout": "minor-audit.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "verify",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/recovery/direct-key.txt"
+      ],
+      "name": "direct-verify",
+      "resources": {
+        "max_rss_kib": 5608,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.007846821000157433,
+      "stderr": "direct-verify.stderr.log",
+      "stdout": "direct-verification.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "verify.py",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/recovery/direct-key.json"
+      ],
+      "name": "direct-independent",
+      "resources": {
+        "max_rss_kib": 20284,
+        "system_seconds": 0.0,
+        "user_seconds": 0.04,
+        "wall_seconds": 0.05
+      },
+      "returncode": 0,
+      "seconds": 0.06416464800008725,
+      "stderr": "direct-independent.stderr.log",
+      "stdout": "direct-independent.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "audit",
+        "sweep-100/cases/seed-000082/instance/public.txt",
+        "sweep-100/cases/seed-000082/instance/audit/secret.txt",
+        "sweep-100/cases/seed-000082/recovery/direct-key.txt"
+      ],
+      "name": "direct-audit",
+      "resources": {
+        "max_rss_kib": 5572,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.008211547999962931,
+      "stderr": "direct-audit.stderr.log",
+      "stdout": "direct-audit.json",
+      "timed_out": false
+    }
+  ],
+  "status": "passed",
+  "total_wall_seconds": 323.5948344149999
+}

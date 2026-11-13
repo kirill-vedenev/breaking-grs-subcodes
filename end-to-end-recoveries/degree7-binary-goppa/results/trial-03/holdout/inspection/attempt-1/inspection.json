@@ -1,0 +1,39 @@
+{
+  "status": "measured",
+  "public_only": true,
+  "recovered_key_or_jet_used": false,
+  "kernel_polynomials": 256,
+  "gradient_filter_applied": false,
+  "heldout_nonzero_values": 0,
+  "gradient_rank": 23,
+  "expected_gradient_rank": 23,
+  "gradient_annihilator_dimension": 7,
+  "quotient_dimension": 6,
+  "zero_gradient_sample_count": 0,
+  "stationary_polynomial_dimension": 233,
+  "restricted_quadratic_rank": 15,
+  "restricted_stationary_quadratic_rank": 15,
+  "expected_restricted_quadratic_rank": 15,
+  "standard_binary_rank_criterion_holds": true,
+  "standard_stationary_rank_criterion_holds": true,
+  "gradient_prefix_ranks": {
+    "16": 16,
+    "32": 23,
+    "64": 23,
+    "128": 23,
+    "256": 23
+  },
+  "branch_separation_tested": false,
+  "continuation_tested": false,
+  "key_recovery_completed": false,
+  "instance_id": "e0307e935eeefaf7225cbbe6c79f95819223b47f04bfe3a163057f399427ae8d",
+  "fixed_cohort_trial": "trial-03",
+  "kernel_sha256": "b585e9c5429a195643312ad50f0b6d0264c413127a2d31f4311eb8b1912f698b",
+  "input_sha256": "821786da04bb7fe9b0e21640cea959886611a9b6340308251881daf2982b589f",
+  "encoding": {
+    "status": "passed",
+    "all_coefficient_bits_compared": 521164800,
+    "nonzero_unused_panel_columns": false
+  },
+  "samples_selected_by_geometry": false
+}

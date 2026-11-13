@@ -1,0 +1,37 @@
+{
+  "schema": "degree7-312-four-fixed-plan-v1",
+  "trial_count": 4,
+  "key_seeds": [
+    2026101701,
+    2026101702,
+    2026101703,
+    2026101704
+  ],
+  "solver_seed": 2026101602,
+  "compressor_seed": 2026101603,
+  "profile_rule": "Use the original public shortening/holdout rule; lower the first twelve retained finite non-unit constraint columns to 5, leave all other retained points and infinity at 6, holdout at 0.",
+  "forced_zeros": 312,
+  "sample_size": 256,
+  "block_bits": 512,
+  "standard_projection": true,
+  "no_replacement_of_failed_seeds": true,
+  "no_selection_by_vanishing_certificate_gradient_quadratic_or_dual_weights": true,
+  "irreducible_quartic_rejection_sampling_is_part_of_key_generation": true,
+  "prior_pilot_in_primary_statistics": false,
+  "primary_outcome": "Both standard recovery routes reconstruct an independently verified full equivalent key.",
+  "measurements": [
+    "construction_certificate",
+    "kernel_validity",
+    "gradient_rank",
+    "quadratic_and_stationary_quadratic_rank",
+    "branch_count_and_orbit",
+    "continuation_ranks",
+    "both_full_key_results",
+    "runtime",
+    "RAM",
+    "GPU_memory",
+    "low_weight_dual_counts"
+  ],
+  "private_generation_data_in_runtime": false,
+  "collect_only_core_artifacts": true
+}

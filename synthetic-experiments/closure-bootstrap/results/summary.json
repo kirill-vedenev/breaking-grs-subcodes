@@ -1,0 +1,690 @@
+[
+ {
+  "family": "goppa",
+  "m": 6,
+  "n": 56,
+  "t": 6,
+  "closures": "n-5t-1",
+  "k": [
+   20
+  ],
+  "positions": [
+   25
+  ],
+  "keys": 100,
+  "recovered": 0,
+  "binary_quadrics": {
+   "9": 96,
+   "10": 4
+  },
+  "predicted_binary_quadrics": [
+   9
+  ],
+  "other_outcomes": {
+   "branch_separation_failed": 100
+  },
+  "first_position_passed": 0,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 0,
+  "median_seconds": 0.1
+ },
+ {
+  "family": "goppa",
+  "m": 6,
+  "n": 64,
+  "t": 6,
+  "closures": "n-4t-1",
+  "k": [
+   28
+  ],
+  "positions": [
+   39
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "149": 100
+  },
+  "predicted_binary_quadrics": [
+   149
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 0.6
+ },
+ {
+  "family": "goppa",
+  "m": 6,
+  "n": 64,
+  "t": 6,
+  "closures": "n-5t+1",
+  "k": [
+   28
+  ],
+  "positions": [
+   35
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "149": 100
+  },
+  "predicted_binary_quadrics": [
+   149
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 3.4
+ },
+ {
+  "family": "goppa",
+  "m": 6,
+  "n": 64,
+  "t": 6,
+  "closures": "n-5t-1",
+  "k": [
+   28
+  ],
+  "positions": [
+   33
+  ],
+  "keys": 100,
+  "recovered": 99,
+  "binary_quadrics": {
+   "149": 99,
+   "150": 1
+  },
+  "predicted_binary_quadrics": [
+   149
+  ],
+  "other_outcomes": {
+   "branch_separation_failed": 1
+  },
+  "first_position_passed": 99,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 99,
+  "median_seconds": 0.6
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 99,
+  "t": 10,
+  "closures": "n-5t-1",
+  "k": [
+   29
+  ],
+  "positions": [
+   48
+  ],
+  "keys": 100,
+  "recovered": 0,
+  "binary_quadrics": {
+   "6": 98,
+   "7": 2
+  },
+  "predicted_binary_quadrics": [
+   6
+  ],
+  "other_outcomes": {
+   "branch_separation_failed": 100
+  },
+  "first_position_passed": 0,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 0,
+  "median_seconds": 0.4
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 112,
+  "t": 10,
+  "closures": "n-4t-1",
+  "k": [
+   42
+  ],
+  "positions": [
+   71
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "370": 100
+  },
+  "predicted_binary_quadrics": [
+   370
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 2.5
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 112,
+  "t": 10,
+  "closures": "n-5t+1",
+  "k": [
+   42
+  ],
+  "positions": [
+   63
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "370": 100
+  },
+  "predicted_binary_quadrics": [
+   370
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 15.6
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 112,
+  "t": 10,
+  "closures": "n-5t-1",
+  "k": [
+   42
+  ],
+  "positions": [
+   61
+  ],
+  "keys": 100,
+  "recovered": 97,
+  "binary_quadrics": {
+   "370": 97,
+   "371": 3
+  },
+  "predicted_binary_quadrics": [
+   370
+  ],
+  "other_outcomes": {
+   "continuation_inconsistent": 1,
+   "branch_separation_failed": 2
+  },
+  "first_position_passed": 97,
+  "inconsistent_continuation_orders": 35,
+  "gradient_rank_failures": 0,
+  "audits_passed": 97,
+  "median_seconds": 2.5
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 122,
+  "t": 11,
+  "closures": "n-4t-1",
+  "k": [
+   45
+  ],
+  "positions": [
+   77
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "457": 100
+  },
+  "predicted_binary_quadrics": [
+   457
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 3.4
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 122,
+  "t": 11,
+  "closures": "n-5t+1",
+  "k": [
+   45
+  ],
+  "positions": [
+   68
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "457": 100
+  },
+  "predicted_binary_quadrics": [
+   457
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 20.0
+ },
+ {
+  "family": "goppa",
+  "m": 7,
+  "n": 122,
+  "t": 11,
+  "closures": "n-5t-1",
+  "k": [
+   45
+  ],
+  "positions": [
+   66
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "457": 100
+  },
+  "predicted_binary_quadrics": [
+   457
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 3.3
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 192,
+  "t": 16,
+  "closures": "n-4t-1",
+  "k": [
+   64
+  ],
+  "positions": [
+   127
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "1007": 100
+  },
+  "predicted_binary_quadrics": [
+   1007
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 11.6
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 192,
+  "t": 16,
+  "closures": "n-5t+1",
+  "k": [
+   64
+  ],
+  "positions": [
+   113
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "1007": 100
+  },
+  "predicted_binary_quadrics": [
+   1007
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 62.7
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 192,
+  "t": 16,
+  "closures": "n-5t-1",
+  "k": [
+   64
+  ],
+  "positions": [
+   111
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "1007": 100
+  },
+  "predicted_binary_quadrics": [
+   1007
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 11.4
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 241,
+  "t": 24,
+  "closures": "n-5t-1",
+  "k": [
+   49
+  ],
+  "positions": [
+   120
+  ],
+  "keys": 100,
+  "recovered": 0,
+  "binary_quadrics": {
+   "31": 99,
+   "32": 1
+  },
+  "predicted_binary_quadrics": [
+   31
+  ],
+  "other_outcomes": {
+   "branch_separation_failed": 100
+  },
+  "first_position_passed": 0,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 0,
+  "median_seconds": 2.2
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 256,
+  "t": 24,
+  "closures": "n-4t-1",
+  "k": [
+   64
+  ],
+  "positions": [
+   159
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "751": 100
+  },
+  "predicted_binary_quadrics": [
+   751
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 10.9
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 256,
+  "t": 24,
+  "closures": "n-5t+1",
+  "k": [
+   64
+  ],
+  "positions": [
+   137
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "751": 100
+  },
+  "predicted_binary_quadrics": [
+   751
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 59.4
+ },
+ {
+  "family": "goppa",
+  "m": 8,
+  "n": 256,
+  "t": 24,
+  "closures": "n-5t-1",
+  "k": [
+   64
+  ],
+  "positions": [
+   135
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "751": 100
+  },
+  "predicted_binary_quadrics": [
+   751
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 10.7
+ },
+ {
+  "family": "goppa",
+  "m": 12,
+  "n": 922,
+  "t": 64,
+  "closures": "n-5t+1",
+  "k": [
+   154
+  ],
+  "positions": [
+   603
+  ],
+  "keys": 20,
+  "recovered": 20,
+  "binary_quadrics": {
+   "3812": 20
+  },
+  "predicted_binary_quadrics": [
+   3812
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 20,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 20,
+  "median_seconds": 884.6
+ },
+ {
+  "family": "goppa",
+  "m": 12,
+  "n": 922,
+  "t": 64,
+  "closures": "n-5t-1",
+  "k": [
+   154
+  ],
+  "positions": [
+   601
+  ],
+  "keys": 20,
+  "recovered": 19,
+  "binary_quadrics": {
+   "3812": 19,
+   "3813": 1
+  },
+  "predicted_binary_quadrics": [
+   3812
+  ],
+  "other_outcomes": {
+   "branch_separation_failed": 1
+  },
+  "first_position_passed": 19,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 19,
+  "median_seconds": 1175.1
+ },
+ {
+  "family": "goppa",
+  "m": 13,
+  "n": 1888,
+  "t": 128,
+  "closures": "n-5t+1",
+  "k": [
+   224
+  ],
+  "positions": [
+   1249
+  ],
+  "keys": 20,
+  "recovered": 20,
+  "binary_quadrics": {
+   "7113": 20
+  },
+  "predicted_binary_quadrics": [
+   7113
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 20,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 20,
+  "median_seconds": 5149.5
+ },
+ {
+  "family": "goppa",
+  "m": 13,
+  "n": 1888,
+  "t": 128,
+  "closures": "n-5t-1",
+  "k": [
+   224
+  ],
+  "positions": [
+   1247
+  ],
+  "keys": 20,
+  "recovered": 20,
+  "binary_quadrics": {
+   "7113": 20
+  },
+  "predicted_binary_quadrics": [
+   7113
+  ],
+  "other_outcomes": {},
+  "first_position_passed": 20,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 20,
+  "median_seconds": 7287.4
+ },
+ {
+  "family": "alternant",
+  "m": 6,
+  "n": 64,
+  "t": 5,
+  "closures": "2D+1-n",
+  "k": [
+   34
+  ],
+  "positions": [
+   53
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "213": 100
+  },
+  "predicted_binary_quadrics": [],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 2.1
+ },
+ {
+  "family": "alternant",
+  "m": 7,
+  "n": 120,
+  "t": 9,
+  "closures": "2D+1-n",
+  "k": [
+   57
+  ],
+  "positions": [
+   101
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "826": 100
+  },
+  "predicted_binary_quadrics": [],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 16.0
+ },
+ {
+  "family": "alternant",
+  "m": 8,
+  "n": 240,
+  "t": 20,
+  "closures": "2D+1-n",
+  "k": [
+   80
+  ],
+  "positions": [
+   199
+  ],
+  "keys": 100,
+  "recovered": 100,
+  "binary_quadrics": {
+   "1408": 100
+  },
+  "predicted_binary_quadrics": [],
+  "other_outcomes": {},
+  "first_position_passed": 100,
+  "inconsistent_continuation_orders": 0,
+  "gradient_rank_failures": 0,
+  "audits_passed": 100,
+  "median_seconds": 54.4
+ }
+]

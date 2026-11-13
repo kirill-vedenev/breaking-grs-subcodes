@@ -1,0 +1,61 @@
+{
+  "status": "all_required_artifacts_verified_locally",
+  "server_safe_to_stop": true,
+  "source_archive": {
+    "path": "../degree7-k30-312-four-h200.tar.gz",
+    "bytes": 5098607,
+    "sha256": "6464fee3ccd145c0035b497f9957efa395d698725b28f135c5255439bf13eb2a"
+  },
+  "result_archives": [
+    {
+      "trial_id": "trial-01",
+      "path": "results-download/degree7-k30-312-four-trial-01-results.tar.gz",
+      "bytes": 65564241,
+      "sha256": "0c334c26925bb0125a30b66838d898e04c524134f69cee31fb929b1e6f7061fd",
+      "inventory_files_verified": 108
+    },
+    {
+      "trial_id": "trial-02",
+      "path": "results-download/degree7-k30-312-four-trial-02-results.tar.gz",
+      "bytes": 65562539,
+      "sha256": "67d2de1af137db218cf071ef1c6e710b34012aefe5c6c15b35f876b132f4c04a",
+      "inventory_files_verified": 108
+    },
+    {
+      "trial_id": "trial-03",
+      "path": "results-download/degree7-k30-312-four-trial-03-results.tar.gz",
+      "bytes": 65564493,
+      "sha256": "672524b6a7916f9ec389e00032a1afcbfd643ae0f81c3063b3cc1f7f4edbf75d",
+      "inventory_files_verified": 108
+    },
+    {
+      "trial_id": "trial-04",
+      "path": "results-download/degree7-k30-312-four-trial-04-results.tar.gz",
+      "bytes": 65562803,
+      "sha256": "e945560be25e9908946abeeff6fe93e74790450686afac3868efea8b081f3704",
+      "inventory_files_verified": 108
+    }
+  ],
+  "server_execution_evidence": {
+    "status": "passed",
+    "archive_sha256": "45ab98531e9662cbfd4c55c50ae5fed180944d1829f9fc865a6f174d22ec7d7a",
+    "files_verified": 57,
+    "complete_inventory_verified": true,
+    "replay_caches_downloaded": false,
+    "server_batch_seconds": 7812.335286970949
+  },
+  "local_followup_sha256": {
+    "local-followup/aggregate.py": "19533d1cb70a2e2429aa7e90898444ce8fccd9a829eacfc4c2d2edb880f06fdf",
+    "local-followup/dual_statistics.py": "372d3a6171365cef7fa9b9db56b7e46889d98db0a08785358d73d8655e69a496",
+    "local-followup/recover_trial.py": "fe09717526ceed94f53eb3959590dda91a3dffdc1a18d6d560d0fc5179fd41d1",
+    "local-followup/verify_download.py": "16c55b27859e5c9a37880072eeeab18098d79adb427d7cf83c68ad726bad286d",
+    "local-followup/verify_batch_evidence.py": "21340581f1e2ae5ca1e03bbde6ba6b58d5bfbbfebae806391ab69d6f4bc09174",
+    "local-followup/collect_batch_evidence_remote.py": "fba90a56882d35cd0c48d9e2798ea45f0e675a1adf4f3af7f79ca2d16d34e770",
+    "local-followup/monitor_remote.py": "54a5af0908aff1ccafb518b67c6ff04355ce2ca0dfea72d7f2a7d811ff329e44",
+    "local-followup/write_report.py": "2e5e7f1197021f66f50a69a1478d8d5764ed3cac527e8ebd0443a2aa41200c24",
+    "local-followup/dual-statistics.json": "9e50ab405fc679dc5ce3f6a2b2b362a1e27b62e433a529f54ddf8beb1e21dac8",
+    "RESULTS.json": "2c9f5cc74d8b2a7264618452bbcbf9ce088ea72c59ee27f32fb30ee95e34eb99"
+  },
+  "private_generation_audits_in_server_package": false,
+  "replay_caches_downloaded": false
+}

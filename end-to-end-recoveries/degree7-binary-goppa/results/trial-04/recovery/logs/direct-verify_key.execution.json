@@ -1,0 +1,12 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "scripts/verify_key.py",
+    "trials/trial-04/inputs/original-public.json",
+    "local-followup/trial-04/recovery/direct/full-key/equivalent-key.json",
+    "--report",
+    "local-followup/trial-04/recovery/direct/independent-verification.json"
+  ],
+  "returncode": 0,
+  "seconds": 0.11988958297297359
+}

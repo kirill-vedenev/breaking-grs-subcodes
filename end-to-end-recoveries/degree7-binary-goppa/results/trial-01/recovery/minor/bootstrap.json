@@ -1,0 +1,204 @@
+{
+  "public_only": true,
+  "input_files": [
+    "public.json",
+    "deep-jets-27.json"
+  ],
+  "parameters": {
+    "m": 6,
+    "n": 54,
+    "t": 4,
+    "k": 30,
+    "D": 45
+  },
+  "seed_position": 27,
+  "seed_depth_used": 37,
+  "seed_depth_available": 90,
+  "ordinary_interpolation_bound_satisfied": true,
+  "coefficient_field_order": 64,
+  "square_monomials_included": true,
+  "quadratic_unknowns": 465,
+  "constraint_rows": 91,
+  "constraint_rank": 87,
+  "quadratic_ideal_dimension": 378,
+  "all_saved_jet_contacts_satisfied": true,
+  "prefix_rank_profile": [
+    {
+      "depth": 0,
+      "rank": 54
+    },
+    {
+      "depth": 1,
+      "rank": 55
+    },
+    {
+      "depth": 2,
+      "rank": 56
+    },
+    {
+      "depth": 3,
+      "rank": 57
+    },
+    {
+      "depth": 4,
+      "rank": 58
+    },
+    {
+      "depth": 5,
+      "rank": 59
+    },
+    {
+      "depth": 6,
+      "rank": 60
+    },
+    {
+      "depth": 7,
+      "rank": 61
+    },
+    {
+      "depth": 8,
+      "rank": 62
+    },
+    {
+      "depth": 9,
+      "rank": 63
+    },
+    {
+      "depth": 10,
+      "rank": 64
+    },
+    {
+      "depth": 11,
+      "rank": 65
+    },
+    {
+      "depth": 12,
+      "rank": 66
+    },
+    {
+      "depth": 13,
+      "rank": 67
+    },
+    {
+      "depth": 14,
+      "rank": 68
+    },
+    {
+      "depth": 15,
+      "rank": 69
+    },
+    {
+      "depth": 16,
+      "rank": 70
+    },
+    {
+      "depth": 17,
+      "rank": 71
+    },
+    {
+      "depth": 18,
+      "rank": 72
+    },
+    {
+      "depth": 19,
+      "rank": 73
+    },
+    {
+      "depth": 20,
+      "rank": 74
+    },
+    {
+      "depth": 21,
+      "rank": 75
+    },
+    {
+      "depth": 22,
+      "rank": 76
+    },
+    {
+      "depth": 23,
+      "rank": 77
+    },
+    {
+      "depth": 24,
+      "rank": 78
+    },
+    {
+      "depth": 25,
+      "rank": 79
+    },
+    {
+      "depth": 26,
+      "rank": 80
+    },
+    {
+      "depth": 27,
+      "rank": 81
+    },
+    {
+      "depth": 28,
+      "rank": 82
+    },
+    {
+      "depth": 29,
+      "rank": 83
+    },
+    {
+      "depth": 30,
+      "rank": 84
+    },
+    {
+      "depth": 31,
+      "rank": 85
+    },
+    {
+      "depth": 32,
+      "rank": 86
+    },
+    {
+      "depth": 33,
+      "rank": 87
+    },
+    {
+      "depth": 34,
+      "rank": 87
+    },
+    {
+      "depth": 35,
+      "rank": 87
+    },
+    {
+      "depth": 36,
+      "rank": 87
+    },
+    {
+      "depth": 37,
+      "rank": 87
+    }
+  ],
+  "first_depth_attaining_final_rank": 33,
+  "gradient_rank_counts": {
+    "28": 54
+  },
+  "tangent_dimension_counts": {
+    "2": 54
+  },
+  "bootstrap_seconds": 0.5225376659072936,
+  "minor": {
+    "rows": 435,
+    "length": 54,
+    "rank": 41,
+    "predicted_binary_goppa_dimension": 41,
+    "all_pairs_used": true,
+    "construction_seconds": 0.026817291043698788
+  },
+  "recovered_subfield_code_dimension": 30,
+  "recovered_subfield_code_equals_public_code": true,
+  "public_grs_recovery": {
+    "support_recovered": true,
+    "exact_grs_row_space_verified": true,
+    "ambient_public_embedding_verified": true,
+    "seconds": 0.0878620003350079
+  },
+  "total_seconds": 0.6708287079818547
+}

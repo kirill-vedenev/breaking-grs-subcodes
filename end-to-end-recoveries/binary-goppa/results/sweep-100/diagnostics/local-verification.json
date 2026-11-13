@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "seed": 89,
+  "verifies_against_original_public_matrix": true,
+  "independent_keys_reverified": 2,
+  "verification": {
+    "minor": {
+      "status": "passed",
+      "public_only": true,
+      "independent_of_recovery": true,
+      "support_count": 64,
+      "distinct_finite_support": true,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "alternant_binary_rank": 36,
+      "goppa_binary_rank": 36,
+      "exact_public_code_equality": true,
+      "multiplier_square_identity": true,
+      "public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+      "recovered_key_sha256": "c86f2a3d40abfceaa72e747dbe174cff0eacdda95b66ec713218e6f32d3a2c4c",
+      "seconds": 0.0072158332914114
+    },
+    "direct": {
+      "status": "passed",
+      "public_only": true,
+      "independent_of_recovery": true,
+      "support_count": 64,
+      "distinct_finite_support": true,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "alternant_binary_rank": 36,
+      "goppa_binary_rank": 36,
+      "exact_public_code_equality": true,
+      "multiplier_square_identity": true,
+      "public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+      "recovered_key_sha256": "24af82acc09465f919e757d511de65185475d6c8b4229f1836cddce407348bbe",
+      "seconds": 0.007516874931752682
+    }
+  },
+  "kernel_sha256": "3780c5a25498653028758663316c89c15a1e616ac0c9c07d259dbfb3a7c94dad",
+  "remote_kernel_hash_matches": true
+}

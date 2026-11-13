@@ -1,0 +1,2 @@
+DIAGNOSTIC heldout=27 kernel_dimension=484 gradient_rank=21 gradient_nullity=7 quadratic_restriction_rank=9 expected_quadratic_rank=15 quotient_dimension=12
+ERROR: quadratic separation rank criterion

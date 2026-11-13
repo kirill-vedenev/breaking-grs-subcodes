@@ -1,0 +1,185 @@
+{
+  "heldout": 42,
+  "seed": 89,
+  "public_inputs_only_for_recovery": true,
+  "fresh_holdout_computation": false,
+  "holdout_profile_unchanged": true,
+  "public_sha256": "81d23978fd7d5be58deb685c4c9e0442c188cf923693fcb72e0468d02bf60cce",
+  "kernel_sha256": "02c1686e45eb11c1d1c1d232c8d38179034f6fb7ef0b7619ac7af20a35e64eeb",
+  "recovery": {
+    "status": "passed",
+    "route": "both",
+    "m": 6,
+    "t": 6,
+    "n": 64,
+    "k": 28,
+    "D": 51,
+    "heldout": 42,
+    "modulus": 67,
+    "kernel_dimension": 498,
+    "monomials": 98280,
+    "kernel_input_verification_seconds": 7.54252,
+    "initial_forced_zeros": 252,
+    "initial_composition_degree_bound": 255,
+    "initial_ordinary_zero_count_suffices": false,
+    "public_inputs_only": true,
+    "full_hasse_verified": true,
+    "kernel_independence_verified": true,
+    "branches": {
+      "branches": 6,
+      "continuation_rank_all_branches": 26,
+      "cubic_ideal_rank": 50,
+      "cubic_quotient_dimension": 6,
+      "gradient_nullity": 7,
+      "gradient_rank": 21,
+      "original_continuation_rank_all_branches": 24,
+      "quadratic_rank": 9,
+      "seconds": 1.32315,
+      "fifth_order_lookahead_restores_rank": true,
+      "public_cubic_branch_separation": true,
+      "stationary_cubics_eliminate_unknown_v3": true
+    },
+    "jet": {
+      "continuation_rank": 26,
+      "depth": 102,
+      "first_full_coefficient_span_order": 33,
+      "fresh_substitution_seconds": 1.0775,
+      "recurrence_seconds": 3.83782,
+      "stationary_lookahead_order": 103,
+      "all_polynomials_used": true,
+      "full_substitution": true,
+      "normalized": true,
+      "r_plus_two_stationary_equations": true
+    },
+    "geometry": {
+      "certified_root_count": 355,
+      "coherent_coefficients": 2884,
+      "curve_degree_bound": 51,
+      "frobenius_alignment": 0,
+      "holdout_composition_degree_bound": 255,
+      "seconds": 0.240896,
+      "all_branches_verified": true,
+      "all_tangents_aligned": true,
+      "coherent_jet": true,
+      "full_quadratic_ideal_verified": true,
+      "holdout_curve_identities_certified": true,
+      "uses_original_secret": false
+    },
+    "bootstrap": {
+      "constraint_rank": 97,
+      "gradient_rank_all_positions": 26,
+      "ideal_dimension": 309,
+      "jet_order": 39,
+      "positions": 64,
+      "quadratic_unknowns": 406,
+      "seconds": 0.0327647,
+      "ordinary_bootstrap_bound": true
+    },
+    "minor": {
+      "binary_parity_rank": 36,
+      "goppa_degree": 6,
+      "minor_rank": 45,
+      "minor_rows": 378,
+      "seconds": 0.0112923,
+      "support_count": 64,
+      "distinct_finite_support": true,
+      "exact_minor_grs_equality": true,
+      "exact_public_alternant_equality": true,
+      "exact_public_goppa_equality": true,
+      "goppa_irreducible": true,
+      "multiplier_square_identity": true
+    },
+    "direct": {
+      "binary_parity_rank": 36,
+      "denominator_space_dimension": 311,
+      "goppa_degree": 6,
+      "jet_order_used": 101,
+      "numerator_space_dimension": 310,
+      "seconds": 0.0147075,
+      "support_count": 64,
+      "adjacent_order_denominator_absent": true,
+      "distinct_finite_support": true,
+      "exact_public_alternant_equality": true,
+      "exact_public_goppa_equality": true,
+      "goppa_irreducible": true,
+      "multiplier_square_identity": true,
+      "square_root_quotient": true
+    },
+    "tampered_multiplier_rejected": true,
+    "routes_mobius_equivalent": true,
+    "total_seconds_excluding_kernel_acquisition": 14.0878
+  },
+  "independent_verification": {
+    "minor": {
+      "status": "passed",
+      "public_only": true,
+      "independent_of_recovery": true,
+      "support_count": 64,
+      "distinct_finite_support": true,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "alternant_binary_rank": 36,
+      "goppa_binary_rank": 36,
+      "exact_public_code_equality": true,
+      "multiplier_square_identity": true,
+      "public_sha256": "81d23978fd7d5be58deb685c4c9e0442c188cf923693fcb72e0468d02bf60cce",
+      "recovered_key_sha256": "8532de7a596dabffb6b9b1a6228f9eb8ca7023f8b630ca762e802260acdad1b3",
+      "seconds": 0.006764124998881016
+    },
+    "direct": {
+      "status": "passed",
+      "public_only": true,
+      "independent_of_recovery": true,
+      "support_count": 64,
+      "distinct_finite_support": true,
+      "goppa_degree": 6,
+      "goppa_irreducible": true,
+      "alternant_binary_rank": 36,
+      "goppa_binary_rank": 36,
+      "exact_public_code_equality": true,
+      "multiplier_square_identity": true,
+      "public_sha256": "81d23978fd7d5be58deb685c4c9e0442c188cf923693fcb72e0468d02bf60cce",
+      "recovered_key_sha256": "fd4065e5134178d093a3a5d427f122a87e5cb5a229b0e38cf95914a6a293031e",
+      "seconds": 0.006743512996763457
+    }
+  },
+  "status": "passed",
+  "stages": [
+    {
+      "name": "recover",
+      "command": [
+        "joint-v1-v3/joint-recovery",
+        "recover",
+        "rank-investigation/position-scan/held42/public.txt",
+        "rank-investigation/position-scan/held42/kernel.bin",
+        "joint-v1-v3/held42",
+        "both"
+      ],
+      "returncode": 0,
+      "seconds": 14.113592468998831
+    },
+    {
+      "name": "minor-independent",
+      "command": [
+        "/usr/bin/python3",
+        "verify.py",
+        "rank-investigation/position-scan/held42/public.txt",
+        "joint-v1-v3/held42/minor-key.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.06459788399661193
+    },
+    {
+      "name": "direct-independent",
+      "command": [
+        "/usr/bin/python3",
+        "verify.py",
+        "rank-investigation/position-scan/held42/public.txt",
+        "joint-v1-v3/held42/direct-key.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.06446163600048749
+    }
+  ],
+  "verification_invocation_seconds": 14.253063015999942
+}

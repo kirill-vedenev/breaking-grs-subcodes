@@ -1,0 +1,109 @@
+{
+  "status": "verified",
+  "seed": 89,
+  "eligible_positions_tested": 64,
+  "exceptional_positions": [
+    27,
+    42
+  ],
+  "regular_positions": 62,
+  "all_quadrics_used": true,
+  "position27_all_polynomials": 484,
+  "position27_zero_gradient_dimension": 463,
+  "quadratic_rank_both_spaces": 9,
+  "missing_monomials": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "geometric_quadratic_solution": "union of six projective lines joining cyclically neighboring Frobenius tangent directions",
+  "projective_GF64_quadratic_solutions": 384,
+  "true_directions": 6,
+  "spurious_directions": 378,
+  "stationary_third_order_normalized_edge_equations": [
+    "a^2*b=0",
+    "a*b^2=0"
+  ],
+  "third_order_directions_remaining": 6,
+  "continuation_rank_on_all_true_branches_at_bad_positions": 24,
+  "expected_continuation_rank": 26,
+  "rebase_control_reproduces_rank9": true,
+  "literal_Hasse_conditions_checked": 62390020,
+  "alternative_PLUQ_nullity": 484,
+  "source_of_asymmetry": "The degree-five multiplicity-four holdout interpolation space and its local quadratic evaluation map depend on the omitted position; the fixed code has no assumed transitive action on positions.",
+  "scope": "Exact local mechanism and independent computational checks established; no general closed-form criterion in the Goppa polynomial and support value is asserted.",
+  "positions_tested": 64,
+  "all_tangent_directions_have_minimal_field": "GF(64)",
+  "global_cubic_identities_quadratic_rank": 15,
+  "global_cubic_positions_tested": 64,
+  "double_holdout_controls": [
+    {
+      "omitted_positions": [
+        27,
+        42
+      ],
+      "curve_filter": {
+        "input_dimension": 2781,
+        "curve_identity_dimension": 2775,
+        "conditions_added": 6,
+        "certificate_roots": 256,
+        "degree_bound": 255
+      },
+      "rank_at_27": 15,
+      "continuation_rank_at_27": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        26
+      ],
+      "scope": "diagnostic curve-identity filtering uses the previously recovered key"
+    },
+    {
+      "omitted_positions": [
+        27,
+        29
+      ],
+      "curve_filter": {
+        "input_dimension": 2762,
+        "curve_identity_dimension": 2761,
+        "conditions_added": 1,
+        "certificate_roots": 256,
+        "degree_bound": 255
+      },
+      "rank_at_27": 15,
+      "continuation_rank_at_27": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        26
+      ],
+      "scope": "diagnostic curve-identity filtering uses the previously recovered key"
+    }
+  ],
+  "unresolved": "No closed-form criterion in g and alpha has been established explaining the selection of positions 27 and 42. The exact rank defect, absence of tangent subfield descent, and dependence on the constrained interpolation family are established."
+}

@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/workspace/degree7-k30-312-four/build/cado/linalg/bwc/lingen_b64",
+    "prime=2",
+    "m=512",
+    "n=512",
+    "afile=/workspace/degree7-k30-312-four/trials/trial-01/run/sequence/sequence.raw.bin",
+    "input_length=8210",
+    "ffile=/workspace/degree7-k30-312-four/trials/trial-01/run/generator/attempt-1/square.gen",
+    "rhs=none",
+    "thr=32x1",
+    "max_ram=64",
+    "tuning_thresholds=recursive:100000,notiming:1"
+  ],
+  "returncode": 0,
+  "seconds": 702.1735552869504
+}

@@ -1,0 +1,1743 @@
+{
+  "completed": 28,
+  "requested": 28,
+  "seconds": 378.6076550429998,
+  "results": [
+    {
+      "name": "held0",
+      "position": 0,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.007771132000016223,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 370.407686562,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41568341699985467,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 0,
+        "support_value": 4,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97768,
+        "kernel_dimension": 512,
+        "nnz": 9588408,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.991715,
+        "elimination_seconds": 361.662,
+        "extraction_seconds": 0.959771,
+        "verification_seconds": 6.49671,
+        "total_seconds": 370.358
+      },
+      "seconds": 370.83143955499963
+    },
+    {
+      "name": "held1",
+      "position": 1,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.012201718999676814,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 367.9575259780004,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.4155577949995859,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 1,
+        "support_value": 43,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97782,
+        "kernel_dimension": 498,
+        "nnz": 9397648,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.988739,
+        "elimination_seconds": 358.495,
+        "extraction_seconds": 0.761634,
+        "verification_seconds": 7.44146,
+        "total_seconds": 367.93
+      },
+      "seconds": 368.385564489
+    },
+    {
+      "name": "held10",
+      "position": 10,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.011054166000576515,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 349.73670253,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3652041889999964,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 10,
+        "support_value": 8,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9588408,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.973447,
+        "elimination_seconds": 340.928,
+        "extraction_seconds": 0.713706,
+        "verification_seconds": 6.86891,
+        "total_seconds": 349.718
+      },
+      "seconds": 350.1132607440004
+    },
+    {
+      "name": "held11",
+      "position": 11,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.011418283000239171,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 373.5130836969993,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41623834500023804,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 11,
+        "support_value": 30,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97782,
+        "kernel_dimension": 498,
+        "nnz": 9452688,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.983086,
+        "elimination_seconds": 364.328,
+        "extraction_seconds": 0.920791,
+        "verification_seconds": 6.99081,
+        "total_seconds": 373.464
+      },
+      "seconds": 373.9410484350001
+    },
+    {
+      "name": "held12",
+      "position": 12,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.011169171999426908,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 364.7705085440002,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3656036700003824,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 12,
+        "support_value": 5,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97838,
+        "kernel_dimension": 442,
+        "nnz": 9657448,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.990339,
+        "elimination_seconds": 356.208,
+        "extraction_seconds": 0.799972,
+        "verification_seconds": 6.5078,
+        "total_seconds": 364.72
+      },
+      "seconds": 365.1475769480003
+    },
+    {
+      "name": "held13",
+      "position": 13,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.015963224999723025,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 339.5000056250001,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3656564699995215,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 13,
+        "support_value": 61,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97824,
+        "kernel_dimension": 456,
+        "nnz": 9547744,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.969873,
+        "elimination_seconds": 330.305,
+        "extraction_seconds": 0.712807,
+        "verification_seconds": 7.25579,
+        "total_seconds": 339.464
+      },
+      "seconds": 339.88190711100015
+    },
+    {
+      "name": "held14",
+      "position": 14,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.016317616999913298,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 359.2162032870001,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.4156273710004825,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 14,
+        "support_value": 63,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97782,
+        "kernel_dimension": 498,
+        "nnz": 9588408,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.983734,
+        "elimination_seconds": 350.148,
+        "extraction_seconds": 0.741269,
+        "verification_seconds": 7.03508,
+        "total_seconds": 359.151
+      },
+      "seconds": 359.648441243
+    },
+    {
+      "name": "held15",
+      "position": 15,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.012620980000065174,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 360.7017524339999,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3657998590006173,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 15,
+        "support_value": 60,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9624888,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.993286,
+        "elimination_seconds": 351.444,
+        "extraction_seconds": 0.922689,
+        "verification_seconds": 7.0545,
+        "total_seconds": 360.648
+      },
+      "seconds": 361.08050040299986
+    },
+    {
+      "name": "held16",
+      "position": 16,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.015421416999743087,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 347.0912212439998,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.36614649900002405,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 16,
+        "support_value": 13,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97824,
+        "kernel_dimension": 456,
+        "nnz": 9452688,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.980456,
+        "elimination_seconds": 338.322,
+        "extraction_seconds": 0.679129,
+        "verification_seconds": 6.86752,
+        "total_seconds": 347.068
+      },
+      "seconds": 347.4731390449997
+    },
+    {
+      "name": "held17",
+      "position": 17,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.015828829999918526,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 352.5639523459995,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3659514310002123,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 17,
+        "support_value": 37,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9624888,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.976619,
+        "elimination_seconds": 343.745,
+        "extraction_seconds": 0.692104,
+        "verification_seconds": 6.87541,
+        "total_seconds": 352.523
+      },
+      "seconds": 352.9461375460005
+    },
+    {
+      "name": "held18",
+      "position": 18,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.007299181000234967,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 348.75228421999964,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41582900999947014,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 18,
+        "support_value": 40,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9397648,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.970269,
+        "elimination_seconds": 339.959,
+        "extraction_seconds": 0.704985,
+        "verification_seconds": 6.86446,
+        "total_seconds": 348.732
+      },
+      "seconds": 349.1757200990005
+    },
+    {
+      "name": "held19",
+      "position": 19,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.01266590900013398,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 367.36534120299984,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41553178499998467,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 19,
+        "support_value": 51,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97768,
+        "kernel_dimension": 512,
+        "nnz": 9547744,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.983245,
+        "elimination_seconds": 358.906,
+        "extraction_seconds": 0.724887,
+        "verification_seconds": 6.45755,
+        "total_seconds": 367.319
+      },
+      "seconds": 367.79381690100035
+    },
+    {
+      "name": "held2",
+      "position": 2,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.016923442999541294,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 366.9814370409995,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.4156320889997005,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 2,
+        "support_value": 49,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97768,
+        "kernel_dimension": 512,
+        "nnz": 9270744,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.98204,
+        "elimination_seconds": 358.458,
+        "extraction_seconds": 0.777088,
+        "verification_seconds": 6.45728,
+        "total_seconds": 366.921
+      },
+      "seconds": 367.41429758699996
+    },
+    {
+      "name": "held20",
+      "position": 20,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.011580169999433565,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 343.12333303000014,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.4161720330002936,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 20,
+        "support_value": 29,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97782,
+        "kernel_dimension": 498,
+        "nnz": 9588408,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.974382,
+        "elimination_seconds": 334.13,
+        "extraction_seconds": 0.727638,
+        "verification_seconds": 7.00744,
+        "total_seconds": 343.08
+      },
+      "seconds": 343.5513863739998
+    },
+    {
+      "name": "held21",
+      "position": 21,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.010600872999930289,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 372.7273061399992,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3659713309998551,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 21,
+        "support_value": 17,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9502608,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.987819,
+        "elimination_seconds": 363.47,
+        "extraction_seconds": 0.713284,
+        "verification_seconds": 7.28632,
+        "total_seconds": 372.691
+      },
+      "seconds": 373.1042173420001
+    },
+    {
+      "name": "held22",
+      "position": 22,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.009297253000113415,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 369.81378484200013,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41584637599953567,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 22,
+        "support_value": 10,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97768,
+        "kernel_dimension": 512,
+        "nnz": 9711744,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.987355,
+        "elimination_seconds": 360.767,
+        "extraction_seconds": 0.948048,
+        "verification_seconds": 6.80859,
+        "total_seconds": 369.758
+      },
+      "seconds": 370.23927921700033
+    },
+    {
+      "name": "held23",
+      "position": 23,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.01252314999965165,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 349.69022838900037,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41546757699961745,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 23,
+        "support_value": 31,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97768,
+        "kernel_dimension": 512,
+        "nnz": 9588408,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.974097,
+        "elimination_seconds": 341.302,
+        "extraction_seconds": 0.732849,
+        "verification_seconds": 6.41161,
+        "total_seconds": 349.667
+      },
+      "seconds": 350.118494757
+    },
+    {
+      "name": "held24",
+      "position": 24,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.007836691999727918,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 346.22774966900033,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3655843209999148,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 24,
+        "support_value": 47,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97824,
+        "kernel_dimension": 456,
+        "nnz": 9502608,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.971846,
+        "elimination_seconds": 337.437,
+        "extraction_seconds": 0.679464,
+        "verification_seconds": 6.87253,
+        "total_seconds": 346.181
+      },
+      "seconds": 346.6014732929998
+    },
+    {
+      "name": "held25",
+      "position": 25,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.01201407200005633,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 338.7347479810005,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.36614213199936785,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 25,
+        "support_value": 36,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97852,
+        "kernel_dimension": 428,
+        "nnz": 9657448,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.973996,
+        "elimination_seconds": 330.334,
+        "extraction_seconds": 0.671611,
+        "verification_seconds": 6.51183,
+        "total_seconds": 338.698
+      },
+      "seconds": 339.11326689
+    },
+    {
+      "name": "held26",
+      "position": 26,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.00978391599983297,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 378.1303802799994,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41595950800001447,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 26,
+        "support_value": 6,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97782,
+        "kernel_dimension": 498,
+        "nnz": 9502608,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 1.01622,
+        "elimination_seconds": 369.164,
+        "extraction_seconds": 0.856564,
+        "verification_seconds": 6.81489,
+        "total_seconds": 378.092
+      },
+      "seconds": 378.5564553000004
+    },
+    {
+      "name": "held28",
+      "position": 28,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.01064257699999871,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 348.8791295730007,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3653281090000746,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 28,
+        "support_value": 0,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97824,
+        "kernel_dimension": 456,
+        "nnz": 9588408,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.971698,
+        "elimination_seconds": 340.111,
+        "extraction_seconds": 0.66467,
+        "verification_seconds": 6.87971,
+        "total_seconds": 348.848
+      },
+      "seconds": 349.25536774900047
+    },
+    {
+      "name": "held3",
+      "position": 3,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.011194040000191308,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 344.4866043009997,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3652604850003627,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 3,
+        "support_value": 45,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97824,
+        "kernel_dimension": 456,
+        "nnz": 9686328,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.978191,
+        "elimination_seconds": 335.269,
+        "extraction_seconds": 0.695759,
+        "verification_seconds": 7.27083,
+        "total_seconds": 344.437
+      },
+      "seconds": 344.86333918500077
+    },
+    {
+      "name": "held4",
+      "position": 4,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.010177427000598982,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 346.5657702190001,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.41547935500057065,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 4,
+        "support_value": 25,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97768,
+        "kernel_dimension": 512,
+        "nnz": 9337128,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.972947,
+        "elimination_seconds": 338.115,
+        "extraction_seconds": 0.749701,
+        "verification_seconds": 6.4652,
+        "total_seconds": 346.549
+      },
+      "seconds": 346.99172465599986
+    },
+    {
+      "name": "held5",
+      "position": 5,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.007372843000666762,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 370.0030713309998,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.4157264719997329,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 5,
+        "support_value": 19,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97782,
+        "kernel_dimension": 498,
+        "nnz": 9337128,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.98386,
+        "elimination_seconds": 360.874,
+        "extraction_seconds": 0.957726,
+        "verification_seconds": 6.90074,
+        "total_seconds": 369.958
+      },
+      "seconds": 370.42636881900034
+    },
+    {
+      "name": "held6",
+      "position": 6,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.006329990000267571,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 361.2687795209995,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.36576105099993583,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 6,
+        "support_value": 12,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97810,
+        "kernel_dimension": 470,
+        "nnz": 9337128,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.978919,
+        "elimination_seconds": 352.326,
+        "extraction_seconds": 0.707064,
+        "verification_seconds": 7.00998,
+        "total_seconds": 361.248
+      },
+      "seconds": 361.641141094
+    },
+    {
+      "name": "held7",
+      "position": 7,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.007427506000567519,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 364.2517822010004,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.3657208989998253,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 7,
+        "support_value": 53,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9547744,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.98863,
+        "elimination_seconds": 355.253,
+        "extraction_seconds": 0.726999,
+        "verification_seconds": 7.00794,
+        "total_seconds": 364.21
+      },
+      "seconds": 364.62522173100024
+    },
+    {
+      "name": "held8",
+      "position": 8,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.016214099000535498,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 344.344294212,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.36584362699977646,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 8,
+        "support_value": 22,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97796,
+        "kernel_dimension": 484,
+        "nnz": 9711744,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.976406,
+        "elimination_seconds": 335.44,
+        "extraction_seconds": 0.721487,
+        "verification_seconds": 6.90716,
+        "total_seconds": 344.278
+      },
+      "seconds": 344.7267031729998
+    },
+    {
+      "name": "held9",
+      "position": 9,
+      "stages": [
+        {
+          "stage": "prepare",
+          "seconds": 0.010208714999862423,
+          "returncode": 0
+        },
+        {
+          "stage": "holdout",
+          "seconds": 347.29034378599954,
+          "returncode": 0
+        },
+        {
+          "stage": "analyze",
+          "seconds": 0.36513748800007306,
+          "returncode": 0
+        }
+      ],
+      "status": "completed",
+      "analysis": {
+        "heldout": 9,
+        "support_value": 3,
+        "gradient_rank": 21,
+        "tangent_span": 7,
+        "quadratic_rank": 15,
+        "zero_pairs": [],
+        "continuation_ranks": [
+          26,
+          26,
+          26,
+          26,
+          26,
+          26
+        ],
+        "curve_nonzero_coefficients_by_order": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stationary_cubic_edge_ranks": []
+      },
+      "holdout": {
+        "rows": 115640,
+        "full_rows": 128905,
+        "columns": 98280,
+        "rank": 97810,
+        "kernel_dimension": 470,
+        "nnz": 9502608,
+        "packed_matrix_bytes": 1420984320,
+        "full_hasse_verified": true,
+        "build_seconds": 0.974102,
+        "elimination_seconds": 338.494,
+        "extraction_seconds": 0.710303,
+        "verification_seconds": 6.86905,
+        "total_seconds": 347.273
+      },
+      "seconds": 347.6659362750006
+    }
+  ]
+}

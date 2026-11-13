@@ -1,0 +1,650 @@
+{
+  "all_requested_completed": true,
+  "case_wall_seconds": {
+    "count": 100,
+    "maximum": 390.327041699,
+    "mean": 350.35309155113,
+    "median": 350.63729544999995,
+    "minimum": 319.61256811600015
+  },
+  "completed": 100,
+  "failed": 1,
+  "failure_stages": {
+    "recover": 1
+  },
+  "failures": [
+    {
+      "error": "StageFailure: recover: exit 1: ERROR: quadratic separation rank criterion\n",
+      "seed": 89,
+      "stage": "recover"
+    }
+  ],
+  "invocation_elapsed_seconds": 1707.362566859,
+  "kernel_dimensions": {
+    "372": 1,
+    "400": 3,
+    "414": 1,
+    "428": 7,
+    "442": 8,
+    "455": 2,
+    "456": 6,
+    "470": 10,
+    "483": 2,
+    "484": 10,
+    "498": 6,
+    "510": 1,
+    "511": 2,
+    "512": 6,
+    "524": 1,
+    "525": 2,
+    "526": 3,
+    "538": 2,
+    "539": 1,
+    "540": 3,
+    "552": 1,
+    "554": 1,
+    "566": 1,
+    "567": 1,
+    "568": 2,
+    "580": 6,
+    "593": 1,
+    "595": 1,
+    "596": 1,
+    "608": 2,
+    "650": 2,
+    "664": 1,
+    "674": 1,
+    "705": 1,
+    "706": 1
+  },
+  "max_stage_rss_kib": 1417884,
+  "parameters": {
+    "D": 51,
+    "d": 5,
+    "k": 28,
+    "m": 6,
+    "modulus": 67,
+    "n": 64,
+    "s": 4,
+    "t": 6
+  },
+  "passed": 99,
+  "pending": 0,
+  "records": [
+    {
+      "record": "cases/seed-000001/case.json",
+      "seed": 1,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000002/case.json",
+      "seed": 2,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000003/case.json",
+      "seed": 3,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000004/case.json",
+      "seed": 4,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000005/case.json",
+      "seed": 5,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000006/case.json",
+      "seed": 6,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000007/case.json",
+      "seed": 7,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000008/case.json",
+      "seed": 8,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000009/case.json",
+      "seed": 9,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000010/case.json",
+      "seed": 10,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000011/case.json",
+      "seed": 11,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000012/case.json",
+      "seed": 12,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000013/case.json",
+      "seed": 13,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000014/case.json",
+      "seed": 14,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000015/case.json",
+      "seed": 15,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000016/case.json",
+      "seed": 16,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000017/case.json",
+      "seed": 17,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000018/case.json",
+      "seed": 18,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000019/case.json",
+      "seed": 19,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000020/case.json",
+      "seed": 20,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000021/case.json",
+      "seed": 21,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000022/case.json",
+      "seed": 22,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000023/case.json",
+      "seed": 23,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000024/case.json",
+      "seed": 24,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000025/case.json",
+      "seed": 25,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000026/case.json",
+      "seed": 26,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000027/case.json",
+      "seed": 27,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000028/case.json",
+      "seed": 28,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000029/case.json",
+      "seed": 29,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000030/case.json",
+      "seed": 30,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000031/case.json",
+      "seed": 31,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000032/case.json",
+      "seed": 32,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000033/case.json",
+      "seed": 33,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000034/case.json",
+      "seed": 34,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000035/case.json",
+      "seed": 35,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000036/case.json",
+      "seed": 36,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000037/case.json",
+      "seed": 37,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000038/case.json",
+      "seed": 38,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000039/case.json",
+      "seed": 39,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000040/case.json",
+      "seed": 40,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000041/case.json",
+      "seed": 41,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000042/case.json",
+      "seed": 42,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000043/case.json",
+      "seed": 43,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000044/case.json",
+      "seed": 44,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000045/case.json",
+      "seed": 45,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000046/case.json",
+      "seed": 46,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000047/case.json",
+      "seed": 47,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000048/case.json",
+      "seed": 48,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000049/case.json",
+      "seed": 49,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000050/case.json",
+      "seed": 50,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000051/case.json",
+      "seed": 51,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000052/case.json",
+      "seed": 52,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000053/case.json",
+      "seed": 53,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000054/case.json",
+      "seed": 54,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000055/case.json",
+      "seed": 55,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000056/case.json",
+      "seed": 56,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000057/case.json",
+      "seed": 57,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000058/case.json",
+      "seed": 58,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000059/case.json",
+      "seed": 59,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000060/case.json",
+      "seed": 60,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000061/case.json",
+      "seed": 61,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000062/case.json",
+      "seed": 62,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000063/case.json",
+      "seed": 63,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000064/case.json",
+      "seed": 64,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000065/case.json",
+      "seed": 65,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000066/case.json",
+      "seed": 66,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000067/case.json",
+      "seed": 67,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000068/case.json",
+      "seed": 68,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000069/case.json",
+      "seed": 69,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000070/case.json",
+      "seed": 70,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000071/case.json",
+      "seed": 71,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000072/case.json",
+      "seed": 72,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000073/case.json",
+      "seed": 73,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000074/case.json",
+      "seed": 74,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000075/case.json",
+      "seed": 75,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000076/case.json",
+      "seed": 76,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000077/case.json",
+      "seed": 77,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000078/case.json",
+      "seed": 78,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000079/case.json",
+      "seed": 79,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000080/case.json",
+      "seed": 80,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000081/case.json",
+      "seed": 81,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000082/case.json",
+      "seed": 82,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000083/case.json",
+      "seed": 83,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000084/case.json",
+      "seed": 84,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000085/case.json",
+      "seed": 85,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000086/case.json",
+      "seed": 86,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000087/case.json",
+      "seed": 87,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000088/case.json",
+      "seed": 88,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000089/case.json",
+      "seed": 89,
+      "status": "failed"
+    },
+    {
+      "record": "cases/seed-000090/case.json",
+      "seed": 90,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000091/case.json",
+      "seed": 91,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000092/case.json",
+      "seed": 92,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000093/case.json",
+      "seed": 93,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000094/case.json",
+      "seed": 94,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000095/case.json",
+      "seed": 95,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000096/case.json",
+      "seed": 96,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000097/case.json",
+      "seed": 97,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000098/case.json",
+      "seed": 98,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000099/case.json",
+      "seed": 99,
+      "status": "passed"
+    },
+    {
+      "record": "cases/seed-000100/case.json",
+      "seed": 100,
+      "status": "passed"
+    }
+  ],
+  "requested": 100,
+  "schema_version": 1,
+  "stage_wall_seconds": {
+    "direct-audit": {
+      "count": 99,
+      "maximum": 0.00868701100000635,
+      "mean": 0.008325987202018345,
+      "median": 0.00833953799997289,
+      "minimum": 0.008006625000007261
+    },
+    "direct-independent": {
+      "count": 99,
+      "maximum": 0.11535428299998784,
+      "mean": 0.06552451652525904,
+      "median": 0.06455380599982163,
+      "minimum": 0.06410397499985265
+    },
+    "direct-verify": {
+      "count": 99,
+      "maximum": 0.008771690999992643,
+      "mean": 0.008173854979798242,
+      "median": 0.008198578000019552,
+      "minimum": 0.007776750999937576
+    },
+    "generate": {
+      "count": 100,
+      "maximum": 0.020553961000018717,
+      "mean": 0.009941841850004494,
+      "median": 0.008407027500084041,
+      "minimum": 0.007848403000025428
+    },
+    "holdout": {
+      "count": 100,
+      "maximum": 377.683613776,
+      "mean": 338.80770568162,
+      "median": 338.58817457500004,
+      "minimum": 308.5688853469999
+    },
+    "minor-audit": {
+      "count": 99,
+      "maximum": 0.017049858000063978,
+      "mean": 0.008417590373740338,
+      "median": 0.008335987999998906,
+      "minimum": 0.007887302999961321
+    },
+    "minor-independent": {
+      "count": 99,
+      "maximum": 0.1153010410000661,
+      "mean": 0.06655789116160402,
+      "median": 0.06452845900003013,
+      "minimum": 0.06408641899997747
+    },
+    "minor-verify": {
+      "count": 99,
+      "maximum": 0.008792283000047973,
+      "mean": 0.008349256313137649,
+      "median": 0.008345482999857268,
+      "minimum": 0.008071360999792887
+    },
+    "prepare": {
+      "count": 100,
+      "maximum": 0.019425195999986045,
+      "mean": 0.009343977690002702,
+      "median": 0.008271007500013638,
+      "minimum": 0.00716350400000465
+    },
+    "recover": {
+      "count": 100,
+      "maximum": 12.455432986000005,
+      "mean": 11.335632727000002,
+      "median": 11.345238795499995,
+      "minimum": 7.382559211999933
+    }
+  },
+  "timing_scope": "Wall timings under concurrent load, not isolated benchmarks"
+}

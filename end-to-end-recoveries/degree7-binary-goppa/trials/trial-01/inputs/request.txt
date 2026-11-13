@@ -1,0 +1,36 @@
+mceliecex-holdout-cuda-request-v1
+public_sha256 94adf0cecc67516cdea97f56581226c64f56796a63bda1124ef2b4d6a92683d6
+k 30
+degree 7
+words 8
+repetitions 1
+seed 2026101602
+emit_output 0
+expected_columns 2035800
+expected_rows 2136372
+expected_nonzeros 347670960
+point_count 24
+point 810911911 2 3 4
+point 42383032 2 3 4
+point 374896283 2 3 4
+point 960273376 2 3 4
+point 238361312 2 3 4
+point 1068442390 2 3 4
+point 194240338 2 3 4
+point 90262934 2 3 4
+point 535064102 2 3 4
+point 525155540 2 3 4
+point 931147653 2 3 4
+point 395268169 2 3 4
+point 577677871 2 3 5
+point 1063766344 2 3 5
+point 760094737 2 3 5
+point 372121126 2 3 5
+point 255829437 2 3 5
+point 562912938 2 3 5
+point 487548698 2 3 5
+point 832932524 2 3 5
+point 1033589883 2 3 5
+point 234534822 2 3 5
+point 774243467 2 3 5
+point 8858234 2 3 5

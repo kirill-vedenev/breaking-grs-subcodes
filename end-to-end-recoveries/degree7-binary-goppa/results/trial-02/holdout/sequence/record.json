@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "sequence": {
+      "path": "sequence.raw.bin",
+      "bytes": 269025280,
+      "sha256": "fecf6b88a8efd0c850ed6d3020d1453a89a5e88c07983d893f8573e9ca589bb2"
+    }
+  },
+  "term_count": 8210,
+  "starts_with_S0": true
+}

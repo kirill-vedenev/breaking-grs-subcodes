@@ -1,0 +1,57 @@
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8193,"segment_end_step":8210,"elapsed_seconds":0.875038,"m_seconds_total":0.00828394,"compress_seconds_total":0.106014}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8194,"segment_end_step":8210,"elapsed_seconds":1.04314,"m_seconds_total":0.0165735,"compress_seconds_total":0.212063}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8195,"segment_end_step":8210,"elapsed_seconds":1.20938,"m_seconds_total":0.0248409,"compress_seconds_total":0.317938}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8196,"segment_end_step":8210,"elapsed_seconds":1.37738,"m_seconds_total":0.0331379,"compress_seconds_total":0.423798}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8197,"segment_end_step":8210,"elapsed_seconds":1.54386,"m_seconds_total":0.0414298,"compress_seconds_total":0.529745}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8198,"segment_end_step":8210,"elapsed_seconds":1.71172,"m_seconds_total":0.0497428,"compress_seconds_total":0.635709}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8199,"segment_end_step":8210,"elapsed_seconds":1.87796,"m_seconds_total":0.0580187,"compress_seconds_total":0.741612}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8200,"segment_end_step":8210,"elapsed_seconds":2.04602,"m_seconds_total":0.0663269,"compress_seconds_total":0.847588}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8201,"segment_end_step":8210,"elapsed_seconds":2.21232,"m_seconds_total":0.0746036,"compress_seconds_total":0.953561}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8202,"segment_end_step":8210,"elapsed_seconds":2.3802,"m_seconds_total":0.0828909,"compress_seconds_total":1.0595}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8203,"segment_end_step":8210,"elapsed_seconds":2.54665,"m_seconds_total":0.0911791,"compress_seconds_total":1.16547}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8204,"segment_end_step":8210,"elapsed_seconds":2.71449,"m_seconds_total":0.0994787,"compress_seconds_total":1.27138}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8205,"segment_end_step":8210,"elapsed_seconds":2.88085,"m_seconds_total":0.107766,"compress_seconds_total":1.37742}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8206,"segment_end_step":8210,"elapsed_seconds":3.04893,"m_seconds_total":0.116065,"compress_seconds_total":1.4834}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8207,"segment_end_step":8210,"elapsed_seconds":3.21514,"m_seconds_total":0.12435,"compress_seconds_total":1.58934}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8208,"segment_end_step":8210,"elapsed_seconds":3.38304,"m_seconds_total":0.132644,"compress_seconds_total":1.69527}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8209,"segment_end_step":8210,"elapsed_seconds":3.54955,"m_seconds_total":0.140945,"compress_seconds_total":1.80125}
+{"schema":"tii249-square-cufft-heartbeat-v1","completed_steps":8210,"segment_end_step":8210,"elapsed_seconds":3.71752,"m_seconds_total":0.149242,"compress_seconds_total":1.90729}
+{
+  "schema": "tii249-square-cufft-krylov-result-v2",
+  "terminal": "tii249_square_cufft_krylov_segment_complete",
+  "public_sha256": "765c7ce95862199fb48fc3324101b4cea3c43f6742ade1a2ba1885917280361e",
+  "operator_fnv1a64_le": "3068c38f1ff70a6d",
+  "operator": "A=R*M with deterministic systematic Toeplitz R",
+  "sequence_convention": "S_i=Z^T*A^i*Y; includes S_0",
+  "first_power": 8192,
+  "columns": 2035800,
+  "rows": 2136372,
+  "tail_rows": 100572,
+  "words": 8,
+  "block_bits": 512,
+  "fft_length": 4194304,
+  "batch_words": 2,
+  "start_step": 8192,
+  "term_count": 18,
+  "end_step": 8210,
+  "seed_y": 2026101602,
+  "seed_z": 11400714817314072439,
+  "panel_prng": "splitmix64-indexed-v1",
+  "compressor_seed": 2026101603,
+  "free_device_bytes_before": 149557411840,
+  "total_device_bytes": 150111977472,
+  "allocated_bytes_estimate": 1687057272,
+  "csr_bytes": 1158895544,
+  "csr_nonzeros": 285451140,
+  "preprocessing_seconds": 0.231312731,
+  "m_seconds_total": 0.149242175102,
+  "compress_seconds_total": 1.90729229736,
+  "projection_seconds_total": 0.950611579895,
+  "wall_seconds": 3.971475403,
+  "sequence_fnv1a64_le": "86d80b4892a85ef8",
+  "state_fnv1a64_le": "6b92129cf116b422",
+  "sequence_file": "sequence.raw.bin",
+  "sequence_bytes": 589824,
+  "state_file": "state.bin",
+  "state_bytes": 130291565
+}

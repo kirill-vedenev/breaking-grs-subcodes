@@ -1,0 +1,33 @@
+{
+  "scope": "Markdown edits and a relocated directory name in the startup assertion message. Execution records keep the hashes of the versions actually executed.",
+  "notebooks": [
+    {
+      "path": "01-grs-char2.ipynb",
+      "executed_version_sha256": "5790ca62870775578e6cb8e01472c13b15a8119ad1a3173ac81de7cb52217fe1",
+      "current_sha256": "6ed501ccf39b3f6d0a8ab6f11389f8dd0dc195736190e86c842f45c78985fb6e",
+      "calculation_code_outputs_and_metadata_unchanged": true,
+      "code_text_change": "Startup assertion message: keyrec-toy/ -> toy-notebooks/."
+    },
+    {
+      "path": "02-alternant-char2.ipynb",
+      "executed_version_sha256": "e334d8b62993fbb37a4ea3a14c9fd370b362cebf4fcb608066348cab04e71187",
+      "current_sha256": "3a34f2beca8c140ff423902a4b4d0783f0bc253b8c0867f6809f4e7832801fe8",
+      "calculation_code_outputs_and_metadata_unchanged": true,
+      "code_text_change": "Startup assertion message: keyrec-toy/ -> toy-notebooks/."
+    },
+    {
+      "path": "03-grs-odd.ipynb",
+      "executed_version_sha256": "b6345a6f797cc8bd74b78c6b2fc8778178ab1768c8f96b7ef842ff510b059515",
+      "current_sha256": "337d0f57749ad6f641ef830d6db3015e9945571516b0da7294ccac82a9b8fc25",
+      "calculation_code_outputs_and_metadata_unchanged": true,
+      "code_text_change": "Startup assertion message: keyrec-toy/ -> toy-notebooks/."
+    },
+    {
+      "path": "04-alternant-odd.ipynb",
+      "executed_version_sha256": "fcd7a495fe6cc83116f166cfd2d71d685753aa6c82213016ff721353a63a6e89",
+      "current_sha256": "22d1dc9fae711d920e66f805a791296a57deeda2748563ff00488d0dba1d02a2",
+      "calculation_code_outputs_and_metadata_unchanged": true,
+      "code_text_change": "Startup assertion message: keyrec-toy/ -> toy-notebooks/."
+    }
+  ]
+}

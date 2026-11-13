@@ -1,0 +1,112 @@
+{
+  "J": 2136372,
+  "N": 2035800,
+  "active_points": 24,
+  "baseline_instance_id": "4ee869f2d788f46bd69534f8021df46b8fe81b2ea668b5343045fbd74727e48a",
+  "block_bits": 512,
+  "composition_degree_bound": 315,
+  "compressor_seed": 2026101603,
+  "constraint_revision": "roots312-four-v1",
+  "csr_bytes": 1536592344,
+  "curve_vanishing_certified": true,
+  "dimension_forecast_is_heuristic": true,
+  "dimension_formula": "[z^d] ((1+z)^k product_active_points(1-z^(d-s+1)))_+",
+  "direct_jet_depth": 90,
+  "expected_continuation_rank": 28,
+  "expected_gradient_rank": 23,
+  "expected_quadratic_rank": 15,
+  "fft_batch_words": 2,
+  "fft_explicit_buffer_bytes": 4294969344,
+  "fft_length": 4194304,
+  "first_nonpositive_degree": null,
+  "forced_zeros": 312,
+  "geometric_seed_selection": false,
+  "heldout_original": 38,
+  "heldout_selection": "first non-information column of weight at least d",
+  "heldout_shortened": 28,
+  "hilbert_coefficients": [
+    1,
+    30,
+    423,
+    3688,
+    21891,
+    90690,
+    249071,
+    322056
+  ],
+  "instance_id": "fecf8ef3588982bf2a1780b916d4cc17b8173a1162f5e58739e7b47bde05aab3",
+  "irreducible_polynomial_draws": 9,
+  "kernel_solved": false,
+  "key_generator": "Python random.Random; monic quartic rejection sampling for irreducibility",
+  "lowered_original_positions": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "lowered_position_rule": "Use the original public shortening/holdout rule; lower the first twelve retained finite non-unit constraint columns to 5, leave all other retained points and infinity at 6, holdout at 0.",
+  "memory_excludes_cufft_plan_workspace": true,
+  "minor_contact_order": 37,
+  "multiplicity_histogram": {
+    "5": 12,
+    "6": 12
+  },
+  "multiplicity_histogram_scope": "24 explicit non-unit constraints including infinity",
+  "no_failed_seed_replacement": true,
+  "nonzeros": 379875340,
+  "ordinary_vanishing_condition_holds": false,
+  "original_public_sha256": "09c930b670d3801d4ba593e5517f112cd686d90aea2921d29b9962682d847e4f",
+  "original_shape": [
+    64,
+    40
+  ],
+  "parameter_choice_uses_prior_recovery_diagnosis": true,
+  "predicted_kernel_dimension": 322056,
+  "recovery_tested": false,
+  "relation_to_weis": "same m=6,t=4,n=64,k_short=30,d=7,s=6 family; not his exact key",
+  "requested_samples": 256,
+  "retained_orders_by_multiplicity": {
+    "5": [
+      3,
+      4
+    ],
+    "6": [
+      3,
+      5
+    ]
+  },
+  "runtime_recovered_key_input": false,
+  "schema": "degree7-roots312-four-trial-v1",
+  "seed": 2026101704,
+  "sequence_terms": 8210,
+  "shortened_original_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "shortened_shape": [
+    54,
+    30
+  ],
+  "solver": "existing homogeneous CUDA/CADO Wiedemann, not the proved sampler",
+  "solver_seed": 2026101602,
+  "three_blocks_and_range_bytes": 527601408,
+  "trial_id": "trial-04",
+  "vanishing_criterion": "Recorded diagnostic; an uncertified trial is retained, not replaced.",
+  "vanishing_preparation_record": "vanishing-record.json"
+}

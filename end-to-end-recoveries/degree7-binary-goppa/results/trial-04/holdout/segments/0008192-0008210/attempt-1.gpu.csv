@@ -1,0 +1,2 @@
+timestamp,index,memory.used_MiB,utilization.gpu_percent,temperature.gpu_C,power.draw_W
+2026/10/17 19:59:30.724, 0, 1, 0, 55, 213.21

@@ -1,0 +1,41 @@
+{
+  "status": "kernel_verified",
+  "full_key_recovery_completed": false,
+  "inputs": "/workspace/degree7-k30-312-four/trials/trial-03/inputs",
+  "original_input_hashes": {
+    "request.txt": "f9a9fc098794e1cb302ac045ed312aa4b60e74174412d13180496f754f5dd14d",
+    "operator.txt": "73daafbce340d2b47df1a466c81b35a70c6c79ef8639b4708945068a6099952e",
+    "experiment.json": "111ee634807b4058bf3826010c4e96913ade99b2cf4eb5a327fbb80a35c20e83",
+    "public.json": "821786da04bb7fe9b0e21640cea959886611a9b6340308251881daf2982b589f",
+    "vanishing-record.json": "8b8f72330682a9b621046e6a85e6020e3cafc6f6cfd502f9c40a23b7d1f99d56",
+    "server.py": "366e3f29a7f6b8b9582550198c3d14124a8c9771990ca4442aea18eebf1a74c2",
+    "validate_inputs.py": "ce6f1e90daa2654f80fb182b796c82fd349355b10c693458dc967d4015ca1f50",
+    "SHA256SUMS": "41bf5ce0b99a7a63847f257ffa3924e01d92758641272cd8c807303a3b8b2d19",
+    "square_cufft_worker.cu": "00821bfabeb7a2e20fd61bf5670b42634978d1aced41efb0cf14ee9dc3ae94df",
+    "common.hpp": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+    "residual_cleanup.hpp": "02b5c363a6ec74ee6acb630d9a278285e6cff5eb908c4f405f42cca749fec871",
+    "holdout_cuda_worker.cu": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+    "lingen_qcode_binary.cpp": "98827a4dd54bcc1a35d7703db5b7f55478c8f12977e63dbfca2597ab938bf491",
+    "bpack.cpp": "b119660b67e45a6f604981e3b1d188f1b9d5a556b0614543c64dbf135c7a61c7"
+  },
+  "artifacts": {
+    "kernel": "reconstruction/attempt-1/kernel.thk1",
+    "panel": "reconstruction/attempt-1/polynomials/kernel-panel.u64le",
+    "monomials": "reconstruction/attempt-1/polynomials/monomials-colex.u64",
+    "index": "reconstruction/attempt-1/polynomials/index.json",
+    "result": "reconstruction/attempt-1/recovery-result.json"
+  },
+  "verification": "verification/attempt-1/verification.json",
+  "requested_samples": 256,
+  "seconds_this_invocation": 507.67074620793574,
+  "successful_stage_seconds": {
+    "GPU_sequence": 1389.4674812521553,
+    "generator": 695.8250700880308,
+    "reconstruction": 503.5632907439722,
+    "verification": 3.04661188099999
+  },
+  "successful_stage_sum_seconds": 2591.902453965158,
+  "stage_sum_is_contiguous_wall_time": false,
+  "GPU_execution": "completed",
+  "next_stage": "Run scripts/inspect_kernel.py to measure the new gradients; standard recovery remains a separate result"
+}

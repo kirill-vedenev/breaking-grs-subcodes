@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "report": {
+      "path": "attempt-1/inspection.json",
+      "bytes": 1286,
+      "sha256": "06377dec8cc0171ae1ba514ef02cd65a622fdb7c3913e350cece12f52685e632"
+    },
+    "hasse_0": {
+      "path": "attempt-1/tensors/hasse-0.u64le",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    "hasse_1": {
+      "path": "attempt-1/tensors/hasse-1.u64le",
+      "bytes": 960,
+      "sha256": "3bb0556b9c6f66c010e952071b236dd809185add50c9a0429778b968ee641f03"
+    },
+    "hasse_2": {
+      "path": "attempt-1/tensors/hasse-2.u64le",
+      "bytes": 13920,
+      "sha256": "59d231b0c781657d69a5ef220348aa0d340361652640a7192606b9a96e1bac48"
+    },
+    "hasse_3": {
+      "path": "attempt-1/tensors/hasse-3.u64le",
+      "bytes": 129920,
+      "sha256": "c68638eb48697f04fa9a4f78404fea8149189bb607bc31eed5b2a39716f9dbc0"
+    },
+    "hasse_4": {
+      "path": "attempt-1/tensors/hasse-4.u64le",
+      "bytes": 876960,
+      "sha256": "61c289a41c3e0fc2bf6886430f3f1725fda4208c6f90221f7d36eb4697e47b16"
+    },
+    "hasse_5": {
+      "path": "attempt-1/tensors/hasse-5.u64le",
+      "bytes": 4560192,
+      "sha256": "bd03e55e213d87ed7f6e53de0e429078cd6ba0017a1aeb9629c18feb54c3109a"
+    },
+    "hasse_6": {
+      "path": "attempt-1/tensors/hasse-6.u64le",
+      "bytes": 19000800,
+      "sha256": "cb15f6e52fb8a2174281c40746b10c9757c44b6fa531c109940349131ef62057"
+    }
+  }
+}

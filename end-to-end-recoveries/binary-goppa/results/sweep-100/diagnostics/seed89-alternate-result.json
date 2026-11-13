@@ -1,0 +1,182 @@
+{
+  "seed": 89,
+  "separate_from_baseline_sweep": true,
+  "automatic_retry_in_baseline": false,
+  "original_heldout": 27,
+  "alternate_heldout": 29,
+  "selection": "next non-unit public column; selected without generated secret data",
+  "public_generator_unchanged": true,
+  "original_public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+  "alternate_public_sha256": "3465959aa0ab4ddb1c66e7d69a9ec6891451b31cebcd818047091eacb9189d4b",
+  "stages": [
+    {
+      "name": "recovery",
+      "command": [
+        "run.sh",
+        "diagnostics/seed89-next-heldout-public.txt",
+        "diagnostics/seed89-next-heldout-recovery",
+        "both"
+      ],
+      "returncode": 0,
+      "seconds": 317.88119824
+    },
+    {
+      "name": "minor-independent",
+      "command": [
+        "/usr/bin/python3",
+        "verify.py",
+        "diagnostics/seed89-next-heldout-public.txt",
+        "diagnostics/seed89-next-heldout-recovery/recovery/minor-key.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.05144639400032247
+    },
+    {
+      "name": "minor-audit",
+      "command": [
+        "build/toy-goppa",
+        "audit",
+        "diagnostics/seed89-next-heldout-public.txt",
+        "sweep-100/cases/seed-000089/instance/audit/secret.txt",
+        "diagnostics/seed89-next-heldout-recovery/recovery/minor-key.txt"
+      ],
+      "returncode": 0,
+      "seconds": 0.00510132599993085
+    },
+    {
+      "name": "direct-independent",
+      "command": [
+        "/usr/bin/python3",
+        "verify.py",
+        "diagnostics/seed89-next-heldout-public.txt",
+        "diagnostics/seed89-next-heldout-recovery/recovery/direct-key.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.0500983140000244
+    },
+    {
+      "name": "direct-audit",
+      "command": [
+        "build/toy-goppa",
+        "audit",
+        "diagnostics/seed89-next-heldout-public.txt",
+        "sweep-100/cases/seed-000089/instance/audit/secret.txt",
+        "diagnostics/seed89-next-heldout-recovery/recovery/direct-key.txt"
+      ],
+      "returncode": 0,
+      "seconds": 0.004944346999764093
+    }
+  ],
+  "status": "passed",
+  "total_seconds": 317.9929155949999,
+  "recovery": {
+    "status": "passed",
+    "route": "both",
+    "m": 6,
+    "t": 6,
+    "n": 64,
+    "k": 28,
+    "D": 51,
+    "heldout": 29,
+    "modulus": 67,
+    "kernel_dimension": 484,
+    "monomials": 98280,
+    "kernel_input_verification_seconds": 7.12444,
+    "initial_forced_zeros": 252,
+    "initial_composition_degree_bound": 255,
+    "initial_ordinary_zero_count_suffices": false,
+    "public_inputs_only": true,
+    "full_hasse_verified": true,
+    "kernel_independence_verified": true,
+    "branches": {
+      "branches": 6,
+      "continuation_rank_all_branches": 26,
+      "gradient_nullity": 7,
+      "gradient_rank": 21,
+      "quadratic_rank": 15,
+      "seconds": 0.102632
+    },
+    "jet": {
+      "continuation_rank": 26,
+      "depth": 102,
+      "first_full_coefficient_span_order": 33,
+      "fresh_substitution_seconds": 1.05582,
+      "recurrence_seconds": 2.55213,
+      "all_polynomials_used": true,
+      "full_substitution": true,
+      "normalized": true
+    },
+    "geometry": {
+      "certified_root_count": 355,
+      "coherent_coefficients": 2884,
+      "curve_degree_bound": 51,
+      "frobenius_alignment": 0,
+      "holdout_composition_degree_bound": 255,
+      "seconds": 0.240466,
+      "all_branches_verified": true,
+      "all_tangents_aligned": true,
+      "coherent_jet": true,
+      "full_quadratic_ideal_verified": true,
+      "holdout_curve_identities_certified": true,
+      "uses_original_secret": false
+    },
+    "bootstrap": {
+      "constraint_rank": 97,
+      "gradient_rank_all_positions": 26,
+      "ideal_dimension": 309,
+      "jet_order": 39,
+      "positions": 64,
+      "quadratic_unknowns": 406,
+      "seconds": 0.0328199,
+      "ordinary_bootstrap_bound": true
+    },
+    "minor": {
+      "binary_parity_rank": 36,
+      "goppa_degree": 6,
+      "minor_rank": 45,
+      "minor_rows": 378,
+      "seconds": 0.0112745,
+      "support_count": 64,
+      "distinct_finite_support": true,
+      "exact_minor_grs_equality": true,
+      "exact_public_alternant_equality": true,
+      "exact_public_goppa_equality": true,
+      "goppa_irreducible": true,
+      "multiplier_square_identity": true
+    },
+    "direct": {
+      "binary_parity_rank": 36,
+      "denominator_space_dimension": 311,
+      "goppa_degree": 6,
+      "jet_order_used": 101,
+      "numerator_space_dimension": 310,
+      "seconds": 0.0146588,
+      "support_count": 64,
+      "adjacent_order_denominator_absent": true,
+      "distinct_finite_support": true,
+      "exact_public_alternant_equality": true,
+      "exact_public_goppa_equality": true,
+      "goppa_irreducible": true,
+      "multiplier_square_identity": true,
+      "square_root_quotient": true
+    },
+    "tampered_multiplier_rejected": true,
+    "routes_mobius_equivalent": true,
+    "total_seconds_excluding_kernel_acquisition": 11.1416
+  },
+  "holdout": {
+    "rows": 115640,
+    "full_rows": 128905,
+    "columns": 98280,
+    "rank": 97796,
+    "kernel_dimension": 484,
+    "nnz": 10968536,
+    "packed_matrix_bytes": 1420984320,
+    "full_hasse_verified": true,
+    "build_seconds": 0.964061,
+    "elimination_seconds": 297.834,
+    "extraction_seconds": 0.707584,
+    "verification_seconds": 6.9597,
+    "total_seconds": 306.699
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "seed": 89,
+  "requested": 3,
+  "passed": 3,
+  "public_recovery_without_known_key_or_curve": true,
+  "original_kernels_unchanged": true,
+  "source_and_binary_sha256": {
+    "joint-v1-v3/public_joint.hpp": "cb40b0662402a739d50bac9254cb02c9c95a6e2a4f506bfaf0dd2655756e007c",
+    "joint-v1-v3/joint_recovery.cpp": "93574ee35ffb9ab0acdf4df1005a5b32f292a0a9bd2d5dd13c48715adfa0b67f",
+    "joint-v1-v3/run_checks.py": "18d4c44824dbf322c0045eb6ae5efb3d50ed9910154f8d3ca558efcbd3ba6ab6",
+    "src/holdout.cpp": "354ed46b01a514a7ceb7136ba0fcb1a4e555abb5df71d05e482be728b1960034",
+    "include/algebra.hpp": "4d91ff03ec0938487f700cc433eacdd3c180c40ec365998472a21631555c51af",
+    "include/series_api.hpp": "ed809eba0810c33da4ff2212a7d436d7bb855e8310ec65616ad60b42a214a726",
+    "verify.py": "0519b165f945c1508a237d70d9282b74b47992433a4e81f82d7cf7e765f00edf",
+    "joint-v1-v3/joint-recovery": "8370bffb4b64061220b5092182962fd1ca18a45af50e21c6090cbb818d2017a0"
+  },
+  "results": [
+    {
+      "heldout": 27,
+      "seed": 89,
+      "public_inputs_only_for_recovery": true,
+      "fresh_holdout_computation": false,
+      "holdout_profile_unchanged": true,
+      "public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+      "kernel_sha256": "1323e94e8d993c875bbbe3ea438eb590638908e33423166920fae6d2c40ab44d",
+      "recovery": {
+        "status": "passed",
+        "route": "both",
+        "m": 6,
+        "t": 6,
+        "n": 64,
+        "k": 28,
+        "D": 51,
+        "heldout": 27,
+        "modulus": 67,
+        "kernel_dimension": 484,
+        "monomials": 98280,
+        "kernel_input_verification_seconds": 7.23589,
+        "initial_forced_zeros": 252,
+        "initial_composition_degree_bound": 255,
+        "initial_ordinary_zero_count_suffices": false,
+        "public_inputs_only": true,
+        "full_hasse_verified": true,
+        "kernel_independence_verified": true,
+        "branches": {
+          "branches": 6,
+          "continuation_rank_all_branches": 26,
+          "cubic_ideal_rank": 50,
+          "cubic_quotient_dimension": 6,
+          "gradient_nullity": 7,
+          "gradient_rank": 21,
+          "original_continuation_rank_all_branches": 24,
+          "quadratic_rank": 9,
+          "seconds": 1.21152,
+          "fifth_order_lookahead_restores_rank": true,
+          "public_cubic_branch_separation": true,
+          "stationary_cubics_eliminate_unknown_v3": true
+        },
+        "jet": {
+          "continuation_rank": 26,
+          "depth": 102,
+          "first_full_coefficient_span_order": 33,
+          "fresh_substitution_seconds": 1.06793,
+          "recurrence_seconds": 3.93037,
+          "stationary_lookahead_order": 103,
+          "all_polynomials_used": true,
+          "full_substitution": true,
+          "normalized": true,
+          "r_plus_two_stationary_equations": true
+        },
+        "geometry": {
+          "certified_root_count": 355,
+          "coherent_coefficients": 2884,
+          "curve_degree_bound": 51,
+          "frobenius_alignment": 0,
+          "holdout_composition_degree_bound": 255,
+          "seconds": 0.239578,
+          "all_branches_verified": true,
+          "all_tangents_aligned": true,
+          "coherent_jet": true,
+          "full_quadratic_ideal_verified": true,
+          "holdout_curve_identities_certified": true,
+          "uses_original_secret": false
+        },
+        "bootstrap": {
+          "constraint_rank": 97,
+          "gradient_rank_all_positions": 26,
+          "ideal_dimension": 309,
+          "jet_order": 39,
+          "positions": 64,
+          "quadratic_unknowns": 406,
+          "seconds": 0.0331174,
+          "ordinary_bootstrap_bound": true
+        },
+        "minor": {
+          "binary_parity_rank": 36,
+          "goppa_degree": 6,
+          "minor_rank": 45,
+          "minor_rows": 378,
+          "seconds": 0.0113042,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "exact_minor_grs_equality": true,
+          "exact_public_alternant_equality": true,
+          "exact_public_goppa_equality": true,
+          "goppa_irreducible": true,
+          "multiplier_square_identity": true
+        },
+        "direct": {
+          "binary_parity_rank": 36,
+          "denominator_space_dimension": 311,
+          "goppa_degree": 6,
+          "jet_order_used": 101,
+          "numerator_space_dimension": 310,
+          "seconds": 0.0147166,
+          "support_count": 64,
+          "adjacent_order_denominator_absent": true,
+          "distinct_finite_support": true,
+          "exact_public_alternant_equality": true,
+          "exact_public_goppa_equality": true,
+          "goppa_irreducible": true,
+          "multiplier_square_identity": true,
+          "square_root_quotient": true
+        },
+        "tampered_multiplier_rejected": true,
+        "routes_mobius_equivalent": true,
+        "total_seconds_excluding_kernel_acquisition": 13.752
+      },
+      "independent_verification": {
+        "minor": {
+          "status": "passed",
+          "public_only": true,
+          "independent_of_recovery": true,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 6,
+          "goppa_irreducible": true,
+          "alternant_binary_rank": 36,
+          "goppa_binary_rank": 36,
+          "exact_public_code_equality": true,
+          "multiplier_square_identity": true,
+          "public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+          "recovered_key_sha256": "ccae10fddbeae4aa3434be60d89b7c76d0fc8209b20171bea92988f3507ab50e",
+          "seconds": 0.006713917999149999
+        },
+        "direct": {
+          "status": "passed",
+          "public_only": true,
+          "independent_of_recovery": true,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 6,
+          "goppa_irreducible": true,
+          "alternant_binary_rank": 36,
+          "goppa_binary_rank": 36,
+          "exact_public_code_equality": true,
+          "multiplier_square_identity": true,
+          "public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+          "recovered_key_sha256": "087c6fdae8a3b97ff4e26bf7fc2e1b142df4f7ad0331c8246a2ec07b4d536cc8",
+          "seconds": 0.0067336379979678895
+        }
+      },
+      "status": "passed",
+      "stages": [
+        {
+          "name": "minor-independent",
+          "command": [
+            "/usr/bin/python3",
+            "verify.py",
+            "sweep-100/cases/seed-000089/instance/public.txt",
+            "joint-v1-v3/held27/minor-key.json"
+          ],
+          "returncode": 0,
+          "seconds": 0.06602624599690898
+        },
+        {
+          "name": "direct-independent",
+          "command": [
+            "/usr/bin/python3",
+            "verify.py",
+            "sweep-100/cases/seed-000089/instance/public.txt",
+            "joint-v1-v3/held27/direct-key.json"
+          ],
+          "returncode": 0,
+          "seconds": 0.06438116299977992
+        }
+      ],
+      "verification_invocation_seconds": 0.1390459579997696
+    },
+    {
+      "heldout": 42,
+      "seed": 89,
+      "public_inputs_only_for_recovery": true,
+      "fresh_holdout_computation": false,
+      "holdout_profile_unchanged": true,
+      "public_sha256": "81d23978fd7d5be58deb685c4c9e0442c188cf923693fcb72e0468d02bf60cce",
+      "kernel_sha256": "02c1686e45eb11c1d1c1d232c8d38179034f6fb7ef0b7619ac7af20a35e64eeb",
+      "recovery": {
+        "status": "passed",
+        "route": "both",
+        "m": 6,
+        "t": 6,
+        "n": 64,
+        "k": 28,
+        "D": 51,
+        "heldout": 42,
+        "modulus": 67,
+        "kernel_dimension": 498,
+        "monomials": 98280,
+        "kernel_input_verification_seconds": 7.54252,
+        "initial_forced_zeros": 252,
+        "initial_composition_degree_bound": 255,
+        "initial_ordinary_zero_count_suffices": false,
+        "public_inputs_only": true,
+        "full_hasse_verified": true,
+        "kernel_independence_verified": true,
+        "branches": {
+          "branches": 6,
+          "continuation_rank_all_branches": 26,
+          "cubic_ideal_rank": 50,
+          "cubic_quotient_dimension": 6,
+          "gradient_nullity": 7,
+          "gradient_rank": 21,
+          "original_continuation_rank_all_branches": 24,
+          "quadratic_rank": 9,
+          "seconds": 1.32315,
+          "fifth_order_lookahead_restores_rank": true,
+          "public_cubic_branch_separation": true,
+          "stationary_cubics_eliminate_unknown_v3": true
+        },
+        "jet": {
+          "continuation_rank": 26,
+          "depth": 102,
+          "first_full_coefficient_span_order": 33,
+          "fresh_substitution_seconds": 1.0775,
+          "recurrence_seconds": 3.83782,
+          "stationary_lookahead_order": 103,
+          "all_polynomials_used": true,
+          "full_substitution": true,
+          "normalized": true,
+          "r_plus_two_stationary_equations": true
+        },
+        "geometry": {
+          "certified_root_count": 355,
+          "coherent_coefficients": 2884,
+          "curve_degree_bound": 51,
+          "frobenius_alignment": 0,
+          "holdout_composition_degree_bound": 255,
+          "seconds": 0.240896,
+          "all_branches_verified": true,
+          "all_tangents_aligned": true,
+          "coherent_jet": true,
+          "full_quadratic_ideal_verified": true,
+          "holdout_curve_identities_certified": true,
+          "uses_original_secret": false
+        },
+        "bootstrap": {
+          "constraint_rank": 97,
+          "gradient_rank_all_positions": 26,
+          "ideal_dimension": 309,
+          "jet_order": 39,
+          "positions": 64,
+          "quadratic_unknowns": 406,
+          "seconds": 0.0327647,
+          "ordinary_bootstrap_bound": true
+        },
+        "minor": {
+          "binary_parity_rank": 36,
+          "goppa_degree": 6,
+          "minor_rank": 45,
+          "minor_rows": 378,
+          "seconds": 0.0112923,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "exact_minor_grs_equality": true,
+          "exact_public_alternant_equality": true,
+          "exact_public_goppa_equality": true,
+          "goppa_irreducible": true,
+          "multiplier_square_identity": true
+        },
+        "direct": {
+          "binary_parity_rank": 36,
+          "denominator_space_dimension": 311,
+          "goppa_degree": 6,
+          "jet_order_used": 101,
+          "numerator_space_dimension": 310,
+          "seconds": 0.0147075,
+          "support_count": 64,
+          "adjacent_order_denominator_absent": true,
+          "distinct_finite_support": true,
+          "exact_public_alternant_equality": true,
+          "exact_public_goppa_equality": true,
+          "goppa_irreducible": true,
+          "multiplier_square_identity": true,
+          "square_root_quotient": true
+        },
+        "tampered_multiplier_rejected": true,
+        "routes_mobius_equivalent": true,
+        "total_seconds_excluding_kernel_acquisition": 14.0878
+      },
+      "independent_verification": {
+        "minor": {
+          "status": "passed",
+          "public_only": true,
+          "independent_of_recovery": true,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 6,
+          "goppa_irreducible": true,
+          "alternant_binary_rank": 36,
+          "goppa_binary_rank": 36,
+          "exact_public_code_equality": true,
+          "multiplier_square_identity": true,
+          "public_sha256": "81d23978fd7d5be58deb685c4c9e0442c188cf923693fcb72e0468d02bf60cce",
+          "recovered_key_sha256": "8532de7a596dabffb6b9b1a6228f9eb8ca7023f8b630ca762e802260acdad1b3",
+          "seconds": 0.006764124998881016
+        },
+        "direct": {
+          "status": "passed",
+          "public_only": true,
+          "independent_of_recovery": true,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 6,
+          "goppa_irreducible": true,
+          "alternant_binary_rank": 36,
+          "goppa_binary_rank": 36,
+          "exact_public_code_equality": true,
+          "multiplier_square_identity": true,
+          "public_sha256": "81d23978fd7d5be58deb685c4c9e0442c188cf923693fcb72e0468d02bf60cce",
+          "recovered_key_sha256": "fd4065e5134178d093a3a5d427f122a87e5cb5a229b0e38cf95914a6a293031e",
+          "seconds": 0.006743512996763457
+        }
+      },
+      "status": "passed",
+      "stages": [
+        {
+          "name": "recover",
+          "command": [
+            "joint-v1-v3/joint-recovery",
+            "recover",
+            "rank-investigation/position-scan/held42/public.txt",
+            "rank-investigation/position-scan/held42/kernel.bin",
+            "joint-v1-v3/held42",
+            "both"
+          ],
+          "returncode": 0,
+          "seconds": 14.113592468998831
+        },
+        {
+          "name": "minor-independent",
+          "command": [
+            "/usr/bin/python3",
+            "verify.py",
+            "rank-investigation/position-scan/held42/public.txt",
+            "joint-v1-v3/held42/minor-key.json"
+          ],
+          "returncode": 0,
+          "seconds": 0.06459788399661193
+        },
+        {
+          "name": "direct-independent",
+          "command": [
+            "/usr/bin/python3",
+            "verify.py",
+            "rank-investigation/position-scan/held42/public.txt",
+            "joint-v1-v3/held42/direct-key.json"
+          ],
+          "returncode": 0,
+          "seconds": 0.06446163600048749
+        }
+      ],
+      "verification_invocation_seconds": 14.253063015999942
+    },
+    {
+      "heldout": 29,
+      "seed": 89,
+      "public_inputs_only_for_recovery": true,
+      "fresh_holdout_computation": false,
+      "holdout_profile_unchanged": true,
+      "public_sha256": "3465959aa0ab4ddb1c66e7d69a9ec6891451b31cebcd818047091eacb9189d4b",
+      "kernel_sha256": "3780c5a25498653028758663316c89c15a1e616ac0c9c07d259dbfb3a7c94dad",
+      "recovery": {
+        "status": "passed",
+        "route": "both",
+        "m": 6,
+        "t": 6,
+        "n": 64,
+        "k": 28,
+        "D": 51,
+        "heldout": 29,
+        "modulus": 67,
+        "kernel_dimension": 484,
+        "monomials": 98280,
+        "kernel_input_verification_seconds": 7.45407,
+        "initial_forced_zeros": 252,
+        "initial_composition_degree_bound": 255,
+        "initial_ordinary_zero_count_suffices": false,
+        "public_inputs_only": true,
+        "full_hasse_verified": true,
+        "kernel_independence_verified": true,
+        "branches": {
+          "branches": 6,
+          "continuation_rank_all_branches": 26,
+          "cubic_ideal_rank": 50,
+          "cubic_quotient_dimension": 6,
+          "gradient_nullity": 7,
+          "gradient_rank": 21,
+          "original_continuation_rank_all_branches": 26,
+          "quadratic_rank": 15,
+          "seconds": 1.21237,
+          "fifth_order_lookahead_restores_rank": true,
+          "public_cubic_branch_separation": true,
+          "stationary_cubics_eliminate_unknown_v3": true
+        },
+        "jet": {
+          "continuation_rank": 26,
+          "depth": 102,
+          "first_full_coefficient_span_order": 33,
+          "fresh_substitution_seconds": 1.05395,
+          "recurrence_seconds": 3.86896,
+          "stationary_lookahead_order": 103,
+          "all_polynomials_used": true,
+          "full_substitution": true,
+          "normalized": true,
+          "r_plus_two_stationary_equations": true
+        },
+        "geometry": {
+          "certified_root_count": 355,
+          "coherent_coefficients": 2884,
+          "curve_degree_bound": 51,
+          "frobenius_alignment": 0,
+          "holdout_composition_degree_bound": 255,
+          "seconds": 0.238943,
+          "all_branches_verified": true,
+          "all_tangents_aligned": true,
+          "coherent_jet": true,
+          "full_quadratic_ideal_verified": true,
+          "holdout_curve_identities_certified": true,
+          "uses_original_secret": false
+        },
+        "bootstrap": {
+          "constraint_rank": 97,
+          "gradient_rank_all_positions": 26,
+          "ideal_dimension": 309,
+          "jet_order": 39,
+          "positions": 64,
+          "quadratic_unknowns": 406,
+          "seconds": 0.0329179,
+          "ordinary_bootstrap_bound": true
+        },
+        "minor": {
+          "binary_parity_rank": 36,
+          "goppa_degree": 6,
+          "minor_rank": 45,
+          "minor_rows": 378,
+          "seconds": 0.0113002,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "exact_minor_grs_equality": true,
+          "exact_public_alternant_equality": true,
+          "exact_public_goppa_equality": true,
+          "goppa_irreducible": true,
+          "multiplier_square_identity": true
+        },
+        "direct": {
+          "binary_parity_rank": 36,
+          "denominator_space_dimension": 311,
+          "goppa_degree": 6,
+          "jet_order_used": 101,
+          "numerator_space_dimension": 310,
+          "seconds": 0.0146726,
+          "support_count": 64,
+          "adjacent_order_denominator_absent": true,
+          "distinct_finite_support": true,
+          "exact_public_alternant_equality": true,
+          "exact_public_goppa_equality": true,
+          "goppa_irreducible": true,
+          "multiplier_square_identity": true,
+          "square_root_quotient": true
+        },
+        "tampered_multiplier_rejected": true,
+        "routes_mobius_equivalent": true,
+        "total_seconds_excluding_kernel_acquisition": 13.8945
+      },
+      "independent_verification": {
+        "minor": {
+          "status": "passed",
+          "public_only": true,
+          "independent_of_recovery": true,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 6,
+          "goppa_irreducible": true,
+          "alternant_binary_rank": 36,
+          "goppa_binary_rank": 36,
+          "exact_public_code_equality": true,
+          "multiplier_square_identity": true,
+          "public_sha256": "3465959aa0ab4ddb1c66e7d69a9ec6891451b31cebcd818047091eacb9189d4b",
+          "recovered_key_sha256": "8ee4dffc8804ef273954d2cdeb92f93499685ee116574921bcf6a66b9f6bd28b",
+          "seconds": 0.006674488002317958
+        },
+        "direct": {
+          "status": "passed",
+          "public_only": true,
+          "independent_of_recovery": true,
+          "support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 6,
+          "goppa_irreducible": true,
+          "alternant_binary_rank": 36,
+          "goppa_binary_rank": 36,
+          "exact_public_code_equality": true,
+          "multiplier_square_identity": true,
+          "public_sha256": "3465959aa0ab4ddb1c66e7d69a9ec6891451b31cebcd818047091eacb9189d4b",
+          "recovered_key_sha256": "86aa3491b3005c819f3039b6a3919890f5b9823cecb7c821d99c5912c32284f2",
+          "seconds": 0.006669540001894347
+        }
+      },
+      "status": "passed",
+      "stages": [
+        {
+          "name": "recover",
+          "command": [
+            "joint-v1-v3/joint-recovery",
+            "recover",
+            "diagnostics/seed89-next-heldout-public.txt",
+            "diagnostics/seed89-next-heldout-recovery/kernel.bin",
+            "joint-v1-v3/held29",
+            "both"
+          ],
+          "returncode": 0,
+          "seconds": 13.913924222000787
+        },
+        {
+          "name": "minor-independent",
+          "command": [
+            "/usr/bin/python3",
+            "verify.py",
+            "diagnostics/seed89-next-heldout-public.txt",
+            "joint-v1-v3/held29/minor-key.json"
+          ],
+          "returncode": 0,
+          "seconds": 0.06457430799855501
+        },
+        {
+          "name": "direct-independent",
+          "command": [
+            "/usr/bin/python3",
+            "verify.py",
+            "diagnostics/seed89-next-heldout-public.txt",
+            "joint-v1-v3/held29/direct-key.json"
+          ],
+          "returncode": 0,
+          "seconds": 0.06449306400099886
+        }
+      ],
+      "verification_invocation_seconds": 14.052334096999402
+    }
+  ]
+}

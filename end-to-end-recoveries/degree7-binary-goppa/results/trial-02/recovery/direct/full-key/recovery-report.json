@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "public_only": true,
+  "secret_reference_read": false,
+  "full_support_count": 64,
+  "shortened_support_count": 54,
+  "restored_positions": 10,
+  "extension_tests": [
+    {
+      "original_position": 0,
+      "accepted": 18,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 1,
+      "accepted": 34,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 2,
+      "accepted": 48,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 3,
+      "accepted": 51,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 4,
+      "accepted": 29,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 5,
+      "accepted": 58,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 6,
+      "accepted": 5,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 7,
+      "accepted": 60,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 8,
+      "accepted": 0,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 9,
+      "accepted": 24,
+      "projective_candidates": 11,
+      "unique": true
+    }
+  ],
+  "full_multiplier_rank": 63,
+  "exact_original_public_code_equality": true,
+  "goppa_degree": 4,
+  "goppa_irreducible": true,
+  "original_public_sha256": "765c7ce95862199fb48fc3324101b4cea3c43f6742ade1a2ba1885917280361e",
+  "support_source_sha256": "02514177e7ccdf5a3b02960b019ddc67c98871a4d4f0a261541d15e145cece1b",
+  "seconds": 0.7267517088912427
+}

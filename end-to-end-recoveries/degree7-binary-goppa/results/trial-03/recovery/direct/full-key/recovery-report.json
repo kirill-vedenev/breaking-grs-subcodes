@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "public_only": true,
+  "secret_reference_read": false,
+  "full_support_count": 64,
+  "shortened_support_count": 54,
+  "restored_positions": 10,
+  "extension_tests": [
+    {
+      "original_position": 0,
+      "accepted": 17,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 1,
+      "accepted": 29,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 2,
+      "accepted": 51,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 3,
+      "accepted": 15,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 4,
+      "accepted": 30,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 5,
+      "accepted": 0,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 6,
+      "accepted": 44,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 7,
+      "accepted": 19,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 8,
+      "accepted": 18,
+      "projective_candidates": 11,
+      "unique": true
+    },
+    {
+      "original_position": 9,
+      "accepted": 21,
+      "projective_candidates": 11,
+      "unique": true
+    }
+  ],
+  "full_multiplier_rank": 63,
+  "exact_original_public_code_equality": true,
+  "goppa_degree": 4,
+  "goppa_irreducible": true,
+  "original_public_sha256": "76dbfcec98746296ccbc47d8e71cdd5e25d070ad90a2c86e0cd97a0b01a1f5b7",
+  "support_source_sha256": "bf4e2e94bd8aea02d1f400af2e271d6dcdc0e148fb57ca9acb17a2f06b85150f",
+  "seconds": 0.7193475416861475
+}

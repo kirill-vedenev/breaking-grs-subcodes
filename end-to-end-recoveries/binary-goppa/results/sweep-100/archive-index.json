@@ -1,0 +1,47 @@
+[
+  {
+    "file": "cases-001-024.tar.gz",
+    "bytes": 149295582,
+    "sha256": "adbbe4a73c50ecf29c610bae37d942f852f8df2a579de4731193cc35542ac5b4"
+  },
+  {
+    "file": "cases-025-048.tar.gz",
+    "bytes": 147329916,
+    "sha256": "29bb71795ebc21aa7267027a4e3eb8e57dea3f32d12cabbab8099f1a8aa60e66"
+  },
+  {
+    "file": "cases-049-072.tar.gz",
+    "bytes": 151783419,
+    "sha256": "372524314798760e098fe5fb307285d36c729f233cfe58b4db194489c2e706be"
+  },
+  {
+    "file": "cases-073-096.tar.gz",
+    "bytes": 150465600,
+    "sha256": "a21d48a5e5635186a0755c387d2bced6ddcd97f218826674f08fedc40332d96f"
+  },
+  {
+    "file": "cases-097-100-and-summary.tar.gz",
+    "bytes": 26089306,
+    "sha256": "09a1e8ba35ee9ff9409f4724c1f1b5bef6d313f432feb70c4979cf4891929603"
+  },
+  {
+    "file": "diagnostic-rank-data.tar.gz",
+    "bytes": 6345,
+    "sha256": "c435ad15343f4063f04688b39fbe298d0d676094ac3481fca06a771ca871bdfb"
+  },
+  {
+    "file": "seed89-diagnostics.tar.gz",
+    "bytes": 6135862,
+    "sha256": "781d34ed3603ef922ff2092dfd4d5bf15a890666668b36d65e3a6d53e71b532c"
+  },
+  {
+    "file": "source-and-manifest.tar.gz",
+    "bytes": 173212,
+    "sha256": "54b2217b51cb063e41e4301d1d45c5901fb409f08d8842f5ba8dabdb46da1a67"
+  },
+  {
+    "file": "validation-control.tar.gz",
+    "bytes": 7218,
+    "sha256": "c24bc7650c801b6f916aeb4874861f7dc7df87058cf121667698c84bc007923d"
+  }
+]

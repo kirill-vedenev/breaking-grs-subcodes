@@ -1,0 +1,35 @@
+{
+  "format": "THK1",
+  "variables": 30,
+  "degree": 7,
+  "monomials": 2035800,
+  "polynomials": 256,
+  "bytes": 65145620,
+  "sha256": "b585e9c5429a195643312ad50f0b6d0264c413127a2d31f4311eb8b1912f698b",
+  "public_sha256": "821786da04bb7fe9b0e21640cea959886611a9b6340308251881daf2982b589f",
+  "chunks": [
+    {
+      "file": "kernel.thk1.part000",
+      "offset": 0,
+      "bytes": 33554432,
+      "sha256": "bd9fabf2d40f6a22f78be0c48763f205f6d36557e0b9d12753f2d76e9a826231"
+    },
+    {
+      "file": "kernel.thk1.part001",
+      "offset": 33554432,
+      "bytes": 31591188,
+      "sha256": "0800e694e1fb8313cd91c246fc14359d08cf043e0c982017f1169e1bf629261c"
+    }
+  ],
+  "derived_files": {
+    "panel": {
+      "bytes": 130291200,
+      "sha256": "5e6eecc5a96c417e7c1cd3db21c7feeab6d4146fcad2e2c7847cd4158e707e6f"
+    },
+    "monomials": {
+      "bytes": 16286400,
+      "sha256": "8beb1985f0012e020fa65e617c7f07f54fe0606077d36bd200ba57fda9a59098"
+    }
+  },
+  "panel_words": 8
+}

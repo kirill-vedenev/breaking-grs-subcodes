@@ -1,0 +1,15 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/extend_jet.py",
+    "trials/trial-04/inputs/public.json",
+    "results/trial-04/trials/trial-04/run/reconstruction/attempt-1/polynomials/kernel-panel.u64le",
+    "local-followup/trial-04/recovery/common",
+    "--depth",
+    "90",
+    "--threads",
+    "4"
+  ],
+  "returncode": 0,
+  "seconds": 7.541412124875933
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/bootstrap.py",
+    "local-followup/trial-03/recovery/minor",
+    "--position",
+    "26",
+    "--depth",
+    "37"
+  ],
+  "returncode": 0,
+  "seconds": 4.877973415888846
+}

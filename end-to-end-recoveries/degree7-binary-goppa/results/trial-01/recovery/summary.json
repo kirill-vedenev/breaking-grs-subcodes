@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "public_only": true,
+  "secret_data_used": false,
+  "sage": "SageMath version 10.7, Release Date: 2025-08-09",
+  "instance_id": "8f90173ea5c0fea409f7c495fe861695eb20e2733243f6a1c71e502e5879360e",
+  "kernel_sha256": "d981e3c846c8c224eef88b2c11e91e778eab293034ae2bd2e80d4f6dd8796095",
+  "same_kernel_used_by_both_routes": true,
+  "routes": {
+    "minor": {
+      "status": "passed",
+      "verification": {
+        "status": "passed",
+        "standard_library_only": true,
+        "recovery_modules_imported": false,
+        "secret_reference_read": false,
+        "full_support_count": 64,
+        "distinct_finite_support": true,
+        "goppa_degree": 4,
+        "goppa_irreducible": true,
+        "binary_parity_rank": 24,
+        "exact_original_public_code_equality": true,
+        "public_sha256": "94adf0cecc67516cdea97f56581226c64f56796a63bda1124ef2b4d6a92683d6",
+        "key_sha256": "5a3bfef7c6a17b6094cc125b579a3de35935af2dad2dca167ee0815e9555814d"
+      },
+      "key": "minor/full-key/equivalent-key.json"
+    },
+    "direct": {
+      "status": "passed",
+      "verification": {
+        "status": "passed",
+        "standard_library_only": true,
+        "recovery_modules_imported": false,
+        "secret_reference_read": false,
+        "full_support_count": 64,
+        "distinct_finite_support": true,
+        "goppa_degree": 4,
+        "goppa_irreducible": true,
+        "binary_parity_rank": 24,
+        "exact_original_public_code_equality": true,
+        "public_sha256": "94adf0cecc67516cdea97f56581226c64f56796a63bda1124ef2b4d6a92683d6",
+        "key_sha256": "47c21555a5ba947cd1df12acb8d6973479b7487520dc59dfe0e86923b113f5cc"
+      },
+      "key": "direct/full-key/equivalent-key.json"
+    }
+  },
+  "seconds": 40.84236550005153
+}

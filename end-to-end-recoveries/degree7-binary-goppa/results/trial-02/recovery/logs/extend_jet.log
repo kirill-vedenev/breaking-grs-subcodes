@@ -1,0 +1,7 @@
+{"event": "prefix_verified", "depth": 2, "seconds": 0.4560614167712629}
+{"event": "jet_extended", "order": 16, "flag_dimension": 17, "seconds": 0.7638339167460799}
+{"event": "jet_extended", "order": 32, "flag_dimension": 29, "seconds": 1.1769170835614204}
+{"event": "jet_extended", "order": 48, "flag_dimension": 30, "seconds": 1.5994307496584952}
+{"event": "jet_extended", "order": 64, "flag_dimension": 30, "seconds": 2.106333666946739}
+{"event": "jet_extended", "order": 80, "flag_dimension": 30, "seconds": 2.661181083880365}
+{"public_only": true, "prefix_depth": 2, "prefix_sha256": null, "prefix_verified_by_full_convolution": true, "prefix_verification_seconds": 0.4560614167712629, "continuation_start_order": 3, "threads": 4, "position": 30, "position_original": 40, "depth": 90, "binary_normalization": true, "even_coefficients_fixed_by_squaring": true, "all_next_even_order_equations_used": true, "monomial_order": "colex", "kernel_dimension": 256, "branches": {"status": "complete", "quotient_dimension": 6, "quadratic_rank": 15, "projective_chart_dimensions": [0, -1, -1, -1, -1, -1], "branches": 6}, "branch_index": 0, "fixed_continuation_rank": 28, "affine_nullity": 2, "ambiguity_equals_first_plane": true, "all_recurrence_equations_verified": true, "all_even_square_relations_verified": true, "native_direct_recomputation_orders": [0, 1, 2, 3, 4, 89, 90], "first_full_flag_even_order": 34, "field_modulus": [1, 1, 0, 0, 0, 0, 1], "seconds": 3.109159916639328}

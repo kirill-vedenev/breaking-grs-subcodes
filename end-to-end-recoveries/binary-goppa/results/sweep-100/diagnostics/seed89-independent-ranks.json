@@ -1,0 +1,21 @@
+{
+  "seed": 89,
+  "original_heldout": 27,
+  "expected_quadratic_rank": 15,
+  "results": {
+    "gradient": {
+      "rows": 484,
+      "columns": 28,
+      "rank": 21,
+      "method": "independent packed GF(2) row elimination; all entries are binary, so the rank is unchanged over GF(64)"
+    },
+    "quadratic-restrictions": {
+      "rows": 484,
+      "columns": 21,
+      "rank": 9,
+      "method": "independent packed GF(2) row elimination; all entries are binary, so the rank is unchanged over GF(64)"
+    }
+  },
+  "original_sweep_status": "failed",
+  "original_sweep_unchanged": true
+}

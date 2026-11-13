@@ -1,0 +1,269 @@
+{
+  "trials": [
+    {
+      "trial_id": "trial-01",
+      "key_seed": 2026101701,
+      "instance_id": "8f90173ea5c0fea409f7c495fe861695eb20e2733243f6a1c71e502e5879360e",
+      "heldout_original": 37,
+      "heldout_shortened": 27,
+      "status": "both_routes_passed",
+      "primary_success": true,
+      "finite_dual_words_weight_1_to_12": 373,
+      "successful_kernel_stage_seconds": {
+        "GPU_sequence": 1398.8493516698945,
+        "generator": 702.1735552869504,
+        "reconstruction": 509.62938127305824,
+        "verification": 3.119341669953428
+      },
+      "successful_kernel_stage_sum_seconds": 2613.7716298998566,
+      "sampled_device_memory_peak_MiB": 14847.0,
+      "child_peak_RSS_MiB_by_stage": {
+        "generator": 4143.43359375,
+        "verification": 252.1328125,
+        "reconstruction": 268.06640625,
+        "segments": 382.703125,
+        "inspection": 166.5859375
+      },
+      "jet": {
+        "depth": 90,
+        "prefix_sha256": null,
+        "fixed_continuation_rank": 28,
+        "all_recurrence_equations_verified": true,
+        "all_even_square_relations_verified": true,
+        "seconds": 3.3751977919600904
+      },
+      "minor_bootstrap": {
+        "seed_depth_used": 37,
+        "constraint_rows": 91,
+        "constraint_rank": 87,
+        "quadratic_ideal_dimension": 378,
+        "gradient_rank_counts": {
+          "28": 54
+        },
+        "minor": {
+          "rows": 435,
+          "length": 54,
+          "rank": 41,
+          "predicted_binary_goppa_dimension": 41,
+          "all_pairs_used": true,
+          "construction_seconds": 0.026817291043698788
+        },
+        "recovered_subfield_code_equals_public_code": true
+      },
+      "direct_sections": {
+        "status": "verified",
+        "jet_order_used": 90,
+        "product_rank": 87,
+        "public_multiplier_system": {
+          "rows": 240,
+          "columns": 54,
+          "rank": 53,
+          "nullity": 1
+        },
+        "recovered_binary_subfield_code_equals_public": true
+      }
+    },
+    {
+      "trial_id": "trial-02",
+      "key_seed": 2026101702,
+      "instance_id": "9ffeec336776fd78be727eaf0ab6e4423a2dfbf76e75db16e8a1722d9391bc12",
+      "heldout_original": 40,
+      "heldout_shortened": 30,
+      "status": "both_routes_passed",
+      "primary_success": true,
+      "finite_dual_words_weight_1_to_12": 360,
+      "successful_kernel_stage_seconds": {
+        "GPU_sequence": 1381.8149964817567,
+        "generator": 697.4181277380558,
+        "reconstruction": 499.3199806819903,
+        "verification": 3.1483053860720247
+      },
+      "successful_kernel_stage_sum_seconds": 2581.7014102878748,
+      "sampled_device_memory_peak_MiB": 14609.0,
+      "child_peak_RSS_MiB_by_stage": {
+        "generator": 4143.01953125,
+        "verification": 252.22265625,
+        "reconstruction": 267.9921875,
+        "segments": 382.66015625,
+        "inspection": 166.51953125
+      },
+      "jet": {
+        "depth": 90,
+        "prefix_sha256": null,
+        "fixed_continuation_rank": 28,
+        "all_recurrence_equations_verified": true,
+        "all_even_square_relations_verified": true,
+        "seconds": 3.109159916639328
+      },
+      "minor_bootstrap": {
+        "seed_depth_used": 37,
+        "constraint_rows": 91,
+        "constraint_rank": 87,
+        "quadratic_ideal_dimension": 378,
+        "gradient_rank_counts": {
+          "28": 54
+        },
+        "minor": {
+          "rows": 435,
+          "length": 54,
+          "rank": 41,
+          "predicted_binary_goppa_dimension": 41,
+          "all_pairs_used": true,
+          "construction_seconds": 0.027125167194753885
+        },
+        "recovered_subfield_code_equals_public_code": true
+      },
+      "direct_sections": {
+        "status": "verified",
+        "jet_order_used": 90,
+        "product_rank": 87,
+        "public_multiplier_system": {
+          "rows": 240,
+          "columns": 54,
+          "rank": 53,
+          "nullity": 1
+        },
+        "recovered_binary_subfield_code_equals_public": true
+      }
+    },
+    {
+      "trial_id": "trial-03",
+      "key_seed": 2026101703,
+      "instance_id": "e0307e935eeefaf7225cbbe6c79f95819223b47f04bfe3a163057f399427ae8d",
+      "heldout_original": 36,
+      "heldout_shortened": 26,
+      "status": "both_routes_passed",
+      "primary_success": true,
+      "finite_dual_words_weight_1_to_12": 370,
+      "successful_kernel_stage_seconds": {
+        "GPU_sequence": 1389.4674812521553,
+        "generator": 695.8250700880308,
+        "reconstruction": 503.5632907439722,
+        "verification": 3.04661188099999
+      },
+      "successful_kernel_stage_sum_seconds": 2591.902453965158,
+      "sampled_device_memory_peak_MiB": 14701.0,
+      "child_peak_RSS_MiB_by_stage": {
+        "generator": 4143.109375,
+        "verification": 252.265625,
+        "reconstruction": 267.96875,
+        "segments": 382.76953125,
+        "inspection": 166.76953125
+      },
+      "jet": {
+        "depth": 90,
+        "prefix_sha256": null,
+        "fixed_continuation_rank": 28,
+        "all_recurrence_equations_verified": true,
+        "all_even_square_relations_verified": true,
+        "seconds": 2.8183251661248505
+      },
+      "minor_bootstrap": {
+        "seed_depth_used": 37,
+        "constraint_rows": 91,
+        "constraint_rank": 87,
+        "quadratic_ideal_dimension": 378,
+        "gradient_rank_counts": {
+          "28": 54
+        },
+        "minor": {
+          "rows": 435,
+          "length": 54,
+          "rank": 41,
+          "predicted_binary_goppa_dimension": 41,
+          "all_pairs_used": true,
+          "construction_seconds": 0.02695554168894887
+        },
+        "recovered_subfield_code_equals_public_code": true
+      },
+      "direct_sections": {
+        "status": "verified",
+        "jet_order_used": 90,
+        "product_rank": 87,
+        "public_multiplier_system": {
+          "rows": 240,
+          "columns": 54,
+          "rank": 53,
+          "nullity": 1
+        },
+        "recovered_binary_subfield_code_equals_public": true
+      }
+    },
+    {
+      "trial_id": "trial-04",
+      "key_seed": 2026101704,
+      "instance_id": "fecf8ef3588982bf2a1780b916d4cc17b8173a1162f5e58739e7b47bde05aab3",
+      "heldout_original": 38,
+      "heldout_shortened": 28,
+      "status": "both_routes_passed",
+      "primary_success": true,
+      "finite_dual_words_weight_1_to_12": 350,
+      "successful_kernel_stage_seconds": {
+        "GPU_sequence": 1405.5568117400398,
+        "generator": 692.38694747095,
+        "reconstruction": 503.7875736870337,
+        "verification": 2.88711847004015
+      },
+      "successful_kernel_stage_sum_seconds": 2604.6184513680637,
+      "sampled_device_memory_peak_MiB": 14969.0,
+      "child_peak_RSS_MiB_by_stage": {
+        "generator": 4143.23046875,
+        "verification": 252.51953125,
+        "reconstruction": 268.02734375,
+        "segments": 382.79296875,
+        "inspection": 166.53515625
+      },
+      "jet": {
+        "depth": 90,
+        "prefix_sha256": null,
+        "fixed_continuation_rank": 28,
+        "all_recurrence_equations_verified": true,
+        "all_even_square_relations_verified": true,
+        "seconds": 3.015900459140539
+      },
+      "minor_bootstrap": {
+        "seed_depth_used": 37,
+        "constraint_rows": 91,
+        "constraint_rank": 87,
+        "quadratic_ideal_dimension": 378,
+        "gradient_rank_counts": {
+          "28": 54
+        },
+        "minor": {
+          "rows": 435,
+          "length": 54,
+          "rank": 41,
+          "predicted_binary_goppa_dimension": 41,
+          "all_pairs_used": true,
+          "construction_seconds": 0.028969000093638897
+        },
+        "recovered_subfield_code_equals_public_code": true
+      },
+      "direct_sections": {
+        "status": "verified",
+        "jet_order_used": 90,
+        "product_rank": 87,
+        "public_multiplier_system": {
+          "rows": 240,
+          "columns": 54,
+          "rank": 53,
+          "nullity": 1
+        },
+        "recovered_binary_subfield_code_equals_public": true
+      }
+    }
+  ],
+  "all_four_trials_retained": true,
+  "pilot_excluded": true,
+  "proved_uniform_sampler_used": false,
+  "timing_scope": "Per-trial sums of measured stages, with CPU/GPU overlap between trials; not isolated wall-time benchmarks.",
+  "memory_scope": "Child-process GNU time peaks and sampled device-wide GPU use; concurrent host process peaks are not additive measurements.",
+  "server_batch_seconds": 7812.335286970949,
+  "kernel_stage_sum_statistics_seconds": {
+    "count": 4,
+    "mean": 2597.9984863802383,
+    "minimum": 2581.7014102878748,
+    "maximum": 2613.7716298998566,
+    "sample_stdev": 14.08749200882952
+  }
+}

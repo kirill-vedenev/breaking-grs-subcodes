@@ -1,0 +1,197 @@
+{
+  "status": "passed",
+  "heldout": 27,
+  "kernel_polynomials": 484,
+  "kernel_rank": 484,
+  "retained_nonunit_points": 35,
+  "retained_unit_points": 28,
+  "unit_conditions": "Every squarefree quintic has multiplicity at least four at every unit vector.",
+  "full_hasse_scalar_conditions_checked": 62390020,
+  "hasse_orders": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "uses_m4ri": false,
+  "imports_native_recovery": false,
+  "method": "literal Hasse monomial formula, Python integer dot products and XOR elimination",
+  "seconds": 41.69927681799982,
+  "points": [
+    {
+      "position": 29,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 30,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 31,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 32,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 33,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 34,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 35,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 36,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 37,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 38,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 39,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 40,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 41,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 42,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 43,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 44,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 45,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 46,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 47,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 48,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 49,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 50,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 51,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 52,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 53,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 54,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 55,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 56,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 57,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 58,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 59,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 60,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 61,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 62,
+      "checked": 1782572,
+      "status": "passed"
+    },
+    {
+      "position": 63,
+      "checked": 1782572,
+      "status": "passed"
+    }
+  ]
+}

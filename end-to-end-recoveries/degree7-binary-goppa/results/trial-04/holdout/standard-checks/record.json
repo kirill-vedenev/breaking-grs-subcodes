@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "report": {
+      "path": "attempt-1/standard-checks.json",
+      "bytes": 2157,
+      "sha256": "ffe194f3022b44c1f4b526c5df2dc8a71b707926cf4520b01758311b0ed4ca4e"
+    },
+    "log": {
+      "path": "attempt-1/criterion.log",
+      "bytes": 5727,
+      "sha256": "a3356d45eedc745180b2b5758d5234920566f7d69c4332d825e7b5d80a64e62d"
+    },
+    "criterion": {
+      "path": "attempt-1/criterion.json",
+      "bytes": 17537,
+      "sha256": "0a79971c3676776137345bc4d75892e30a7cf7db1f6f6a4b0e8c5e333fb131d8"
+    }
+  }
+}

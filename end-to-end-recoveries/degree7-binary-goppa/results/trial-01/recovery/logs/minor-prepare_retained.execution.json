@@ -1,0 +1,9 @@
+{
+  "command": [
+    "sage-10.7-current/local/bin/python3",
+    "recovery/prepare_retained.py",
+    "local-followup/trial-01/recovery/minor"
+  ],
+  "returncode": 0,
+  "seconds": 4.3294281251728535
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "paper-820-source-provenance-v1",
+  "scope": "Code and fixed seeds only. Historical kernels, keys, logs, and result datasets are not included.",
+  "reused_sources": {
+    "toy-notebooks/reference.py": "973e13de449386687800f2d298372682d64bd256702032ba79e5d33d17c31e73",
+    "end-to-end-recoveries/wild-goppa/Makefile": "6890360ec77f4ed4a3dbafcc299845b77bd73679d18b9fbbf38d85fa30c2ab5d",
+    "end-to-end-recoveries/wild-goppa/build-openmp.sh": "e58a106db9d1e2200c2ea2e81f01846c22aef1f36881f89b4a2cb2fdb8b65910",
+    "end-to-end-recoveries/wild-goppa/verify.py": "cfcb7a0267e49a9730a89963dbfc4452cacc5ebf938036c5a394a40fd01453e0",
+    "end-to-end-recoveries/wild-goppa/src/holdout.cpp": "26fa543c5798c47d36a36da9facaa196280595186c23207eaa22403fce3c71e8",
+    "end-to-end-recoveries/wild-goppa/src/series.cpp": "a9b581dd3458e3e99628234718ab9d2fa633a5b1b36136bac90fdc6f179c0242",
+    "end-to-end-recoveries/wild-goppa/src/wild_goppa.cpp": "293423b40a464940503747f03768f7c80bae20391d262198e91963d5fa16708e",
+    "end-to-end-recoveries/wild-goppa/include/algebra.hpp": "4d91ff03ec0938487f700cc433eacdd3c180c40ec365998472a21631555c51af",
+    "end-to-end-recoveries/wild-goppa/include/public.hpp": "4424227ff5eecc57368c548f45595823ab7bd772f7193c65eec650e650730806",
+    "end-to-end-recoveries/wild-goppa/include/series_api.hpp": "ed809eba0810c33da4ff2212a7d436d7bb855e8310ec65616ad60b42a214a726"
+  },
+  "recovered_source": {
+    "scripts/check_shortening.py": "Original source recovered from the experiment records; random seed is 9417 + instance seed, eight information-set orderings per side.",
+    "scripts/verify_generic.py": "Original independent public-key verifier recovered from the experiment records; filename changed from verify_saved.py."
+  },
+  "new_portable_drivers": [
+    "scripts/run.py",
+    "scripts/common.py",
+    "scripts/generic_worker.py",
+    "scripts/wild_worker.py"
+  ],
+  "driver_scope": "The historical report folders no longer exist locally. These portable drivers reproduce the recorded generators, parameter sets, seed ranges, panel selection, route ordering, and verification operations using the existing arithmetic implementations. They omit remote scheduling, retain all failures, and do not claim to be byte-identical copies of the historical runners.",
+  "historical_cohorts": {
+    "larger_grs": {
+      "labels": [
+        "grs-q256-k16",
+        "grs-q257-k16",
+        "grs-q256-k20",
+        "grs-q257-k20"
+      ],
+      "seeds": "1-100",
+      "panel_mixing_seed": 0
+    },
+    "alternant": {
+      "labels": [
+        "02-alternant-char2",
+        "04-alternant-odd"
+      ],
+      "seeds": "1-100",
+      "workflow": "original notebook recovery functions and polynomial selection"
+    },
+    "wild": {
+      "wild-a": "1-100",
+      "wild-b": "1-20",
+      "wild-c": "1-100"
+    }
+  },
+  "original_reused_sources": {
+    "keyrec-toy/reference.py": "973e13de449386687800f2d298372682d64bd256702032ba79e5d33d17c31e73",
+    "keyrec-toy-wild-goppa/Makefile": "6890360ec77f4ed4a3dbafcc299845b77bd73679d18b9fbbf38d85fa30c2ab5d",
+    "keyrec-toy-wild-goppa/build-openmp.sh": "e58a106db9d1e2200c2ea2e81f01846c22aef1f36881f89b4a2cb2fdb8b65910",
+    "keyrec-toy-wild-goppa/verify.py": "cfcb7a0267e49a9730a89963dbfc4452cacc5ebf938036c5a394a40fd01453e0",
+    "keyrec-toy-wild-goppa/src/holdout.cpp": "26fa543c5798c47d36a36da9facaa196280595186c23207eaa22403fce3c71e8",
+    "keyrec-toy-wild-goppa/src/series.cpp": "a9b581dd3458e3e99628234718ab9d2fa633a5b1b36136bac90fdc6f179c0242",
+    "keyrec-toy-wild-goppa/src/wild_goppa.cpp": "293423b40a464940503747f03768f7c80bae20391d262198e91963d5fa16708e",
+    "keyrec-toy-wild-goppa/include/algebra.hpp": "4d91ff03ec0938487f700cc433eacdd3c180c40ec365998472a21631555c51af",
+    "keyrec-toy-wild-goppa/include/public.hpp": "4424227ff5eecc57368c548f45595823ab7bd772f7193c65eec650e650730806",
+    "keyrec-toy-wild-goppa/include/series_api.hpp": "ed809eba0810c33da4ff2212a7d436d7bb855e8310ec65616ad60b42a214a726"
+  },
+  "layout_revision": {
+    "path_mapping": {
+      "keyrec-toy/reference.py": "toy-notebooks/reference.py",
+      "keyrec-toy-wild-goppa/Makefile": "end-to-end-recoveries/wild-goppa/Makefile",
+      "keyrec-toy-wild-goppa/build-openmp.sh": "end-to-end-recoveries/wild-goppa/build-openmp.sh",
+      "keyrec-toy-wild-goppa/verify.py": "end-to-end-recoveries/wild-goppa/verify.py",
+      "keyrec-toy-wild-goppa/src/holdout.cpp": "end-to-end-recoveries/wild-goppa/src/holdout.cpp",
+      "keyrec-toy-wild-goppa/src/series.cpp": "end-to-end-recoveries/wild-goppa/src/series.cpp",
+      "keyrec-toy-wild-goppa/src/wild_goppa.cpp": "end-to-end-recoveries/wild-goppa/src/wild_goppa.cpp",
+      "keyrec-toy-wild-goppa/include/algebra.hpp": "end-to-end-recoveries/wild-goppa/include/algebra.hpp",
+      "keyrec-toy-wild-goppa/include/public.hpp": "end-to-end-recoveries/wild-goppa/include/public.hpp",
+      "keyrec-toy-wild-goppa/include/series_api.hpp": "end-to-end-recoveries/wild-goppa/include/series_api.hpp"
+    },
+    "note": "Only live source locations and driver path handling changed; the arithmetic sources retain their original hashes."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "trial_id": "trial-02",
+  "public_only": true,
+  "generation_secret_read": false,
+  "server_result": "kernel_verified_and_ranks_measured",
+  "fixed_input_instance": "9ffeec336776fd78be727eaf0ab6e4423a2dfbf76e75db16e8a1722d9391bc12",
+  "returncodes": {
+    "standard": 0,
+    "panel": 0,
+    "recovery": 0
+  },
+  "recovery": {
+    "status": "passed",
+    "public_only": true,
+    "secret_data_used": false,
+    "sage": "SageMath version 10.7, Release Date: 2025-08-09",
+    "instance_id": "9ffeec336776fd78be727eaf0ab6e4423a2dfbf76e75db16e8a1722d9391bc12",
+    "kernel_sha256": "d3400a1d7b0987527fea73b240d61b42eb18be25dc1e4178e613470319187712",
+    "same_kernel_used_by_both_routes": true,
+    "routes": {
+      "minor": {
+        "status": "passed",
+        "verification": {
+          "status": "passed",
+          "standard_library_only": true,
+          "recovery_modules_imported": false,
+          "secret_reference_read": false,
+          "full_support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 4,
+          "goppa_irreducible": true,
+          "binary_parity_rank": 24,
+          "exact_original_public_code_equality": true,
+          "public_sha256": "765c7ce95862199fb48fc3324101b4cea3c43f6742ade1a2ba1885917280361e",
+          "key_sha256": "ed75e13b77a8533f18f4e34bb93e6aad85b08cb774e0e91110c1a3c57e39726f"
+        },
+        "key": "minor/full-key/equivalent-key.json"
+      },
+      "direct": {
+        "status": "passed",
+        "verification": {
+          "status": "passed",
+          "standard_library_only": true,
+          "recovery_modules_imported": false,
+          "secret_reference_read": false,
+          "full_support_count": 64,
+          "distinct_finite_support": true,
+          "goppa_degree": 4,
+          "goppa_irreducible": true,
+          "binary_parity_rank": 24,
+          "exact_original_public_code_equality": true,
+          "public_sha256": "765c7ce95862199fb48fc3324101b4cea3c43f6742ade1a2ba1885917280361e",
+          "key_sha256": "92eabefbc1f6f01d6dbbb9a36e1c27e8039928839f78508b31e1ab87f7d49981"
+        },
+        "key": "direct/full-key/equivalent-key.json"
+      }
+    },
+    "seconds": 42.18510679202154
+  },
+  "status": "both_routes_passed",
+  "seconds": 58.2876941668801
+}

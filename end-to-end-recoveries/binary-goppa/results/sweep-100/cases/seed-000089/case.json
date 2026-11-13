@@ -1,0 +1,115 @@
+{
+  "error": "StageFailure: recover: exit 1: ERROR: quadratic separation rank criterion\n",
+  "failed_stage": "recover",
+  "generation": {
+    "binary_rank": 36,
+    "field_modulus": 67,
+    "generator": "C++ mt19937_64",
+    "k": 28,
+    "seed": 89
+  },
+  "holdout": {
+    "build_seconds": 0.979824,
+    "columns": 98280,
+    "elimination_seconds": 329.525,
+    "extraction_seconds": 0.882831,
+    "full_hasse_verified": true,
+    "full_rows": 128905,
+    "kernel_dimension": 484,
+    "nnz": 10968536,
+    "packed_matrix_bytes": 1420984320,
+    "rank": 97796,
+    "rows": 115640,
+    "total_seconds": 338.698,
+    "verification_seconds": 7.07761
+  },
+  "kernel_sha256": "1323e94e8d993c875bbbe3ea438eb590638908e33423166920fae6d2c40ab44d",
+  "public_sha256": "5b2c0ed305abde76c0e424cfda26875c641ed444bb5b926e06dddf836f7f8c6a",
+  "seed": 89,
+  "stages": [
+    {
+      "command": [
+        "build/toy-goppa",
+        "generate",
+        "89",
+        "sweep-100/cases/seed-000089/instance"
+      ],
+      "name": "generate",
+      "resources": {
+        "max_rss_kib": 5580,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.008417903999998089,
+      "stderr": "generate.stderr.log",
+      "stdout": "generate.stdout.log",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "prepare",
+        "sweep-100/cases/seed-000089/instance/public.txt",
+        "sweep-100/cases/seed-000089/holdout.txt"
+      ],
+      "name": "prepare",
+      "resources": {
+        "max_rss_kib": 5552,
+        "system_seconds": 0.0,
+        "user_seconds": 0.0,
+        "wall_seconds": 0.0
+      },
+      "returncode": 0,
+      "seconds": 0.008316318999959549,
+      "stderr": "prepare.stderr.log",
+      "stdout": "prepare.stdout.log",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/holdout",
+        "sweep-100/cases/seed-000089/holdout.txt",
+        "sweep-100/cases/seed-000089/kernel.bin",
+        "3"
+      ],
+      "name": "holdout",
+      "resources": {
+        "max_rss_kib": 1414044,
+        "system_seconds": 3.63,
+        "user_seconds": 335.06,
+        "wall_seconds": 338.71
+      },
+      "returncode": 0,
+      "seconds": 338.729802092,
+      "stderr": "holdout.stderr.log",
+      "stdout": "holdout-report.json",
+      "timed_out": false
+    },
+    {
+      "command": [
+        "build/toy-goppa",
+        "recover",
+        "sweep-100/cases/seed-000089/instance/public.txt",
+        "sweep-100/cases/seed-000089/kernel.bin",
+        "sweep-100/cases/seed-000089/recovery",
+        "both"
+      ],
+      "name": "recover",
+      "resources": {
+        "max_rss_kib": 78444,
+        "system_seconds": 0.69,
+        "user_seconds": 6.65,
+        "wall_seconds": 7.34
+      },
+      "returncode": 1,
+      "seconds": 7.382559211999933,
+      "stderr": "recover.stderr.log",
+      "stdout": "recover.stdout.log",
+      "timed_out": false
+    }
+  ],
+  "status": "failed",
+  "total_wall_seconds": 346.1393755949998
+}

@@ -1,0 +1,23 @@
+	Command being timed: "/workspace/degree7-k30-312-four/build/cado/linalg/bwc/lingen_b64 prime=2 m=512 n=512 afile=/workspace/degree7-k30-312-four/trials/trial-02/run/sequence/sequence.raw.bin input_length=8210 ffile=/workspace/degree7-k30-312-four/trials/trial-02/run/generator/attempt-1/square.gen rhs=none thr=32x1 max_ram=64 tuning_thresholds=recursive:100000,notiming:1"
+	User time (seconds): 15296.65
+	System time (seconds): 27.53
+	Percent of CPU this job got: 2197%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:37.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4242452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 6525440
+	Voluntary context switches: 577939
+	Involuntary context switches: 9747
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 214472
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
